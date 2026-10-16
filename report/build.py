@@ -140,6 +140,14 @@ def build_brief(study_id,output):
     code=out/'code';code.mkdir()
     for directory in ['automation','benchmark_tool','report','.github','tests']:
         shutil.copytree(ROOT/directory,code/directory,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
+    if (ROOT/'docs').is_dir():
+        shutil.copytree(ROOT/'docs',code/'docs')
+        # The reviewer walkthrough links these checked snapshots. Include them
+        # alongside the source so the downloaded guide has no missing files.
+        for relative in ['report_data.json','chart_tables/contributions.csv','chart_tables/denominators.csv','chart_tables/membership.csv']:
+            target=code/'data'/relative
+            target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(out/'data'/relative,target)
     for name in ['README.md','VALIDATION.md','providers.json','.gitignore']:
         shutil.copyfile(ROOT/name,code/name)
     if (ROOT/'WORKSHOP_NOTES.md').is_file():

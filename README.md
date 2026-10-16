@@ -1,6 +1,6 @@
 # Good Culture | Investment brief & reusable benchmark
 
-**[Open the interactive brief ↗](https://yliclaire.github.io/good-culture-brief/)** · **[Explore the code](automation/)** · **[Open the workflows](https://github.com/yliclaire/good-culture-brief/actions)**
+**[Open the interactive brief ↗](https://yliclaire.github.io/good-culture-brief/)** · **[Follow the research & code](docs/REVIEWER_GUIDE.md)** · **[Open the workflows](https://github.com/yliclaire/good-culture-brief/actions)**
 
 An outside-in read of Good Culture’s positioning, substitutes and premium durability through AI answer engines. The website opens without downloading files or signing in. This repository also contains the Python implementation, reviewed publication baseline, tests and two manual GitHub workflows.
 
@@ -13,6 +13,8 @@ An outside-in read of Good Culture’s positioning, substitutes and premium dura
 [Print-friendly brief](https://yliclaire.github.io/good-culture-brief/print.html) · [Code & workflow walkthrough](https://yliclaire.github.io/good-culture-brief/reviewer-guide.html)
 
 The study contains **156 captures: 155 included, one excluded**. The main series is 12 prompts × four browser experiences × three passes. The search supplement remains separate. These results describe engine answers, not consumer demand, market share or willingness to pay.
+
+Read the [reviewer guide](docs/REVIEWER_GUIDE.md) to trace a headline number through the answers, coding and calculations. The [coding rules](docs/CODEBOOK.md) and [context/exclusion protocol](docs/CONTEXT_EXCLUSION_RULES_v2.1.0.md) are included.
 
 ## Run the tool
 

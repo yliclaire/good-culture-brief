@@ -217,6 +217,10 @@ class ReportTests(unittest.TestCase):
             out=Path(tmp)/'brief'
             result=build_brief('good_culture_browser_2026_q4',out)
             self.assertEqual(result['checks']['all_observation_pages'],156)
+            for name in ['OPERATING_GUIDE.md','REVIEWER_GUIDE.md','CODEBOOK.md','CONTEXT_EXCLUSION_RULES_v2.1.0.md','CODING_INSTRUCTIONS_v2.1.0.md']:
+                self.assertEqual((out/'code/docs'/name).read_bytes(),(ROOT/'docs'/name).read_bytes())
+            for relative in ['report_data.json','chart_tables/contributions.csv','chart_tables/denominators.csv','chart_tables/membership.csv']:
+                self.assertEqual((out/'code/data'/relative).read_bytes(),(out/'data'/relative).read_bytes())
             manifest=json.loads((out/'release_manifest.json').read_text())
             for name,digest in manifest['outputs'].items():self.assertEqual(sha(out/name),digest)
             node=shutil.which('node') or ''
