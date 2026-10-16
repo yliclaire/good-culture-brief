@@ -50,5 +50,13 @@
     "anonymous_entry_points_checked": 6,
     "anonymous_http_status": "all 200",
     "date": "2026-10-16"
+  },
+  "final_review": {
+    "source_commit": "705481ac7fe5a895427dff85035d4f1c1eccb909",
+    "build_run_url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38881560541",
+    "status": "success",
+    "offline_tests": 47,
+    "live_api_requests": 0,
+    "record": "docs/FINAL_REVIEW.md"
   }
 }

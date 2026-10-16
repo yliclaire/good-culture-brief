@@ -1,9 +1,9 @@
 {
-  "html_files": 164,
-  "local_links_checked": 808,
+  "html_files": 165,
+  "local_links_checked": 826,
   "private_marker_scan": "passed; pattern checks are not a guarantee of anonymity",
   "metric_parity": "exact views, numbers and counts unchanged",
-  "actual_browser_review": "pending",
+  "actual_browser_review": "2026-10-16 Chrome desktop/mobile, evidence navigation, Escape/focus, unavailable views, monitoring HOLD and 10-page portrait print preview; spot checks only",
   "publication": "Consolidated public repository; original archive remains private",
   "consolidation": "Public source and website deployed; saved-study build and no-key collection preview passed",
   "source_tests": 45,

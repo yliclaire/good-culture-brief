@@ -4,14 +4,14 @@
   "site_url": "https://yliclaire.github.io/good-culture-brief/",
   "implementation_repository": "https://github.com/yliclaire/good-culture-brief",
   "checks": {
-    "html_files": 164,
-    "local_links_checked": 808,
+    "html_files": 165,
+    "local_links_checked": 826,
     "private_marker_scan": "passed; pattern checks are not a guarantee of anonymity",
     "metric_parity": "exact views, numbers and counts unchanged",
-    "actual_browser_review": "pending",
+    "actual_browser_review": "2026-10-16 Chrome desktop/mobile, evidence navigation, Escape/focus, unavailable views, monitoring HOLD and 10-page portrait print preview; spot checks only",
     "publication": "Consolidated public repository; original archive remains private",
     "consolidation": "Public source and website deployed; saved-study build and no-key collection preview passed",
-    "source_tests": 45,
+    "source_tests": 47,
     "source_baseline": "sanitized_browser_export",
     "unchanged_analytical_sections": [
       "views",
@@ -44,17 +44,18 @@
         "duration_seconds": 46
       },
       "local_tests": 45
-    }
+    },
+    "final_review": "docs/FINAL_REVIEW.md"
   },
   "files": {
-    ".github/hosted_validation.json": "c4b005504ca0b64ff45cadbfcfe63dc9dc32e5fad12d2657951b8156cd7f3df9",
+    ".github/hosted_validation.json": "7652b6fcfc634c67cb027b504c39b7cd37f8422aabfa6cbefced04cd96041f1f",
     ".github/workflows/build-brief.yml": "a222a94d12570d330c2171c00bff9fbfeadc6acb58c410d29a0a0a8e721bfe3d",
     ".github/workflows/collect-answers.yml": "bd73912a8c80c363957791ba7add8d364a8a419985e3727bd7af2d56226a557d",
     ".gitignore": "e417960971d6ae86aeb9b3842c28035012da29deb905df9ddf4521c8e5a9ee47",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "PUBLICATION.md": "30d2d1add40b3348f2ebde5c1e1e08cfb44e92c33b7d5d925b1444fb2e166b2f",
-    "README.md": "4d8bb5d8fcea75bb6e579cc2f1f0c7dece211465aa2637de0eb39d420ba9d284",
-    "VALIDATION.md": "d1091ef88d1dbd1fb83239ce428cf11c95ea5dd6b3784cdb7f26d47cd395c686",
+    "README.md": "05cb91510ecca082d19b814079ce42516ab3897f492c5c772cd8082ab0cf12c3",
+    "VALIDATION.md": "3fa560bfc1b13e0afd3a084bd08ea116d362972772d4b26f15e2e6b7e9d16d27",
     "assets/monitoring.js": "9522ec5a308f2dc9ba9ba26c664f53ec51341f99111900831dad3d97c8134d71",
     "assets/navigation.js": "48b96f8aa26d05b71ce50cd4cbecd219cec52b11ea15e0a40e0e47fcb980ebc1",
     "assets/report.css": "e102a3bd4f47c781d16f4e4daf28b14406d6e5a02919bdef8a08ad7b05c2e562",
@@ -417,7 +418,7 @@
     "methodology/assignment.html": "ac48d3efc23e266f2005739416d2022fa80eee405489e300c95645cd3705a531",
     "methodology/index.html": "2b71924993da55c2fc6e06c5ce3ab992f2170289c04b5a9d73f767fea82219bf",
     "methodology/monitoring.html": "c21848c0f284cd9f2ae379d381ca5d1e6d84ad7bbee33758fb81954ffa140b9d",
-    "methodology/verification.html": "5abb72ce1a05f3472c6f8449620d5774a6423526c8fa9b58e4c1cc5192a78f44",
+    "methodology/verification.html": "2d04e4f18baee4835577c1f806f3bef0b0f35b9aa5d93d13409aa3e32f9d2ded",
     "print.html": "1f2fe086974121d996baef1ae02fe27c50f8bf64c28a98c332ffbdacc7ca3e48",
     "providers.json": "03beeb0beb84f7283264a0ea6461b27df7ace04685e682882c136c95c6c4b44e",
     "report/__init__.py": "bc5660f81fd51e911f0fccb39c0e93762b7f090c11cca22fe7335e37eae8a8c9",
@@ -451,10 +452,11 @@
     "tests/test_report.py": "6064f024913d7e678de4b93aa838011997a0a83ee93de5fd644a899800178f0d",
     "tests/test_web_export.py": "dd13b9e3555d5e2bd78404e845b1e74139bad93a814ede427c465c74a94ba0fc",
     "tests/test_workflow.py": "bbd6e8929a93c996ecc10a6eae6e7d137b6751077f99b480cc9a436a65cdd669",
-    "web_checks.json": "abed2c06a08f2f2f7982629ecb4d9a72dd251c9c3fcd4b9e96abfe0dead1989d",
+    "web_checks.json": "797e7eeee5c19eba799f16016bd16149cfa9e53248b6150f3d05beb41e0898c6",
     "report/reuse.py": "dcaafe63794b6b9ab5ec36b155af7e1031a5b415d7d18b60be0cc62237703717",
     "tests/test_reuse.py": "07a6bd4d9dcaa8ad77c9120d0fbc4326fa85378ec0cc69ddcd9e69fe85dd0f37",
-    "demonstrations/birkenstock/index.html": "4ef51181479e8f08792468ece31adb987c351b51517b5e23fedda910daa747fc"
+    "demonstrations/birkenstock/index.html": "4ef51181479e8f08792468ece31adb987c351b51517b5e23fedda910daa747fc",
+    "docs/FINAL_REVIEW.md": "d48c167c6bbd7cb3be63c8785fa889425815fb191e2b032a9fd6ac06437393a4"
   },
   "hosted_validation": {
     "source_commit": "bd44a0e896bc2c96fd0cbcf0b5274272f2d855cf",

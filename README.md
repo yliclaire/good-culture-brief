@@ -30,9 +30,9 @@ Actions require write access or a fork with Actions enabled. `build-brief` with 
 
 `preview` generates exact requests from the selected profile and optional brand, competitor and question overrides. `collect` requires provider secrets, explicit model IDs and paid-call confirmation. New evidence requires reviewed coding, exclusions and interpretation, sealed inputs and a registry entry before building a brief. Browser and API evidence remain separate series. The Birkenstock profile contains no collected findings.
 
-**Hosted checks passed:** [Good Culture rebuild](https://github.com/yliclaire/good-culture-brief/actions/runs/38878639643) · [Birkenstock preview](https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708). Both run from this public repository.
+**Hosted checks passed:** [Good Culture rebuild](https://github.com/yliclaire/good-culture-brief/actions/runs/38881560541) · [Birkenstock preview](https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708). Both run from this public repository.
 
-[Operating guide and key configuration](docs/OPERATING_GUIDE.md) · [Publication transformation](data/browser_baseline/PUBLICATION.md) · [Validation](VALIDATION.md) · [Reviewer access & reproduction check](docs/REVIEWER_AUDIT.md)
+[Operating guide and key configuration](docs/OPERATING_GUIDE.md) · [Publication transformation](data/browser_baseline/PUBLICATION.md) · [Validation](VALIDATION.md) · [Final review](docs/FINAL_REVIEW.md) · [Reviewer access & reproduction check](docs/REVIEWER_AUDIT.md)
 
 ## Repository structure
 

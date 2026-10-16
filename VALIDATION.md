@@ -1,5 +1,7 @@
 # Consolidated submission validation
 
+Latest: [final review](docs/FINAL_REVIEW.md), 47 offline tests and [successful hosted rebuild on 705481a](https://github.com/yliclaire/good-culture-brief/actions/runs/38881560541).
+
 This repository consolidates the existing interactive website with the full reusable implementation and both manual workflows. The sanitized publication baseline and exact metric parity passed local validation. Both consolidated workflows have passed hosted checks; the public run links are recorded below.
 
 Previously, the original private implementation passed 43 offline tests and hosted builds. The report-only website passed live Chrome spot checks for reading tabs, budget filtering, answer dialogs, evidence pages, workflow guide and the synthetic model-change hold. A 390px mobile viewport showed no page-wide overflow. Those historical checks do not replace checks of the consolidated source.
