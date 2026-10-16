@@ -1,0 +1,15 @@
+{
+  "observation_id": "main/perplexity/Q7/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI'm watching my sodium intake. Which brand or product should I choose, and why?",
+  "reviewed_answer": "Choose Hood No Salt Added Low Fat Cottage Cheese if you can find it: it has 60 mg sodium per ½-cup serving, with 14 g protein and no added salt or sugar—far below typical cottage cheese. A comparable option is Lucerne Low-Fat, 1% Milkfat Cottage Cheese, which is made without added salt and also has about 60 mg sodium per ½ cup.\n\nWhy it’s the better pick\n\nRegular cottage cheese is often surprisingly salty: a ½-cup serving commonly contains roughly 300–450 mg sodium, or 15–20% of the 2,300 mg daily limit. By contrast, Hood’s no-salt-added version provides about 3% of the daily value per serving.\n\nProduct\tSodium per ½ cup\tWhy it matters\nHood No Salt Added Low Fat\t60 mg\tLowest-sodium option identified; 14 g protein. \n\nLucerne Low-Fat 1%\t60 mg\tNo added salt; 12 g protein. \n\nTypical regular cottage cheese\t~300–450 mg\tCan use a large share of a sodium budget in one serving. \nWhat to look for\n\nPick a label that says “no salt added,” “reduced sodium,” or “low sodium”—not just “low fat.”\n\nCheck the sodium per ½-cup serving; aim for around 60–200 mg if sodium is a priority.\n\nKeep the serving size in mind: two cups of regular cottage cheese can contribute a substantial amount of sodium.\n\nIf only regular cottage cheese is available, rinsing the curds in a strainer can remove some surface salt.\n\nIf you have hypertension, heart disease, or kidney disease, a clinician or registered dietitian can help set an individual sodium target; general guidance is often 1,500–2,300 mg per day depending on health status.",
+  "audit_excerpts": [
+    "Choose Hood No Salt Added Low Fat Cottage Cheese if you can find it: it has 60 mg sodium per ½-cup serving, with 14 g protein and no added salt or sugar—far below typical cottage cheese. A comparable option is Lucerne Low-Fat, 1% Milkfat Cottage Cheese, which is made without added salt and also has about 60 mg sodium per ½ cup. hood +1",
+    "Product Sodium per ½ cup Why it matters Hood No Salt Added Low Fat 60 mg Lowest-sodium option identified; 14 g protein. hood"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

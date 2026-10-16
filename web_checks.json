@@ -3,6 +3,19 @@
   "local_links_checked": 808,
   "private_marker_scan": "passed; pattern checks are not a guarantee of anonymity",
   "metric_parity": "exact views, numbers and counts unchanged",
-  "actual_browser_review": "Chrome desktop navigation, budget filter, answer dialog, evidence page, workflow guide and metadata hold checked; mobile 390px with no document overflow; print companion loaded. Full keyboard audit and print pagination pending.",
-  "publication": "GitHub Pages deployment succeeded: https://github.com/yliclaire/good-culture-brief/actions/runs/38871097459"
+  "actual_browser_review": "pending",
+  "publication": "not performed by exporter",
+  "consolidation": "local build and original/public metric parity passed; remote execution pending",
+  "source_tests": 45,
+  "source_baseline": "sanitized_browser_export",
+  "unchanged_analytical_sections": [
+    "views",
+    "numbers",
+    "counts",
+    "metric_bindings",
+    "repeats",
+    "contrasts",
+    "citations",
+    "competitor_matrix"
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q4/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI prefer simple ingredients. Which brand should I choose, and why?",
+  "reviewed_answer": "Choose Daisy Low-Fat 2% Milkfat Small Curd Cottage Cheese if your top priority is simple ingredients and easy availability in the U.S. Its short ingredient list—milk, cream, salt, and cultures—plus no gums or stabilizers makes it the cleanest mainstream choice.\n\nWhy Daisy\n\nMinimal formulation: Consumer Reports specifically highlighted Daisy’s simple ingredient list, alongside a balanced, milky-sweet flavor and uniform small curds.\n\nNo unnecessary thickeners: Unlike many creamy competitors, Daisy avoids additives such as tapioca starch, guar gum, locust bean gum, or carrageenan.\n\nWidely available: Daisy is a common national grocery-store brand, making it a practical repeat purchase.\n\nBest alternative\n\nIf you want an organic option and don’t mind a thicker, ricotta-like texture, choose Good Culture Organic 2% Low-Fat Classic Small Curd. It is praised for a straightforward ingredient list and live active cultures, though Consumer Reports found its dense texture better suited to spreading than eating by the spoonful.\n\nWhat to look for\n\nFor the simplest cottage cheese, check the label for essentially:\n\nCultured milk\n\nCream\n\nSalt\n\nLive and active cultures\n\nAvoid flavored varieties and products listing gums, starches, carrageenan, added sugar, or artificial flavors if “simple ingredients” is your main criterion.\n\nBottom line: Buy Daisy 2% small curd for the best balance of clean ingredients, taste, texture, and availability; choose Good Culture if organic certification matters more to you.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "observation_id": "main/perplexity/Q8/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI'm lactose intolerant. Which brand or product should I choose, and why?",
+  "reviewed_answer": "Choose LACTAID Lactose-Free Cottage Cheese if you want the safest, most reliable option in U.S. stores. It is specifically labeled lactose-free because it contains lactase enzyme, which breaks milk’s lactose into easier-to-digest sugars; it also has 13 g protein per 1/2 cup.\n\nBest pick\n\nLACTAID Cottage Cheese, 4% milkfat, 16 oz\n\nExplicitly lactose-free, so it avoids the guesswork of ordinary cottage cheese.\n\nThe added lactase converts lactose into glucose and galactose, which people with lactose intolerance generally digest more easily.\n\nIt is a conventional dairy cottage cheese—not dairy-free—so it is appropriate for lactose intolerance, not a milk allergy.\n\nGood alternative\n\nGood Culture Simply Lactose-Free Cottage Cheese, 2% milkfat, 15 oz is another clearly labeled lactose-free choice, with a thick, high-protein style.\n\nProduct\tWhy choose it\tWatch for\nLACTAID Lactose-Free Cottage Cheese\tPurpose-made lactose-free option; widely available; 13 g protein per 1/2 cup. \n\t4% milkfat; some reviewers note a slightly tangy flavor. \n\nGood Culture Lactose-Free Cottage Cheese\tLabeled lactose-free and creamy/high-protein. \n\tAvailability varies by store.\nRegular cottage cheese\tLower in lactose than milk, roughly 1–6 g per serving, and some people tolerate small portions. \n\tNot lactose-free; avoid if you react to small amounts. \nWhat to avoid\n\nDo not assume “low-fat,” “organic,” “high-protein,” or “live cultures” means lactose-free. Regular cottage cheese still contains lactose, though usually less than milk; if you are sensitive, choose a package that explicitly says “lactose-free” on the front label.\n\nIf you are in [name and location withheld], LACTAID is the easiest first choice to look for at Target, Kroger, Harris Teeter, or Walmart; Target lists the 16 oz LACTAID 4% cottage cheese as lactose-free.",
+  "audit_excerpts": [
+    "Choose LACTAID Lactose-Free Cottage Cheese if you want the safest, most reliable option in U.S. stores. It is specifically labeled lactose-free because it contains lactase enzyme, which breaks milk’s lactose into easier-to-digest sugars; it also has 13 g protein per 1/2 cup. lactaid",
+    "Good Culture Simply Lactose-Free Cottage Cheese, 2% milkfat, 15 oz is another clearly labeled lactose-free choice, with a thick, high-protein style. goodculture"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

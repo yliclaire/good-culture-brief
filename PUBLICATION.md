@@ -1,7 +1,7 @@
-# Web edition contents
+# Public submission contents
 
-Published with the author’s approval through GitHub Pages. The report-only repository is public; the implementation repository remains private.
+This repository contains the interactive investment brief, complete Python implementation, both manual GitHub workflows and a sanitized reproducible browser-study baseline. Original screenshots, interface captures, account context and credentials are excluded.
 
-Includes the investment brief, 155 reviewed answers, an exclusion audit placeholder, unchanged numeric views and chart tables, recovered source URLs and synthetic demonstrations. Name/location phrases are withheld. The private repository retains exact originals, screenshots, account/interface context, source inputs and both executable workflows.
+156 observations are retained: 155 included and one excluded audit placeholder. Numeric views and membership are unchanged from the original benchmark. Original private capture hashes and a new publication fingerprint document the transformation. See data/browser_baseline/PUBLICATION.md and publication_transform.json for details.
 
-Anyone with access to a public website can inspect all HTML, JavaScript and embedded data. The robots directive discourages indexing; it is not access control.
+All shipped HTML, JavaScript, data and source code are public. A robots directive discourages search indexing but is not access control. New live API collection requires the operator’s own keys/model settings and confirmation of possible charges; review is required before a new investment brief.

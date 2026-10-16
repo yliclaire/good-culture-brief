@@ -1,0 +1,14 @@
+{
+  "observation_id": "main/chatgpt/Q9/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI dislike lumpy textures. Which brand or product should I try, and why?",
+  "reviewed_answer": "My top recommendation is whipped cottage cheese, especially if lumps are what usually put you off. Unlike regular cottage cheese, whipped varieties have a smooth, creamy texture closer to thick Greek yogurt or a soft cheese spread.\n\nHere are three products I'd consider, ranked for your texture preference.\n\n1. AE Dairy Whipped Smooth Cottage Cheese\n\nBest for avoiding lumps\n\nThis is specifically made without noticeable curds. It's thick, smooth and ready to eat without blending, with 12 g of protein per half-cup serving.\n\nDownside: Regional availability, particularly in the Midwest.\n\nProduct details and store finder\n \n\n2. Hood Whipped Cottage Cheese\n\nBest alternative whipped option\n\nLighter and smoother than regular cottage cheese, with 13 g of protein per serving. A particularly good choice if you prefer a spreadable consistency.\n\nDownside: Availability varies, and the formulation contains stabilizers.\n\n \n\n3. Good Culture Cottage Cheese, Simply, 4% Milkfat, Whole Milk …\n\nBest widely available traditional option\n\nThick, creamy and relatively small, soft curds rather than big rubbery lumps. It won The Kitchn's taste test for its creamy texture.\n\nDownside: It still has curds, so it isn't completely smooth.\n\n$4.23 at Walmart · \n \n\nWhat I'd buy in your situation\n\nIf any lumpiness bothers you, choose AE Dairy Whipped Smooth first. If it isn't sold near you, I'd buy Good Culture 4% and blend it for 30–60 seconds until completely smooth. Consumer Reports also recommends blending cottage cheese for people who dislike curds. \n\nOne question that would help me narrow this down: Do you want absolutely no lumps (like Greek yogurt), or are tiny, soft curds acceptable?",
+  "audit_excerpts": [
+    "If any lumpiness bothers you, choose AE Dairy Whipped Smooth first. If it isn't sold near you, I'd buy Good Culture 4% and blend it for 30–60 seconds until completely smooth. Consumer Reports also recommends blending cottage cheese for people who dislike curds. Consumer Reports"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

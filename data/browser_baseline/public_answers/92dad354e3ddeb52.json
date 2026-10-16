@@ -1,0 +1,16 @@
+{
+  "observation_id": "main/perplexity/Q9/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI dislike lumpy textures. Which brand or product should I try, and why?",
+  "reviewed_answer": "Try Good Culture Organic 2% Low-Fat Classic Small Curd Cottage Cheese first. Its curds are small, tender, and less distinct than many brands, with a thick, ricotta-like consistency—so it reads much closer to creamy ricotta than classic lumpy cottage cheese.\n\nWhy it fits\n\nFine, soft curds: Reviewers describe Good Culture as having tiny curds and a texture that can be nearly indistinguishable from the surrounding cream, especially compared with firmer or larger-curd options.\n\nThick rather than watery: Its dense, ricotta-like body means fewer loose curds floating in liquid, which is often the part people dislike.\n\nWidely available: It is sold at many mainstream U.S. grocery chains, though availability varies by store.\n\nBest alternatives\nProduct\tWhy try it\tTexture caveat\nBreakstone’s 2% Lowfat Small Curd\tCreamy and buttery, with tapioca starch adding a slightly thicker texture. \n\tStill has visible small curds.\nKalona SuperNatural cottage cheese\tCurds and cream are well integrated, making it cohesive and spreadable with no excess liquid. \n\tIt is thick and holds its shape.\nNancy’s Organic Probiotic Lowfat 2%\tVery thick and smooth-leaning; some tasters find it almost pre-blended. \nfoodrepublic\n\tIt is notably tangy, like Greek yogurt. \nIf you want zero lumps\n\nBuy Good Culture and blend it for 20–30 seconds in a blender or food processor, or choose a product explicitly labeled “whipped” or “smooth.” Blending cottage cheese removes the curds entirely and produces a yogurt- or ricotta-like texture.\n\nAvoid Aldi Friendly Farms Regular Small Curd, which despite its name was found to have some of the biggest, bounciest curds in one texture test.",
+  "audit_excerpts": [
+    "Try Good Culture Organic 2% Low-Fat Classic Small Curd Cottage Cheese first. Its curds are small, tender, and less distinct than many brands, with a thick, ricotta-like consistency—so it reads much closer to creamy ricotta than classic lumpy cottage cheese. consumerreports +2",
+    "Best alternatives Product Why try it Texture caveat Breakstone’s 2% Lowfat Small Curd Creamy and buttery, with tapioca starch adding a slightly thicker texture. consumerreports +1 Still has visible small curds. Kalona SuperNatural cottage cheese Curds and cream are well integrated, making it cohesive and spreadable with no excess liquid. thetakeout It is thick and holds its shape. Nancy’s Organic Probiotic Lowfat 2% Very thick and smooth-leaning; some tasters find it almost pre-blended. foodrepublic It is notably tangy, like Greek yogurt. consumerreports If you want zero lumps",
+    "Avoid Aldi Friendly Farms Regular Small Curd, which despite its name was found to have some of the biggest, bounciest curds in one texture test. nytimes"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q3/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand would you recommend for a high-protein snack, and why?",
+  "reviewed_answer": "Good Culture 2% Simply Cottage Cheese is my top pick for a high-protein snack in the U.S. It delivers about 14 g of protein per 1/2-cup serving, uses a short, simple ingredient list, and has a thick, creamy texture that makes it satisfying on its own or with fruit and nuts.\n\nWhy it stands out\n\nProtein density: At roughly 14 g per half cup, it is among the higher-protein mainstream cottage cheeses, comparable to other strong options such as Clover Sonoma.\n\nSimple formulation: Good Culture’s “Simply” line is typically made with cultured milk, cream, salt, and live active cultures—no gums, starches, or added sugars—so you get protein without unnecessary additives.\n\nSnack-friendly texture: Its rich, small-curd style works well eaten straight from the container, spread on toast, or paired with berries; reviewers have also rated it highly for flavor and texture.\n\nWidely available: It is sold in many U.S. supermarkets, making it a practical repeat purchase.\n\nGood alternatives\nBrand\tBest for\tProtein\nGood Culture 2% Simply\tBest overall high-protein snack; simple ingredients and creamy texture\t~14 g per 1/2 cup \n\nDaisy 4%\tClassic, widely available, mild flavor\t13 g per 1/2 cup \n\nClover Sonoma Organic\tOrganic preference; good calcium source\t14 g per 1/2 cup \n\nBreakstone’s Live Active Low-Fat\tPortable single-serve cups\t12 g per serving \n\nIf your priority is maximum protein per calorie, choose a 2% or low-fat version rather than 4% whole-milk cottage cheese. If you prefer the richest flavor and don’t mind a bit more fat, Daisy 4% is a very solid, widely available choice.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

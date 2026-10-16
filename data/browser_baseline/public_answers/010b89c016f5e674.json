@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q10/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nIs Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",
+  "reviewed_answer": "It depends what you’re paying for. Daisy is already one of the best cottage cheeses on the shelf, so Good Culture isn’t an upgrade in every respect. It’s a different product with a few specific advantages.\n\nWhat they share: both have short, clean ingredient lists. Neither relies on the gums, starches, and thickeners many store brands use. If that’s your main concern, Daisy already covers it at a lower price, often a dollar or two less per 16 oz tub depending on the store.\n\nWhere Good Culture earns its premium:\n\nLive and active cultures. Good Culture is built around this, so it’s closer to yogurt in its probiotic angle. Daisy’s classic tub is cultured during production but isn’t marketed for live probiotic content.\nMilk sourcing. Good Culture uses pasture-raised milk and offers organic versions, if that matters to you ethically or nutritionally.\nTexture and taste. Good Culture is thicker, creamier, and tangier, with a richer dressing. Daisy is milder, wetter, and more classic, with distinct curds.\nProtein. Good Culture runs slightly higher per serving, though the difference is modest. Check labels, since fat level and variety shift the numbers.\n\nChoose Daisy when you want a reliable everyday staple at a good price, you’re cooking with it (lasagna, dips, baked goods, the blended cottage cheese trend), you prefer a mild, traditional flavor, or you eat a lot of it and the price difference adds up.\n\nChoose Good Culture when you eat it plain or as a snack and texture matters, you want probiotics, you care about pasture-raised or organic dairy, or you want the single-serve cups for convenience.\n\nA practical approach many people land on is Daisy for cooking and volume, and Good Culture for eating straight from the container. And since both brands go on sale often, the price gap can shrink to almost nothing some weeks.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

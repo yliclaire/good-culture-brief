@@ -1,0 +1,582 @@
+[
+  {
+    "claim_id": "C0029",
+    "observation_id": "main/claude/Q2/1",
+    "brand": "Daisy",
+    "value": "price",
+    "evidence_excerpt": "If you’d rather spend less, Daisy 4% is a solid choice.",
+    "urls": [
+      "https://www.aol.com/articles/tasted-8-cottage-cheese-brands-140000086.html"
+    ],
+    "evidence_file": "public_answers/d44c3f848cfd2b2e.json",
+    "evidence_sha256": "d01f345c2fdc2f4f5f5a3ee72161a2210ca118edd34e9364a6fd317407552f37",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0030",
+    "observation_id": "main/claude/Q2/1",
+    "brand": "Daisy",
+    "value": "4%",
+    "evidence_excerpt": "Daisy 4%",
+    "urls": [
+      "https://www.aol.com/articles/tasted-8-cottage-cheese-brands-140000086.html"
+    ],
+    "evidence_file": "public_answers/d44c3f848cfd2b2e.json",
+    "evidence_sha256": "d01f345c2fdc2f4f5f5a3ee72161a2210ca118edd34e9364a6fd317407552f37",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0310",
+    "observation_id": "main/claude/Q4/1",
+    "brand": "Daisy",
+    "value": "Preferred for simple ingredients",
+    "evidence_excerpt": "Daisy (the regular 4% version) has the shortest ingredient list you’ll find.",
+    "urls": [
+      "https://www.americastestkitchen.com/taste_tests/1893-cottage-cheese"
+    ],
+    "evidence_file": "public_answers/49940c20ff7395c7.json",
+    "evidence_sha256": "ca9ba39dd2624af01be2f8ab5a280bff80d1a682e6545171361999a64cb99c2f",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0311",
+    "observation_id": "main/claude/Q4/1",
+    "brand": "Good Culture",
+    "value": "Higher price",
+    "evidence_excerpt": "Good Culture costs more",
+    "urls": [
+      "https://www.wholefoodsmarket.com/product/good-culture-organic-whole-milk-classic-cottage-cheese-4-milk-fat-16-oz-b072f4xnt6"
+    ],
+    "evidence_file": "public_answers/49940c20ff7395c7.json",
+    "evidence_sha256": "ca9ba39dd2624af01be2f8ab5a280bff80d1a682e6545171361999a64cb99c2f",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0312",
+    "observation_id": "main/claude/Q4/1",
+    "brand": "Good Culture",
+    "value": "Organic/probiotic preference",
+    "evidence_excerpt": "Good Culture is the better choice if you want organic dairy or probiotics.",
+    "urls": [
+      "https://www.wholefoodsmarket.com/product/good-culture-organic-whole-milk-classic-cottage-cheese-4-milk-fat-16-oz-b072f4xnt6"
+    ],
+    "evidence_file": "public_answers/49940c20ff7395c7.json",
+    "evidence_sha256": "ca9ba39dd2624af01be2f8ab5a280bff80d1a682e6545171361999a64cb99c2f",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0307",
+    "observation_id": "main/claude/Q4/1",
+    "brand": "Breakstone's",
+    "value": "Added starch",
+    "evidence_excerpt": "For example, Breakstone’s uses tapioca starch.",
+    "urls": [
+      "https://www.chowhound.com/2171003/quality-cottage-cheese-brand/",
+      "https://cooksillustrated.com/taste_tests/454-cottage-cheese"
+    ],
+    "evidence_file": "public_answers/49940c20ff7395c7.json",
+    "evidence_sha256": "ca9ba39dd2624af01be2f8ab5a280bff80d1a682e6545171361999a64cb99c2f",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0357",
+    "observation_id": "main/claude/Q5/1",
+    "brand": "Good Culture",
+    "value": "Higher price",
+    "evidence_excerpt": "The main drawback is price: it costs more than many other brands.",
+    "urls": [
+      "https://www.goodculture.com/cottage-cheese"
+    ],
+    "evidence_file": "public_answers/c25eb76a88c63a15.json",
+    "evidence_sha256": "5ea42502c54b2b1a83687c2efd63bbfd4371d6c24c099226cb8a9da649421ed9",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0359",
+    "observation_id": "main/claude/Q5/1",
+    "brand": "Nancy's",
+    "value": "Probiotic priority",
+    "evidence_excerpt": "Nancy’s Organic is the one to choose if you want the most probiotic-focused option.",
+    "urls": [
+      "https://www.eatthis.com/cottage-cheese-brands-best-ingredients/"
+    ],
+    "evidence_file": "public_answers/c25eb76a88c63a15.json",
+    "evidence_sha256": "5ea42502c54b2b1a83687c2efd63bbfd4371d6c24c099226cb8a9da649421ed9",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0360",
+    "observation_id": "main/claude/Q5/1",
+    "brand": "Breakstone's",
+    "value": "Live-Active specifically, not regular",
+    "evidence_excerpt": "Be sure to buy the “Live-Active” line specifically.",
+    "urls": [
+      "https://www.tastingtable.com/1853007/healthiest-cottage-cheese-variety"
+    ],
+    "evidence_file": "public_answers/c25eb76a88c63a15.json",
+    "evidence_sha256": "5ea42502c54b2b1a83687c2efd63bbfd4371d6c24c099226cb8a9da649421ed9",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0355",
+    "observation_id": "main/claude/Q5/1",
+    "brand": "Kalona SuperNatural",
+    "value": "Organic/live-culture option",
+    "evidence_excerpt": "Kalona SuperNatural and Westby are other clean-label organic options. Both list live and active cultures among their ingredients. eatthis ",
+    "urls": [
+      "https://www.eatthis.com/cottage-cheese-brands-best-ingredients/"
+    ],
+    "evidence_file": "public_answers/c25eb76a88c63a15.json",
+    "evidence_sha256": "5ea42502c54b2b1a83687c2efd63bbfd4371d6c24c099226cb8a9da649421ed9",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0356",
+    "observation_id": "main/claude/Q5/1",
+    "brand": "Westby",
+    "value": "Organic/live-culture option",
+    "evidence_excerpt": "Kalona SuperNatural and Westby are other clean-label organic options. Both list live and active cultures among their ingredients. eatthis ",
+    "urls": [
+      "https://www.eatthis.com/cottage-cheese-brands-best-ingredients/"
+    ],
+    "evidence_file": "public_answers/c25eb76a88c63a15.json",
+    "evidence_sha256": "5ea42502c54b2b1a83687c2efd63bbfd4371d6c24c099226cb8a9da649421ed9",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0034",
+    "observation_id": "main/claude/Q6/1",
+    "brand": "Private label: Great Value",
+    "value": "24 / 48 oz",
+    "evidence_excerpt": "the 24 oz tubs (4%, 2%, and fat-free) are $2.87 each, about 12¢/oz, and the 48 oz tub of 4% small curd is $5.46, about 11.4¢/oz.",
+    "urls": [
+      "https://www.walmart.com/browse/food/cottage-cheese/976759_9176907_1001468_2109292",
+      "https://www.walmart.com/ip/10315020"
+    ],
+    "evidence_file": "public_answers/c1516f7fd75441f7.json",
+    "evidence_sha256": "c0c5ddf00bb1c36bc0d20ecb0931c549fece581936828438cc0ab05cd50f8fdc",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0285",
+    "observation_id": "main/perplexity/Q3/1",
+    "brand": "Good Culture",
+    "value": "About 14 g protein per half cup",
+    "evidence_excerpt": "about 14 g of protein per 1/2-cup serving",
+    "urls": [
+      "https://www.foodnetwork.com/healthy/articles/healthiest-cottage-cheese"
+    ],
+    "evidence_file": "public_answers/5ab17e576fcbefaa.json",
+    "evidence_sha256": "ea433a1181931d9f74cb3ca75a29479a8fa68dbddfbe6fd46b824f6c71ddbb9d",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0381",
+    "observation_id": "main/perplexity/Q5/1",
+    "brand": "Good Culture",
+    "value": "Live cultures specifically claimed",
+    "evidence_excerpt": "The 2% Classic contains live and active Lactobacillus paracasei cultures",
+    "urls": [
+      "https://www.theskimm.com/food/best-cottage-cheese-brands"
+    ],
+    "evidence_file": "public_answers/2df4f4f4ddf15678.json",
+    "evidence_sha256": "8a3639619ac40f498448d046c13274570861cdb1c703f82d1113df131ad57526",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0515",
+    "observation_id": "main/perplexity/Q8/1",
+    "brand": "Good Culture",
+    "value": "Specifically Lactose-Free 2%",
+    "evidence_excerpt": "Good Culture Simply Lactose-Free Cottage Cheese, 2% milkfat, 15 oz is another clearly labeled lactose-free choice, with a thick, high-protein style. goodculture",
+    "urls": [
+      "https://goodculture.com/collections/lactose-free/"
+    ],
+    "evidence_file": "public_answers/ec756abb38b6c6fb.json",
+    "evidence_sha256": "cdf65bf09bf169cb057060e912ac686e1459324751ebc214cac5c32abb05e5b7",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0654",
+    "observation_id": "main/perplexity/Q12/1",
+    "brand": "Good Culture",
+    "value": "Price premium versus Daisy",
+    "evidence_excerpt": "Price matters. Good Culture is generally the more expensive option; one comparison put it at about 28 cents per ounce versus 17 cents per ounce for Daisy. mashed",
+    "urls": [
+      "https://www.mashed.com/2149937/cottage-cheese-brands-ranked-worst-best/"
+    ],
+    "evidence_file": "public_answers/8034fce6902cd2ce.json",
+    "evidence_sha256": "1e6f3a82ea7657e56ce45de8da1df6a91b3e563329049fa4a850f6f08c09c08e",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0429",
+    "observation_id": "main/perplexity/Q6/2",
+    "brand": "Private label: Friendly Farms",
+    "value": "Aldi convenience branch",
+    "evidence_excerpt": "If Aldi is more convenient: Friendly Farms 4% small curd is an excellent close second at 13¢/oz and 12 g protein per serving.",
+    "urls": [
+      "https://www.aldi.us/store/aldi/products/18648946-friendly-farms-cottage-cheese-24-oz"
+    ],
+    "evidence_file": "public_answers/917fe7e32571a737.json",
+    "evidence_sha256": "3b6b28244099acd357f9d80e98cddbad438cb3f2a0ac9a188839e58026a6ff25",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0623",
+    "observation_id": "main/perplexity/Q11/2",
+    "brand": "Daisy",
+    "value": "Closest everyday substitute with simple ingredients",
+    "evidence_excerpt": "Buy Daisy 4% Small Curd Cottage Cheese as your closest everyday substitute. In a blind taste test, Daisy ranked best overall for its soft, evenly formed curds and rich creaminess; it also has a very short ingredient list—skim milk, cultured cream, and salt—so it most closely matches Good Culture’s clean-label appeal. delish",
+    "urls": [
+      "https://www.delish.com/food/a65290671/cottage-cheese-taste-test/"
+    ],
+    "evidence_file": "public_answers/44d8f8f80e5962a3.json",
+    "evidence_sha256": "7a31b84a6b4189430ecc752104752a2f8e5048d5944e7d57f30033abc092bf24",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0232",
+    "observation_id": "main/perplexity/Q1/3",
+    "brand": "Good Culture",
+    "value": "Simply 4% milkfat Classic",
+    "evidence_excerpt": "Buy Good Culture Simply 4% Milkfat Classic Cottage Cheese",
+    "urls": [
+      "https://www.nytimes.com/wirecutter/reviews/best-cottage-cheese/"
+    ],
+    "evidence_file": "public_answers/4e87bf9838d9bcb5.json",
+    "evidence_sha256": "8a9a85f880b85d8eb5b667ba8aeebeba91deb30b98dc51765491f6439c31538d",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0294",
+    "observation_id": "main/perplexity/Q3/3",
+    "brand": "Good Culture",
+    "value": "About 14 g protein per half cup",
+    "evidence_excerpt": "about 14 g of protein per 1/2-cup serving",
+    "urls": [
+      "https://www.foodnetwork.com/healthy/articles/healthiest-cottage-cheese"
+    ],
+    "evidence_file": "public_answers/e422f1eb0b2c6ceb.json",
+    "evidence_sha256": "56d97d255b8aac4b886645b840a867c1260843cba7045e7f11cdda1868e2b231",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0296",
+    "observation_id": "main/perplexity/Q3/3",
+    "brand": "Friendship Dairies",
+    "value": "No-salt-added 1% Small Curd",
+    "evidence_excerpt": "If sodium is a concern, compare labels because cottage cheese can be relatively salty, and consider a no-salt-added variety such as Friendship Dairies 1% Small Curd, which lists 15 g protein with much lower sodium per serving.",
+    "urls": [
+      "https://labelgrade.com/best/cottage-cheese"
+    ],
+    "evidence_file": "public_answers/e422f1eb0b2c6ceb.json",
+    "evidence_sha256": "56d97d255b8aac4b886645b840a867c1260843cba7045e7f11cdda1868e2b231",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0343",
+    "observation_id": "main/perplexity/Q4/3",
+    "brand": "Good Culture",
+    "value": "Simply 2%",
+    "evidence_excerpt": "Choose Good Culture 2% Milkfat Simply Cottage Cheese if your top priority is a short, clean ingredient list.",
+    "urls": [
+      "https://www.target.com/p/good-culture-2-low-fat-classic-cottage-cheese-16oz/-/A-52007667"
+    ],
+    "evidence_file": "public_answers/42a422a89aad42ca.json",
+    "evidence_sha256": "4438da3fd79c954bac7463c9dbaa6e3ba304e8dcb1dca8d4306c7e770f929e2d",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0345",
+    "observation_id": "main/perplexity/Q4/3",
+    "brand": "Good Culture",
+    "value": "Simply ingredients and live cultures; no gums/additives",
+    "evidence_excerpt": "Its Simply line is made with skim milk, whole milk, cream, sea salt, and live active cultures—no gums, thickeners, added sugar, or artificial ingredients.",
+    "urls": [
+      "https://www.target.com/p/good-culture-2-low-fat-classic-cottage-cheese-16oz/-/A-52007667"
+    ],
+    "evidence_file": "public_answers/42a422a89aad42ca.json",
+    "evidence_sha256": "4438da3fd79c954bac7463c9dbaa6e3ba304e8dcb1dca8d4306c7e770f929e2d",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0554",
+    "observation_id": "main/perplexity/Q9/3",
+    "brand": "Hood",
+    "value": "Milder/creamier preference",
+    "evidence_excerpt": "If you prefer something milder and creamier rather than tangy, choose Hood Country Style 4% instead. seriouseats",
+    "urls": [
+      "https://www.seriouseats.com/cottage-cheese-taste-test-12013627"
+    ],
+    "evidence_file": "public_answers/7a67f4150fe11df2.json",
+    "evidence_sha256": "ceef6b9353adbd2203308098d1be13177874e845c6fc3bdc614ab30d49affbde",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0555",
+    "observation_id": "main/perplexity/Q9/3",
+    "brand": "Private label: Friendly Farms",
+    "value": "Large bouncy curds despite Small Curd name",
+    "evidence_excerpt": "Avoid Aldi Friendly Farms Regular Small Curd if texture is your main concern: despite the “small curd” name, testing found it had some of the largest, bounciest curds and a looser dressing. nytimes",
+    "urls": [
+      "https://www.nytimes.com/wirecutter/reviews/best-cottage-cheese/"
+    ],
+    "evidence_file": "public_answers/7a67f4150fe11df2.json",
+    "evidence_sha256": "ceef6b9353adbd2203308098d1be13177874e845c6fc3bdc614ab30d49affbde",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0134",
+    "observation_id": "main/perplexity/Q10/3",
+    "brand": "Good Culture",
+    "value": "Some testers find too thick",
+    "evidence_excerpt": "some testers find it too thick for spooning.",
+    "urls": [
+      "https://www.foodandwine.com/best-cottage-cheese-consumer-reports-12163398"
+    ],
+    "evidence_file": "public_answers/1f01dd1dd9f572fc.json",
+    "evidence_sha256": "ca326b5a5f0313c9a8a953607520fd5e799cc6daf13ba3819d892d93a5fe1847",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0135",
+    "observation_id": "main/perplexity/Q10/3",
+    "brand": "Good Culture",
+    "value": "28 cents/oz versus Daisy 17 cents/oz (reported comparison)",
+    "evidence_excerpt": "one comparison put Good Culture at about 28 cents per ounce versus Daisy at about 17 cents per ounce.",
+    "urls": [
+      "https://www.mashed.com/2149937/cottage-cheese-brands-ranked-worst-best/"
+    ],
+    "evidence_file": "public_answers/1f01dd1dd9f572fc.json",
+    "evidence_sha256": "ca326b5a5f0313c9a8a953607520fd5e799cc6daf13ba3819d892d93a5fe1847",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0137",
+    "observation_id": "main/perplexity/Q10/3",
+    "brand": "Daisy",
+    "value": "Simple classic ingredients without gums",
+    "evidence_excerpt": "Daisy has a very short ingredient list—cultured skim milk, cream, and salt in its classic version—and no gums or stabilizers.",
+    "urls": [
+      "https://www.inkl.com/news/8-cottage-cheese-brands-compared-the-winner-wasnt-the-most-expensive"
+    ],
+    "evidence_file": "public_answers/1f01dd1dd9f572fc.json",
+    "evidence_sha256": "ca326b5a5f0313c9a8a953607520fd5e799cc6daf13ba3819d892d93a5fe1847",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0629",
+    "observation_id": "main/perplexity/Q11/3",
+    "brand": "Daisy",
+    "value": "Closest everyday substitute with simple ingredients",
+    "evidence_excerpt": "Buy Daisy 4% small-curd cottage cheese as your closest everyday substitute. In a 2025 blind tasting, Daisy ranked best overall for its soft, distinct, evenly formed curds and creamy, rich texture; it also has a very short ingredient list—skim milk, cultured cream, and salt—without the gums or starches found in many alternatives. delish",
+    "urls": [
+      "https://www.delish.com/food/a65290671/cottage-cheese-taste-test/"
+    ],
+    "evidence_file": "public_answers/9b89d501c75c0f93.json",
+    "evidence_sha256": "068cb51c59b914ebfaeeb53e8cec13f1fdf5cbac1b157a2cc49bbe5e25344752",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0660",
+    "observation_id": "main/perplexity/Q12/3",
+    "brand": "Good Culture",
+    "value": "Price premium versus Daisy",
+    "evidence_excerpt": "Price matters. One 2026 comparison put Good Culture at about 28 cents per ounce versus 17 cents for Daisy—roughly 65% more expensive. mashed",
+    "urls": [
+      "https://www.mashed.com/2149937/cottage-cheese-brands-ranked-worst-best/"
+    ],
+    "evidence_file": "public_answers/b239685ee0191f9a.json",
+    "evidence_sha256": "19aef288a15bc482d40aa1ed9021a82ec4ea651f8752a7ca68c3438ec3a4891a",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0324",
+    "observation_id": "main/gemini/Q4/1",
+    "brand": "Good Culture",
+    "value": "Probiotics/thick texture preference",
+    "evidence_excerpt": "Grab Good Culture if you want those extra live probiotics and a slightly richer, creamier texture.",
+    "urls": [
+      "https://missourigirlhome.com/top-two-best-tasting-and-healthiest-cottage-cheese-brands/#:~:text=All%20of%20that%20luscious%20creaminess%20goes%20into,list%20and%20still%20manages%20to%20taste%20amazing."
+    ],
+    "evidence_file": "public_answers/feccf67772e7ab30.json",
+    "source_expansion_section": 6,
+    "evidence_sha256": "1e38b9c0d70045bc0fd2e2f48ac50ec772fdcfdf297852090345c7cecfaac1fc",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  },
+  {
+    "claim_id": "C0325",
+    "observation_id": "main/gemini/Q4/1",
+    "brand": "Kalona SuperNatural",
+    "value": "Specialty organic/minimally processed preference",
+    "evidence_excerpt": "If you shop at natural food stores or co-ops (like Whole Foods or Natural Grocers), Kalona is exceptionally minimally processed.",
+    "urls": [
+      "https://kalonasupernatural.com/products/organic-lowfat-cottage-cheese/#:~:text=Organic%20Lowfat%20Cottage%20Cheese%20%7C%20Kalona%20SuperNatural.,%26%20our%20planet.%20You'll%20taste%20the%20difference!"
+    ],
+    "evidence_file": "public_answers/feccf67772e7ab30.json",
+    "source_expansion_section": 3,
+    "evidence_sha256": "1e38b9c0d70045bc0fd2e2f48ac50ec772fdcfdf297852090345c7cecfaac1fc",
+    "review_status": "approved",
+    "reviewer": "Codex assistant: explicit citation-attachment review",
+    "reviewed_at_utc": "2026-10-15T18:19:25.996255+00:00",
+    "attachment_scope": "cited_paragraph",
+    "fact_verification": "not_performed",
+    "review_note": "Public derivative of a previously reviewed source attachment. Original DOM capture is retained privately; no new factual verification."
+  }
+]

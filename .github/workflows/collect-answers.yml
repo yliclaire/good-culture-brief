@@ -1,0 +1,102 @@
+name: Collect engine answers
+run-name: "${{ inputs.operation }} answers · ${{ inputs.study }}"
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Preview the plan first; collect makes live API requests
+        type: choice
+        options: [preview, collect]
+        default: preview
+      study:
+        description: Category profile; empty overrides keep its brands and questions
+        type: choice
+        options: [good_culture, birkenstock]
+        default: good_culture
+      brand:
+        description: Optional focal brand; provide competitors when changing it
+        type: string
+      competitors:
+        description: Optional comma-separated competitors; first anchors branded comparisons
+        type: string
+      questions:
+        description: Optional JSON question list with id, kind and text; blank keeps profile defaults
+        type: string
+      providers:
+        description: API providers, comma-separated
+        type: string
+        default: openai,anthropic,gemini,perplexity
+      repeats:
+        description: Collection passes per question and provider
+        type: number
+        default: 3
+      max_calls:
+        description: Maximum requests; not a dollar spending cap
+        type: number
+        default: 144
+      confirm_paid:
+        description: I authorize the selected API requests and understand charges may apply
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Check report JavaScript
+        run: |
+          for script in report/*.js; do
+            node --check "$script"
+          done
+      - name: Preview collection plan (no keys or engine calls)
+        if: inputs.operation == 'preview'
+        env:
+          STUDY: ${{ inputs.study }}
+          FOCAL_BRAND: ${{ inputs.brand }}
+          COMPETITORS: ${{ inputs.competitors }}
+          QUESTIONS_JSON: ${{ inputs.questions }}
+          PROVIDERS: ${{ inputs.providers }}
+          REPEATS: ${{ inputs.repeats }}
+          MAX_CALLS: ${{ inputs.max_calls }}
+        run: python automation/run.py preview --study "$STUDY" --output artifacts/run
+      - name: Collect new API evidence
+        if: inputs.operation == 'collect'
+        env:
+          STUDY: ${{ inputs.study }}
+          FOCAL_BRAND: ${{ inputs.brand }}
+          COMPETITORS: ${{ inputs.competitors }}
+          QUESTIONS_JSON: ${{ inputs.questions }}
+          PROVIDERS: ${{ inputs.providers }}
+          REPEATS: ${{ inputs.repeats }}
+          MAX_CALLS: ${{ inputs.max_calls }}
+          CONFIRM_PAID: ${{ inputs.confirm_paid }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          PERPLEXITY_MODEL: ${{ vars.PERPLEXITY_MODEL }}
+        run: python automation/run.py collect --study "$STUDY" --output artifacts/run
+      - name: Save collection files, including partial attempts
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: collection-${{ inputs.operation }}-${{ inputs.study }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            artifacts/run/
+            artifacts/run.zip
+          if-no-files-found: warn
+          retention-days: 30
+          include-hidden-files: true

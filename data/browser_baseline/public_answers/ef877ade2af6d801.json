@@ -1,0 +1,16 @@
+{
+  "observation_id": "main/claude/Q9/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI dislike lumpy textures. Which brand or product should I try, and why?",
+  "reviewed_answer": "The product I’d point you to first is Hood Whipped Cottage Cheese, because it’s made specifically for people who don’t like curds. It has a smoother consistency but still has 13g of protein and 120 calories per serving, the same as Hood’s original country style. It’s sold in 16 oz tubs, has no added sugars, and is marketed as a snack, dip, topping, or spread. Hood is a New England dairy, so it’s easiest to find in the Northeast and less common elsewhere. \n\nIf you can’t find it, here are some other options.\n\nBlended “smooth” versions from other brands are worth looking for. For example, DairyPure has sold a double-blended Smooth cottage cheese in single-serve cups at select Walmart stores. It’s an older launch, though, so check whether your local store still carries it. Store shelves change quickly, and I’d scan the dairy case for the words “whipped,” “smooth,” or “blended.” \n\nNewer startups are also making curd-free products, though mostly as dips rather than plain tubs. Cotto launched in March 2026 with whipped cottage cheese dips, blending all the curds so the texture is closer to hummus. \n\nMaking it yourself is the most reliable option. Buy any regular cottage cheese you like (Good Culture is a popular one) and blend it in a blender or food processor for about 30 to 60 seconds. It turns completely smooth and creamy, close to thick Greek yogurt or ricotta. You can blend a whole tub and keep it in the fridge.\n\nIf you’d rather keep a little texture without big lumps, choose small-curd over large-curd. The pieces are much less noticeable.",
+  "audit_excerpts": [
+    "The product I’d point you to first is Hood Whipped Cottage Cheese, because it’s made specifically for people who don’t like curds. It has a smoother consistency but still has 13g of protein and 120 calories per serving, the same as Hood’s original country style. It’s sold in 16 oz tubs, has no added sugars, and is marketed as a snack, dip, topping, or spread. Hood is a New England dairy, so it’s easiest to find in the Northeast and less common elsewhere. dairyprocessing  dairyprocessing ",
+    "Blended “smooth” versions from other brands are worth looking for. For example, DairyPure has sold a double-blended Smooth cottage cheese in single-serve cups at select Walmart stores. It’s an older launch, though, so check whether your local store still carries it. Store shelves change quickly, and I’d scan the dairy case for the words “whipped,” “smooth,” or “blended.” dairyfoods ",
+    "Newer startups are also making curd-free products, though mostly as dips rather than plain tubs. Cotto launched in March 2026 with whipped cottage cheese dips, blending all the curds so the texture is closer to hummus. foodbusinessnews "
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

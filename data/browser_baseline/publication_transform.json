@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "original_review_manifest_sha256": "894d670bb6d89485a459de013fd96c8a4d2b19b5485a1a6d8514979746491cf5",
+  "original_source_fingerprint": "a465ead2baccbbc1716f37d2c7e3d389a5ad159a4a6d5ae625c22819dc559d8b",
+  "observations": 156,
+  "retained_included": 155,
+  "retained_excluded": 1,
+  "changed_personal_context_observation_ids": [
+    "main/claude/Q7/1",
+    "main/gemini/Q9/3",
+    "main/perplexity/Q1/1",
+    "main/perplexity/Q1/2",
+    "main/perplexity/Q1/3",
+    "main/perplexity/Q6/1",
+    "main/perplexity/Q6/2",
+    "main/perplexity/Q8/1",
+    "main/perplexity/Q8/2",
+    "main/perplexity/Q10/1",
+    "supplement/copilot_search/Q4/1",
+    "supplement/google_ai_mode/Q2/1"
+  ],
+  "new_collection": false,
+  "independent_recoding": false,
+  "interpretation": "Previously reviewed coding retained; text/name/path publication transformation only. Exact original-to-public metric parity is required."
+}

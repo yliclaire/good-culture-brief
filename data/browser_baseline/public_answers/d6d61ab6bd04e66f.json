@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q6/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",
+  "reviewed_answer": "Buy a store brand, specifically Walmart’s Great Value or Aldi’s Friendly Farms. They’re consistently the cheapest per serving, typically around half the price of name brands.\n\nGreat Value (Walmart) is the easiest pick. The 24 oz large-curd 4% tub is listed at $2.87, or 12.0¢/oz, with 12 grams of protein per serving and 6 servings per container. That works out to about 48¢ per half-cup serving. One taste-tester found it by far the cheapest product in an eight-brand comparison. \nGreat Value 4% Milkfat Minimum Large Curd Cottage Cheese, 24 oz +2\n\nFriendly Farms (Aldi) is about the same and sometimes cheaper. One reviewer found Aldi’s 2% and 4% cottage cheese at around $2.69 per 24 ounces, coming to $0.11 per ounce, the cheapest of everything they tested. The tradeoff is that they found it a bit watery, so if texture matters to you, Great Value may be the better buy. \n\nTarget’s Good & Gather is a reasonable third option, at just under 15 cents per ounce in one comparison. \n\nName brands cost noticeably more. Daisy came in around $0.20 per ounce, and Good Culture around 24 cents per ounce. That’s roughly 80¢ to $1 per serving, close to double the store brands. \nautodesk\n\nA few tips for keeping the cost down:\n\nBuy the 24 oz tubs, not 16 oz. The larger size almost always has a lower unit price.\nSkip single-serve cups and fruit-topped versions. You pay a lot for the packaging.\nCheck the unit-price label on the shelf. Prices vary by region, and regional grocery chains sometimes run sales that briefly beat Walmart or Aldi.\nFat percentage barely affects price within a brand. Pick whichever you like.\n\nThese prices come from reviews and listings from earlier this year, so your local prices may differ a bit. The ranking, with store brands well below name brands, has been consistent across sources.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

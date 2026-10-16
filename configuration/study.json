@@ -269,5 +269,10 @@
     "Where does the focal brand win or lose, to whom and why?",
     "Could a larger competitor substitute for the focal brand advantage?",
     "Close every finding with confidence, diligence risk or a management question."
-  ]
+  ],
+  "publication": {
+    "evidence_kind": "sanitized_browser_export",
+    "raw_originals_distributed": false,
+    "measurement_parity": "Checked against the original reviewed browser benchmark"
+  }
 }

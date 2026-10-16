@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q2/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",
+  "reviewed_answer": "For a first purchase, I’d get Good Culture Low-Fat Classic Cottage Cheese (2% milkfat). It’s a widely available U.S. brand with a clean, mild flavor and a creamy-but-not-heavy texture, making it an easy introduction before you decide whether you prefer richer 4% styles.\n\nWhy this one\n\nApproachable texture: Cottage cheese can surprise first-timers because of its curds; Good Culture’s classic style is generally praised for being smooth and balanced rather than watery or overly tangy.\n\nGood starting fat level: A nutritionist cited by Consumer Reports specifically recommends starting with 2% cottage cheese, then moving to 4% if you want something richer and creamier.\n\nVersatile: It works equally well sweet—with fruit, honey, or granola—or savory—with pepper, tomatoes, avocado, or on toast.\n\nReliable reviews: Independent taste tests have repeatedly placed Good Culture among the top cottage-cheese options.\n\nWhat to look for on the label\nLabel\tBest for\n2% milkfat\tFirst try; lighter, balanced flavor\n4% milkfat\tCreamier, richer experience\nSmall-curd\tSmoother, more uniform texture\nLarge-curd\tMore distinct, chewier curds\nIf Good Culture isn’t nearby\n\nChoose Daisy Pure & Natural Low-Fat Cottage Cheese as a close alternative; it was named best overall in a large taste test and is commonly stocked in U.S. grocery stores. If you already know you enjoy creamy dairy foods, consider a 4% option such as Hood Country Style, which won a creaminess-focused taste test.\ndoordash\n\nFor your first tub, buy a small container, try it plain first, then add a little salt, black pepper, and sliced peach or pineapple—cottage cheese is much better when lightly seasoned.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

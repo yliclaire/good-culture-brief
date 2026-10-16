@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0",
+  "study_id": "good_culture",
+  "run_id": "browser_baseline",
+  "wave": "2026-Q4",
+  "study_status": "ready",
+  "focal_brand": "Good Culture",
+  "competitors": [
+    "Daisy",
+    "Breakstone's",
+    "Knudsen",
+    "Lactaid"
+  ],
+  "category": "cottage cheese",
+  "market": "United States",
+  "context": "I'm shopping for cottage cheese in the United States.",
+  "codebook_version": "2.0.0+context-rules-2.1.0",
+  "attributes": [
+    "protein",
+    "ingredients",
+    "live_cultures",
+    "taste",
+    "texture",
+    "price",
+    "availability",
+    "sodium",
+    "lactose",
+    "organic",
+    "other"
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "kind": "discovery",
+      "theme": "discovery",
+      "text": "Which brand should I buy, and why?"
+    },
+    {
+      "id": "Q2",
+      "kind": "discovery",
+      "theme": "discovery",
+      "text": "I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?"
+    },
+    {
+      "id": "Q3",
+      "kind": "discovery",
+      "theme": "protein",
+      "text": "Which brand would you recommend for a high-protein snack, and why?"
+    },
+    {
+      "id": "Q4",
+      "kind": "discovery",
+      "theme": "ingredients",
+      "text": "I prefer simple ingredients. Which brand should I choose, and why?"
+    },
+    {
+      "id": "Q5",
+      "kind": "discovery",
+      "theme": "cultures",
+      "text": "I want cottage cheese with live and active cultures. Which brand should I choose, and why?"
+    },
+    {
+      "id": "Q6",
+      "kind": "discovery",
+      "theme": "budget",
+      "text": "I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?"
+    },
+    {
+      "id": "Q7",
+      "kind": "discovery",
+      "theme": "sodium",
+      "text": "I'm watching my sodium intake. Which brand or product should I choose, and why?"
+    },
+    {
+      "id": "Q8",
+      "kind": "discovery",
+      "theme": "lactose",
+      "text": "I'm lactose intolerant. Which brand or product should I choose, and why?"
+    },
+    {
+      "id": "Q9",
+      "kind": "discovery",
+      "theme": "texture",
+      "text": "I dislike lumpy textures. Which brand or product should I try, and why?"
+    },
+    {
+      "id": "Q10",
+      "kind": "branded",
+      "theme": "branded_comparison",
+      "text": "Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each."
+    },
+    {
+      "id": "Q11",
+      "kind": "branded",
+      "theme": "branded_substitution",
+      "text": "I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "id": "Q12",
+      "kind": "branded",
+      "theme": "branded_conversion",
+      "text": "I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?"
+    }
+  ],
+  "layers": [
+    {
+      "id": "main",
+      "engines": [
+        "chatgpt",
+        "claude",
+        "gemini",
+        "perplexity"
+      ],
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12"
+      ],
+      "repeat_labels": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "supplement",
+      "engines": [
+        "google_ai_mode",
+        "copilot_search"
+      ],
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q4",
+        "Q6",
+        "Q10",
+        "Q12"
+      ],
+      "repeat_labels": [
+        "1"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "discovery",
+      "label": "Unprompted discovery",
+      "question_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9"
+      ],
+      "coverage": "planned_within_layer"
+    },
+    {
+      "id": "branded",
+      "label": "Explicit brand questions",
+      "question_ids": [
+        "Q10",
+        "Q11",
+        "Q12"
+      ],
+      "coverage": "planned_within_layer"
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "health_vs_general",
+      "label": "Health positioning versus general shopping",
+      "baseline_questions": [
+        "Q1",
+        "Q2"
+      ],
+      "comparison_questions": [
+        "Q3",
+        "Q4"
+      ],
+      "layers": [
+        "main"
+      ],
+      "analysis_status": "prespecified"
+    },
+    {
+      "id": "budget_vs_general",
+      "label": "Budget versus general shopping",
+      "baseline_questions": [
+        "Q1",
+        "Q2"
+      ],
+      "comparison_questions": [
+        "Q6"
+      ],
+      "layers": [
+        "main"
+      ],
+      "analysis_status": "prespecified"
+    },
+    {
+      "id": "exploratory_health_q2",
+      "label": "Exploratory health versus first purchase",
+      "baseline_questions": [
+        "Q2"
+      ],
+      "comparison_questions": [
+        "Q3",
+        "Q4"
+      ],
+      "layers": [
+        "main"
+      ],
+      "analysis_status": "post_collection_exploratory"
+    },
+    {
+      "id": "exploratory_budget_q2",
+      "label": "Exploratory budget versus first purchase",
+      "baseline_questions": [
+        "Q2"
+      ],
+      "comparison_questions": [
+        "Q6"
+      ],
+      "layers": [
+        "main"
+      ],
+      "analysis_status": "post_collection_exploratory"
+    }
+  ],
+  "output_root": "../artifacts/metrics",
+  "inputs": {
+    "adapter": "reviewed_v2",
+    "coding": "../data/browser_baseline/coding.csv",
+    "brands": "../data/browser_baseline/brands.csv",
+    "claims": "../data/browser_baseline/claims.csv",
+    "observations": "../data/browser_baseline/observations.jsonl",
+    "citation_review": "../data/browser_baseline/citation_review.json",
+    "overrides": [
+      "../data/browser_baseline/overrides.csv"
+    ],
+    "provenance_files": [
+      "../data/browser_baseline/relocation.json"
+    ]
+  },
+  "limitations": [
+    "Browser experiences and displayed models are not a controlled comparison of underlying model capability.",
+    "Visible context flags do not prove neutrality for unflagged answers.",
+    "The supplemental Copilot Q1 answer is truncated and excluded. Supplemental Q12 session independence was not established.",
+    "Only 32 selected claims have mapped citation attachments; mapping was selected for recoverability and cannot support representative source-share comparisons. Factual verification is deferred.",
+    "Original strict health/budget context-free contrasts are unavailable. Q2-only alternatives are post-collection exploratory checks; budget has one repeat.",
+    "Portable copy: original provenance was verified before export; relocation.json links each original source to its byte-identical bundled copy. Original absolute paths in archived source captures are historical metadata, not runtime dependencies."
+  ],
+  "collection_protocol": {
+    "mode": "manual_browser_with_saved_evidence",
+    "fresh_chat_per_question": true,
+    "record": [
+      "exact_prompt",
+      "capture_timestamp",
+      "displayed_model",
+      "privacy_mode",
+      "sign_in_status",
+      "complete_answer",
+      "screenshot",
+      "original_dom_or_ax",
+      "citation_destinations",
+      "context_flags"
+    ],
+    "never_replace_originals_with_selected_retries": true
+  },
+  "interpretation_requirements": [
+    "Where does the focal brand win or lose, to whom and why?",
+    "Could a larger competitor substitute for the focal brand advantage?",
+    "Close every finding with confidence, diligence risk or a management question."
+  ],
+  "publication": {
+    "evidence_kind": "sanitized_browser_export",
+    "raw_originals_distributed": false,
+    "measurement_parity": "Checked against the original reviewed browser benchmark"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q1/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand should I buy, and why?",
+  "reviewed_answer": "My pick is Good Culture, with Daisy as the best value alternative.\n\nGood Culture keeps coming out on top in independent taste tests. Chowhound’s reviewer named its 2% version the clear winner, and it was the priciest tub she tried, about 28 cents per ounce, yet she still judged it worth the money. In a separate side-by-side tasting of eight national brands, its 4% version took best overall and won over both fans and skeptics thanks to a fluffy texture reminiscent of ricotta. It also has a short ingredient list and 14 grams of protein per serving, which is useful if you’re eating it for protein. \n\nDaisy is the one I’d grab if Good Culture is too expensive or your store doesn’t have it. Its ingredient list is very short (cultured milk, cream, and salt, with no gums or stabilizers), and in that same eight-brand tasting it ranked most creamy, rich in both flavor and texture. It’s usually noticeably cheaper and sold almost everywhere. \n\nA few situational picks are also worth knowing. If you want fat-free, Sporked’s tasters were surprised that Trader Joe’s fat-free version took their top spot. If you’re lactose intolerant, Lactaid makes a lactose-free version. If you like a tangier, more old-fashioned curd, Hood Country Style has loyal fans, though tasters’ opinions on it were split. \n\nStart with Good Culture 4% if you want the best taste and texture. Get Daisy 4% if you want the best everyday value.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

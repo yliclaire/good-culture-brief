@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q1/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand should I buy, and why?",
+  "reviewed_answer": "If you want one pick: Good Culture, specifically the Classic 4% (or Double Cream) if you like it rich, or the 2%/low-fat if you’re watching calories.\n\nIt keeps coming out on top in independent taste tests. EatingWell’s dietitians and editors named Good Culture Double Cream Classic their best overall, and its Low-Fat Classic their best low-fat option. In another eight-brand comparison, Good Culture won over both cottage cheese fans and skeptics thanks to a fluffy texture reminiscent of ricotta. Chowhound also ranked Good Culture 2% as its definitive winner. Beyond taste, it has a short ingredient list and contains live and active cultures, which is a plus if you care about probiotics. The catch is price: Chowhound’s reviewer paid $4.49 for 16 ounces, noticeably more per ounce than any other brand she tried, though she still felt it was worth it. \n\nIf you’d rather spend less, Daisy is the best runner-up. It’s sold almost everywhere, typically cheaper, and made with just cultured milk, cream, and salt (no gums or stabilizers). Testers found Daisy’s 4% version rich and creamy in both flavor and texture. \n\nA few situational alternatives: Lactaid’s cottage cheese if you’re lactose intolerant, Hood if you’re in the Northeast or want a no-salt-added option, Nancy’s Organic if you want a tangier probiotic style, and Trader Joe’s or store brands if value is the priority.\n\nDo you mostly eat it plain, mix it into recipes, or use it for high-protein snacking? That could tip the choice between the full-fat and lower-fat versions.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

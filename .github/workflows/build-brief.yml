@@ -1,0 +1,50 @@
+name: Build investment brief
+run-name: "${{ inputs.operation }} · ${{ inputs.reviewed_study }}"
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Full investment brief, or legacy Good Culture measurement tables only
+        type: choice
+        options: [build-brief, build-browser]
+        default: build-brief
+      reviewed_study:
+        description: Registered reviewed study ID (used for the full investment brief)
+        type: string
+        default: good_culture_browser_2026_q4
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Check report JavaScript
+        run: |
+          for script in report/*.js; do
+            node --check "$script"
+          done
+      - name: Build from reviewed evidence (no API keys or collection)
+        env:
+          OPERATION: ${{ inputs.operation }}
+          REVIEWED_STUDY: ${{ inputs.reviewed_study }}
+        run: python automation/run.py "$OPERATION" --output artifacts/run
+      - name: Save report and reproducible ZIP
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: report-${{ inputs.operation }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            artifacts/run/
+            artifacts/run.zip
+          if-no-files-found: warn
+          retention-days: 30
+          include-hidden-files: true

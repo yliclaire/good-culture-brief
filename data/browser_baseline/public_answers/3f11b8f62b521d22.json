@@ -1,0 +1,14 @@
+{
+  "observation_id": "main/claude/Q2/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",
+  "reviewed_answer": "For a first try, I’d go with Good Culture Classic (4% milkfat). It consistently wins taste tests, and it’s especially good at converting people who aren’t sure they like cottage cheese. In one test of eight national brands, it won over both cottage cheese lovers and skeptics with its fluffy, ricotta-like consistency. EatingWell’s dietitians also named Good Culture’s Double Cream Classic their best overall pick. And a Chowhound reviewer who tried the 2% version said it smelled appealing as soon as she opened the container. That matters because some people are put off by cottage cheese’s smell or texture the first time. \n\nWhy full-fat for a first try: The 4% versions are creamier and milder. Lower-fat cottage cheese can taste tangier and feel more watery, which can be off-putting if you’re new to it.\n\nThe trade-off is price. Good Culture is a premium brand. One reviewer paid $4.49 for 16 ounces, noticeably more per ounce than any other brand she tried. If you’d rather start cheaper, Daisy 4% is a widely available, budget-friendly option that testers described as rich and creamy in both flavor and texture. \n\nTwo tips for your first taste: Stir it well before eating, and try it with something alongside, like fruit, honey, or black pepper and tomatoes. If you’re unsure about the curds, small-curd varieties are usually easier to like than large-curd ones.",
+  "audit_excerpts": [
+    "The trade-off is price. Good Culture is a premium brand. One reviewer paid $4.49 for 16 ounces, noticeably more per ounce than any other brand she tried. If you’d rather start cheaper, Daisy 4% is a widely available, budget-friendly option that testers described as rich and creamy in both flavor and texture. chowhound  aol "
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

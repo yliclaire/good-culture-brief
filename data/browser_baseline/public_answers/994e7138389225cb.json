@@ -1,0 +1,18 @@
+{
+  "observation_id": "main/perplexity/Q7/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI'm watching my sodium intake. Which brand or product should I choose, and why?",
+  "reviewed_answer": "Choose Hood No Salt Added Low Fat Cottage Cheese if you can find it. It has 60 mg sodium per 1/2-cup serving, no added salt, and 14 g protein—far below typical cottage cheese.\n\nBest picks\nProduct\tSodium per 1/2 cup\tWhy choose it\nHood No Salt Added Low Fat Cottage Cheese\t60 mg\tExplicitly no added salt; also low fat and high protein. \n\nLucerne Low-Fat, 1% Milkfat Cottage Cheese\t60 mg\tA widely cited no-added-salt option; 12 g protein per serving. \n\nA store-brand “no salt added” / reduced-sodium cottage cheese\tRoughly 45–200 mg\tOften the most accessible option; check the Nutrition Facts panel rather than relying on front-of-package wording. \nWhy this matters\n\nRegular cottage cheese commonly contains about 300–450 mg sodium per half cup, so a large serving can consume a substantial share of a 2,300 mg daily limit. If you have hypertension, heart or kidney disease, a clinician may advise a lower daily sodium target—often around 1,500–2,000 mg—making the low-sodium versions especially worthwhile.\n\nWhat to look for\n\nPick a label that says “no salt added” or “reduced sodium,” then confirm the number on the Nutrition Facts panel.\n\nAim for roughly under 100 mg per 1/2 cup if sodium is a major concern.\n\nFavor low-fat or 1% versions if you also want less saturated fat; they still provide substantial protein.\n\nIf only regular cottage cheese is available, rinsing the curds in a strainer can remove some surface salt, though it will not match a true no-salt-added product.\n\nBottom line: Buy Hood No Salt Added Low Fat Cottage Cheese first; Lucerne’s low-fat no-added-salt version is an excellent alternative. Both deliver the protein benefit of cottage cheese with only about 60 mg sodium per half cup.",
+  "audit_excerpts": [
+    "Choose Hood No Salt Added Low Fat Cottage Cheese if you can find it. It has 60 mg sodium per 1/2-cup serving, no added salt, and 14 g protein—far below typical cottage cheese. hood",
+    "Bottom line: Buy Hood No Salt Added Low Fat Cottage Cheese first; Lucerne’s low-fat no-added-salt version is an excellent alternative. Both deliver the protein benefit of cottage cheese with only about 60 mg sodium per half cup. hood +1",
+    "A store-brand “no salt added” / reduced-sodium cottage cheese Roughly 45–200 mg Often the most accessible option; check the Nutrition Facts panel rather than relying on front-of-package wording. safeway Why this matters",
+    "Best picks Product Sodium per 1/2 cup Why choose it Hood No Salt Added Low Fat Cottage Cheese 60 mg Explicitly no added salt; also low fat and high protein. hood",
+    "Lucerne Low-Fat, 1% Milkfat Cottage Cheese 60 mg A widely cited no-added-salt option; 12 g protein per serving. theskimm"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

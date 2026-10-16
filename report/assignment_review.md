@@ -1,0 +1,54 @@
+# Assignment review — 2026-10-16
+
+Source: DS_Take_Home_Brief 1.pdf, all three pages. This checklist distinguishes assignment requirements from our implementation choices. It evaluates the current Good Culture evidence and brief; it does not certify independent factual verification or final visual QA.
+
+## Required analysis
+
+| Assignment request | Where to review | Assessment |
+| --- | --- | --- |
+| Benchmark Good Culture against competitors: where it wins, loses, against whom and on what aspects | Investment brief, exhibits 1–3; explorer shopper-needs map and full competitor matrix | Addressed at brand level. Protein and live cultures, Daisy ingredient competition, private-label budget choices, lactose alternatives and stockout substitutes are retained. All observed discovery brands remain available. Brand-level analysis is permitted; a complete SKU audit was not performed. |
+| What the results mean for an investor | Interpretation beside positioning, competitor annotation, premium/substitution discussion and diligence questions | Addressed with a preliminary investment view, positioning evidence, pricing/substitution risks, captured challenges to the findings and priority-ordered diligence with outcomes that would strengthen or weaken the case. Engine recommendations are not treated as demand, conversion, pricing power or a proven moat. |
+| Would the position hold if a larger dairy brand pushed harder? | Premium & durability chapter; explorer → Durability | Addressed with an explicit incumbent attack scenario and a conditional competitive assessment. The table separates captured evidence, inference and needed diligence. The study does not estimate market-share effects or a probability of successful entry. |
+| Standard visibility floor: named, ranked, described and sources cited | Explorer → Robustness; shopper comparisons and answers; Methodology → Study definitions and evidence | Named/recommended/first-mention/overall-lead measures are available. Description is assessed through coded attributes, conditions and exact excerpts. Rank is operationalized as textual first mention and explicit overall choice because conditional responses and unordered lists do not share a defensible ordinal scale. A layer-separated inventory now names the recovered domains, links destination URLs and identifies contributing answers. Source coverage remains partial; see limits below. |
+| Better tests when visibility misses the investor question | Budget, premium, stockout and switching prompts; repeat consistency and context checks | Addressed with constraint and substitution tests. These measure engine behavior under chosen prompts, not observed household switching or willingness to pay. |
+| Explain how measured and what to keep tracking | Methodology → Research choices and trade-offs; explorer → Robustness; tools and future-evidence tables | Addressed. Track recommendations by need and engine, repeat consistency and comparable collection settings; test correspondence with conversion, retention, promotions and stockouts when data become available. |
+
+## Required explanation and delivery
+
+| Assignment request | Where to review | Assessment |
+| --- | --- | --- |
+| Framing, choices and trade-offs | Methodology → Study definitions, limitations and evidence | Addressed: deliberate prompt/competitor sample, equal question weights, browser surface, context flags, repeat unit, exclusions, and separate branded/discovery and main/supplement populations. |
+| AI/data-science tools, each contribution and why chosen | Same expanded section → Tool / method table; code/README.md | Addressed: browser interfaces, Codex assistance, codebook, Python, HTML/JavaScript and GitHub/API adapters. Tools built for future collection are distinguished from tools actually used for the current browser study. Same-assistant review is disclosed. |
+| Future tools/data and what they would answer | Same expanded section → Further investment evidence; diligence agenda | Addressed: household/retail data, SKU prices/promotions/availability, preference research, immediate citation capture/product checks and stronger context controls. Each proposed input has a specific question it could resolve. |
+| Traceable numbers and disclosure of thin samples | Answer links, filtered view exports, data/chart_tables/, data/report_data.json, release manifest | Automated checks reconcile metrics, memberships, exclusions, numeric bindings and captured excerpts. Main and supplemental answers remain separate; the supplement has one pass and one excluded truncated answer. Repeats are not independent consumers. This is not a claim that every narrative statement has been externally fact-checked. |
+| One ZIP/link and one main entry page | index.html, with print.html and supporting folders | Addressed by the release ZIP. The reviewer opens index.html first. The source kit and evidence are included; no keys are needed to open or rebuild the current study. No public hosting is required by the assignment. |
+| Hold up next quarter / optional new-brand capability | Methodology & reuse; code/README.md; GitHub workflow; Birkenstock configuration | Implemented and tested locally and through the separate GitHub entry points. Current data rebuild in one workflow operation; a new brand/wave requires collection, coding/narrative review, registration, then build. New category prompts/attributes/roster need review. Birkenstock is an uncollected design example. The separate collection-preview and brief-build workflows passed on GitHub. Live API compatibility remains untested. |
+
+## Limits that remain explicit
+
+- Citation/source analysis is partial. There are 32 mapped selected claims out of 698 selected claims. This is a recoverability-selected subset, not representative source coverage. Extracted URLs and exact answer evidence are retained, but we cannot establish which sources drive recommendations or infer source concentration for all answers. Some saved answers have no recoverable external URL. A link is not factual verification or evidence of influence.
+- Material product, nutrition, medical and price claims remain unverified, as the user elected to defer that work. Captured engine statements are labeled accordingly.
+- Original strict matched-context H1/H2 contrasts are unavailable. Q2-only alternatives were added after collection and are exploratory; the budget alternative retains only one pass. These do not repair the original design or support strong causal conclusions.
+- The browser series has visible account/location-context flags, and an unflagged answer is not proven neutral. The same assistant reviewed coding; there is no independent human agreement estimate.
+- The study is a deliberately selected answer-engine benchmark, not a representative consumer panel or demand forecast. No ordinal ranking distribution, complete SKU comparison or commercial market forecast is claimed.
+- The package passes automated numerical/link/runtime-model checks, but actual browser, keyboard, narrow-screen and print visual acceptance checks remain pending. It should not yet be labeled submission-ready.
+
+## Ground rules and implementation choices
+
+The assignment asks for an outside-in study, no company/retailer/competitor contact or non-public L Catterton material, and approval before purchasing paid tools/data. This revision used saved evidence, source code and the assignment PDF; it made no new engine calls, purchases, publication or external contacts. Historical collection provenance remains in the evidence package. No claim is made that the cumulative work took only the suggested 6–8 hours.
+
+Four main engines, three passes, a separate search supplement, Python, interactive HTML and GitHub Actions are our design choices, not prescribed requirements. The two-turn conversation in the assignment is an illustration, not a mandatory protocol. The new-brand stretch is optional; its actual operating boundaries are documented rather than presented as fully automatic investment interpretation.
+
+Before submission: inspect the final report in the intended browser and print layout, present the remaining source/context limits plainly. Factual verification stays deferred unless the user changes that scope.
+
+## Decision-support revision
+
+The brief now prioritizes premium durability diligence and states the proposed investment response. An incumbent scenario separates observation, assumptions, inference and tests; it is not a forecast. Each major finding has an expandable challenge using exact saved excerpts. Diligence requests show directional outcomes that would strengthen or weaken the case without inventing pass/fail thresholds.
+
+The workflow page now includes a synthetic quarterly monitoring demonstration and a fresh offline Birkenstock preview. Only the monitoring baseline is observed. The three illustrative next-wave cases are excluded from all study metrics, evidence and hypotheses. A recorded metadata or denominator change withholds a trend estimate; equal recorded settings do not establish full experimental control. The illustrative alert rule is not a statistical test. The monitoring module demonstrates one reviewed positioning question rather than claiming a complete production monitoring system. Live API collection remains untested; both GitHub entry points have passed hosted checks.
+
+## Current delivery status
+
+The repository exposes Collect engine answers and Build investment brief. Both passed hosted checks on revision 76090a5: [collection preview](https://github.com/yliclaire/good-culture-brief/actions/runs/38867472323) and [brief build](https://github.com/yliclaire/good-culture-brief/actions/runs/38867366346). Collection was preview-only, without provider keys or live requests. The README explains defaults, credential setup, downloads and the manual review/registration handoff. Older combined-workflow runs are retained as history.
+
+The final package has one main entry, index.html, and a short START_HERE.txt. Source code, reviewed data and both workflow definitions are included so repository access is optional for reviewing or reproducing the saved study. The citation inventory is descriptive and preserves each answer’s provenance; it does not repair missing citations or establish source influence.

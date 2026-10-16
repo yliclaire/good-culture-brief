@@ -1,0 +1,629 @@
+{
+  "note": "Sanitized publication derivatives, not byte-identical raw originals. Original capture SHA-256 is recorded in each derivative. Excerpts retained only to validate unchanged coding; no new collection or independent coding.",
+  "sources": {
+    "main/chatgpt/Q1/1": {
+      "path": "data/browser_baseline/public_answers/cdff92b62b5670c0.json",
+      "sha256": "eeeef1ab6e2f70326a6e143a0666cf5c70f5a3ecf1876e666257c9c8b3ee8b7d"
+    },
+    "main/chatgpt/Q1/2": {
+      "path": "data/browser_baseline/public_answers/8f2ad5b45b514374.json",
+      "sha256": "549f7abc8429e03067071f7539a31dd3a4b3f6d07e2b81c28c10a23a47417f10"
+    },
+    "main/chatgpt/Q1/3": {
+      "path": "data/browser_baseline/public_answers/48dc630aec5f6afb.json",
+      "sha256": "e09f56ef0f3f061d0cf3d41ac8b8d52b0dae173da7847916722f46e003919a42"
+    },
+    "main/chatgpt/Q2/1": {
+      "path": "data/browser_baseline/public_answers/8b70b96a9be05381.json",
+      "sha256": "9e0f81ebdd28912de3f46dee3216256077a7d840adf73f0c7f346b0ed58e45a2"
+    },
+    "main/chatgpt/Q2/2": {
+      "path": "data/browser_baseline/public_answers/0f8997ef167baead.json",
+      "sha256": "09eee5522b99a9e0bb807f6112e6a1d9e90160432d6eca868aad6a549d3f71d4"
+    },
+    "main/chatgpt/Q2/3": {
+      "path": "data/browser_baseline/public_answers/2aa014207ae1bf62.json",
+      "sha256": "64d05d3cfa876faf5dcf1d63183d853e8e3ecf166da3cad4ae8f59ffad402e60"
+    },
+    "main/chatgpt/Q3/1": {
+      "path": "data/browser_baseline/public_answers/13d5cb43e52a6080.json",
+      "sha256": "fc7dc5742e87e6203100f6da51277c92bdea776c0b12b9e3fab1d3cac720a518"
+    },
+    "main/chatgpt/Q3/2": {
+      "path": "data/browser_baseline/public_answers/53a7f09c6537c805.json",
+      "sha256": "60efd6bb43bf7b7ccc0aeab3ed58a31caadfdecd7b706e3d205c84d1a129afa8"
+    },
+    "main/chatgpt/Q3/3": {
+      "path": "data/browser_baseline/public_answers/d6ced86cd640a991.json",
+      "sha256": "74a8a8329bcd7bdc0b408019aaeeb747ea13ed1d277fc3f08e6b85add8376410"
+    },
+    "main/chatgpt/Q4/1": {
+      "path": "data/browser_baseline/public_answers/00380140bdaf6e4e.json",
+      "sha256": "78ebb3de09eb6644439ca29835fe0e5b023a34ea4d2c672496b792cfab17747a"
+    },
+    "main/chatgpt/Q4/2": {
+      "path": "data/browser_baseline/public_answers/b950a40e0cc97cc5.json",
+      "sha256": "b4024d3cf1379d3c181c50da009f9af5082e14e3920893db5d315b73729e1395"
+    },
+    "main/chatgpt/Q4/3": {
+      "path": "data/browser_baseline/public_answers/9257061ed78e24c9.json",
+      "sha256": "c3124b5c6cea8abac18333d466b31fe55d36b3dd9259255807de9161628c4208"
+    },
+    "main/chatgpt/Q5/1": {
+      "path": "data/browser_baseline/public_answers/92ef029924d509ca.json",
+      "sha256": "f5e12470d39187dbf4d683d55bd937b791e38e603367cab99bc2f834f75dc079"
+    },
+    "main/chatgpt/Q5/2": {
+      "path": "data/browser_baseline/public_answers/627d4fe5b33aa34f.json",
+      "sha256": "840fd6c97fd2ed3deba0890afb558a75ff698c4d2fd06b990bc775f7fb8f00aa"
+    },
+    "main/chatgpt/Q5/3": {
+      "path": "data/browser_baseline/public_answers/d2a13dde4d5ed3bd.json",
+      "sha256": "487caa7a1e14f7e429ebddc1ddae078a6f867978765a147474da50ae4e3a64b1"
+    },
+    "main/chatgpt/Q6/1": {
+      "path": "data/browser_baseline/public_answers/ae2e50f9d244cf71.json",
+      "sha256": "8a8bd0b5f63a712adebfea61bc3e5fb014e8286db04df84075926ffcf09d95b2"
+    },
+    "main/chatgpt/Q6/2": {
+      "path": "data/browser_baseline/public_answers/3b798dbc64b9cf9e.json",
+      "sha256": "9322cf13baa75ceae553b1cf67694ee70b0f7bbce0b80e99621dd2739fa750ce"
+    },
+    "main/chatgpt/Q6/3": {
+      "path": "data/browser_baseline/public_answers/061d97cef38f5f8f.json",
+      "sha256": "dabda90d2353bf038a2f749e89d2d5a775929d8c6d630718a35cf26edeb0e40f"
+    },
+    "main/chatgpt/Q7/1": {
+      "path": "data/browser_baseline/public_answers/561acccc2314a72b.json",
+      "sha256": "d9c848d23ffa576c3066186d4bf8552d9b6a3c29ed8cd0e4bbc6c8a1b3ab2d7e"
+    },
+    "main/chatgpt/Q7/2": {
+      "path": "data/browser_baseline/public_answers/f499ffd7eacf8998.json",
+      "sha256": "269203479b6e0ac0d02973ed23985042be76913754d9cdd9bd6dada4aa4f0b38"
+    },
+    "main/chatgpt/Q7/3": {
+      "path": "data/browser_baseline/public_answers/eeb4085ec58c9f3c.json",
+      "sha256": "8a9acacad5e3016849da39ae9e30ea2ed07d42fec19cab7b3ce98955b416799b"
+    },
+    "main/chatgpt/Q8/1": {
+      "path": "data/browser_baseline/public_answers/71e2da69e02327a3.json",
+      "sha256": "563ca21c522d6f0be185da1817508b9ddebbc132e473520eae69d83848435e89"
+    },
+    "main/chatgpt/Q8/2": {
+      "path": "data/browser_baseline/public_answers/4957c5948f90b403.json",
+      "sha256": "1d40a4e802cacf557324190fb9a96afd8e7e0315c40f8cd067276bf1f981c812"
+    },
+    "main/chatgpt/Q8/3": {
+      "path": "data/browser_baseline/public_answers/c80be3522adf3cad.json",
+      "sha256": "5e723a80537f3607cdaac2931a207344b367915d561ce259143718e324449a91"
+    },
+    "main/chatgpt/Q9/1": {
+      "path": "data/browser_baseline/public_answers/8273794f9c1cc83b.json",
+      "sha256": "4c62b39b4d76c0c346b4d35cf38aafd0d766f417b7e640feaffe1dd5d7164e42"
+    },
+    "main/chatgpt/Q9/2": {
+      "path": "data/browser_baseline/public_answers/aa9fd795d7a5dbba.json",
+      "sha256": "321159a84c7a29ab3f358db3486a0a31c3a91f7c939ab81545cab0c7e6f93ca8"
+    },
+    "main/chatgpt/Q9/3": {
+      "path": "data/browser_baseline/public_answers/c057a1f4f1cd5f05.json",
+      "sha256": "cbc3906e0a1188cd66bce92b2ab801a8a99ae3463fbcc25df27e13af84e8107e"
+    },
+    "main/chatgpt/Q10/1": {
+      "path": "data/browser_baseline/public_answers/ed3d8d1b9f545b52.json",
+      "sha256": "502b5b1b42940951e4e56fba5f091747802c635bf3cd389aa4b0c58044bd5396"
+    },
+    "main/chatgpt/Q10/2": {
+      "path": "data/browser_baseline/public_answers/3eaaffb48b8f6c3b.json",
+      "sha256": "82680cff88eaa235b53f979917a38ec28b020487124c6ab8c7c028e540f69523"
+    },
+    "main/chatgpt/Q10/3": {
+      "path": "data/browser_baseline/public_answers/509de66b6e95fa4b.json",
+      "sha256": "aa5fafffee550041fdcfdfe4313c05e7496553a22a25dab212573754ce123b62"
+    },
+    "main/chatgpt/Q11/1": {
+      "path": "data/browser_baseline/public_answers/27306b9bd842902d.json",
+      "sha256": "468c9da880f3bcd525adf7dac899dda73244bf33134aa698aadc3a2829de73e4"
+    },
+    "main/chatgpt/Q11/2": {
+      "path": "data/browser_baseline/public_answers/0a1c6ec7e785261e.json",
+      "sha256": "9a9b9e39212324811c144c438f6a8dda322613817de6d609c05f6374551c3d10"
+    },
+    "main/chatgpt/Q11/3": {
+      "path": "data/browser_baseline/public_answers/bf21fd0da6ff5f76.json",
+      "sha256": "d883c9b95779c4a36172ca6f9a37ddaefb1e747c8770cc6df9af8d888ff7faa3"
+    },
+    "main/chatgpt/Q12/1": {
+      "path": "data/browser_baseline/public_answers/458d4c618ff0ba3c.json",
+      "sha256": "0e2fa7b58fa80bbcce0254c05f1c6ea8a342850278838ff01e9987658ba52bd4"
+    },
+    "main/chatgpt/Q12/2": {
+      "path": "data/browser_baseline/public_answers/df5c0599a401739f.json",
+      "sha256": "6f2b1660aee7cd51ff2979ece0cd45d3f01db7e4f8751cdb50b46417e8341335"
+    },
+    "main/chatgpt/Q12/3": {
+      "path": "data/browser_baseline/public_answers/f2e6160ca903e682.json",
+      "sha256": "ec4707d22d36d79df0d4a83a1650edd3e114868e0e1dc892d0740588511e419e"
+    },
+    "main/claude/Q1/1": {
+      "path": "data/browser_baseline/public_answers/0db859fef4b4a051.json",
+      "sha256": "c3e88f9cda907e7d95b7e44087d507de6e1c831157de025c69408c9cb1a039b9"
+    },
+    "main/claude/Q1/2": {
+      "path": "data/browser_baseline/public_answers/18de4189fcbfe17c.json",
+      "sha256": "96af1314617b009b0266c4291edcac505f0cf12d03b4868124540601e9150e03"
+    },
+    "main/claude/Q1/3": {
+      "path": "data/browser_baseline/public_answers/be03ad3cf1624e29.json",
+      "sha256": "f2c5cd4c8e5bfa1d884cd14f05595264182d60eec5277b48f536dfa71903e11a"
+    },
+    "main/claude/Q2/1": {
+      "path": "data/browser_baseline/public_answers/d44c3f848cfd2b2e.json",
+      "sha256": "d01f345c2fdc2f4f5f5a3ee72161a2210ca118edd34e9364a6fd317407552f37"
+    },
+    "main/claude/Q2/2": {
+      "path": "data/browser_baseline/public_answers/3f11b8f62b521d22.json",
+      "sha256": "5b010216b905267182665929cd17d28fd5db3d69a945fd3579ba0a6c4b513b37"
+    },
+    "main/claude/Q2/3": {
+      "path": "data/browser_baseline/public_answers/e20a34f6766890ae.json",
+      "sha256": "80d04cf0331dd20a1a3d471d648766f8ea46e6e53d5a131e91d213c5661e90bd"
+    },
+    "main/claude/Q3/1": {
+      "path": "data/browser_baseline/public_answers/9e28d08f2c37c06d.json",
+      "sha256": "f981ba310c53ae35d749eb06ad74dfffb8f6b3447b8a2f1bfa53d1e0b77e5ccc"
+    },
+    "main/claude/Q3/2": {
+      "path": "data/browser_baseline/public_answers/ae9034bef9bc588b.json",
+      "sha256": "1ae4117cc7f631e4681d8b8be972bef1f23ad04449f8e9520a19ff9496615de6"
+    },
+    "main/claude/Q3/3": {
+      "path": "data/browser_baseline/public_answers/26e7002068176213.json",
+      "sha256": "68ec5226ee4c66ac3dba0fe56d8796b645e0ab2452e14c362ce5bf0ac77cde88"
+    },
+    "main/claude/Q4/1": {
+      "path": "data/browser_baseline/public_answers/49940c20ff7395c7.json",
+      "sha256": "ca9ba39dd2624af01be2f8ab5a280bff80d1a682e6545171361999a64cb99c2f"
+    },
+    "main/claude/Q4/2": {
+      "path": "data/browser_baseline/public_answers/bb45a67fdbffd236.json",
+      "sha256": "9ec3687584fcd97ec84cbcd0e568a06eb1c120fcb68e335f932fb43ed324ac54"
+    },
+    "main/claude/Q4/3": {
+      "path": "data/browser_baseline/public_answers/dddd30a374b3ba59.json",
+      "sha256": "463804325d94400e4f05929d850f770d6a9d7e9ffcf955a2ed06ccc693425b99"
+    },
+    "main/claude/Q5/1": {
+      "path": "data/browser_baseline/public_answers/c25eb76a88c63a15.json",
+      "sha256": "5ea42502c54b2b1a83687c2efd63bbfd4371d6c24c099226cb8a9da649421ed9"
+    },
+    "main/claude/Q5/2": {
+      "path": "data/browser_baseline/public_answers/331eba7a9d7ed1d6.json",
+      "sha256": "c59acbd00b4db25724cf0f37a2056feda9300c1b69f8f45b00784e854d199fef"
+    },
+    "main/claude/Q5/3": {
+      "path": "data/browser_baseline/public_answers/089024aa3c6f3587.json",
+      "sha256": "df31e42c9567d06ad910a459610065137a8e6d0eb84534be3511d4deb6bddac1"
+    },
+    "main/claude/Q6/1": {
+      "path": "data/browser_baseline/public_answers/c1516f7fd75441f7.json",
+      "sha256": "c0c5ddf00bb1c36bc0d20ecb0931c549fece581936828438cc0ab05cd50f8fdc"
+    },
+    "main/claude/Q6/2": {
+      "path": "data/browser_baseline/public_answers/d6d61ab6bd04e66f.json",
+      "sha256": "29164891063a3211a39e0e19b0bb3cd9639f922769f43c05bc3de1b7b684c33c"
+    },
+    "main/claude/Q6/3": {
+      "path": "data/browser_baseline/public_answers/6c6fe07c3a903b73.json",
+      "sha256": "0dfffd098de61cda17db7a61955b5a3f4413bcbfe469511521986c99920e6019"
+    },
+    "main/claude/Q7/1": {
+      "path": "data/browser_baseline/public_answers/75611afdeaa2ba6f.json",
+      "sha256": "52a4705cee404c87fb29f9fccd12a1547003bc664037ed08cc511da71f50d89c"
+    },
+    "main/claude/Q7/2": {
+      "path": "data/browser_baseline/public_answers/42b39ce62588a1a9.json",
+      "sha256": "af1a8742b3cdf2a7a59c1de257220167a0937ae56a221c6c36b9c7196b88defa"
+    },
+    "main/claude/Q7/3": {
+      "path": "data/browser_baseline/public_answers/64d1e2c057f6bf5a.json",
+      "sha256": "1d8eb2a9dd8401323788e8f39fca57f900c092921807f05daf47585620d8b730"
+    },
+    "main/claude/Q8/1": {
+      "path": "data/browser_baseline/public_answers/7a00513fb55d4194.json",
+      "sha256": "93e420f3305767f836fa5e574af4dc6f6a3093faae2ef569e342bf4640bc45bc"
+    },
+    "main/claude/Q8/2": {
+      "path": "data/browser_baseline/public_answers/8a9e30d5ee2e6370.json",
+      "sha256": "48c1ddc53989f19c000a26e175d5501ff6bbf41967fcd867ebf26304e08f2442"
+    },
+    "main/claude/Q8/3": {
+      "path": "data/browser_baseline/public_answers/70dbcad383d68cc3.json",
+      "sha256": "987a9e1ec76533f0cc43a0402168b789be0146561311cac7c86d2b8004b05ddd"
+    },
+    "main/claude/Q9/1": {
+      "path": "data/browser_baseline/public_answers/fce6f215d66d6ad0.json",
+      "sha256": "c0d949bd4f2cdfa6be4e92a38dac5b7c3c0a400abf9792afdb4ae5efb5744ced"
+    },
+    "main/claude/Q9/2": {
+      "path": "data/browser_baseline/public_answers/74b7ae3b6e8ab9cc.json",
+      "sha256": "53cda2f6e63e2410f3651ba4d51214a17914a08365fc5db39a335dc1a2a4652d"
+    },
+    "main/claude/Q9/3": {
+      "path": "data/browser_baseline/public_answers/ef877ade2af6d801.json",
+      "sha256": "197cc5bfc4dad7503063f24bc1f09d29e9eaaeff5f108626fa60ebafa5ff1953"
+    },
+    "main/claude/Q10/1": {
+      "path": "data/browser_baseline/public_answers/010b89c016f5e674.json",
+      "sha256": "05fc26f156b16ec7c57ce3f8b15f879ca88d8697bfe9984738d06a59de97eba2"
+    },
+    "main/claude/Q10/2": {
+      "path": "data/browser_baseline/public_answers/9097a6dd830f0e31.json",
+      "sha256": "d479126d1ff86e1e6ecae7edc65def7912637522f787416a6dc194a34d29557d"
+    },
+    "main/claude/Q10/3": {
+      "path": "data/browser_baseline/public_answers/1257ed511e3d3002.json",
+      "sha256": "e1532a69a0a32f17c5ef77b8e1f28cf97b2ba459bb67f615900640cc552089ff"
+    },
+    "main/claude/Q11/1": {
+      "path": "data/browser_baseline/public_answers/0b75b764632414a6.json",
+      "sha256": "fd67634b2495b9913e59f9b985454f07b134f750ba5cac8941164ddc0d55d52c"
+    },
+    "main/claude/Q11/2": {
+      "path": "data/browser_baseline/public_answers/8c168ec75fec41da.json",
+      "sha256": "5544f87c7616987d676de4ba5b4be19f71a476827ac3e42d54e87c19222b7535"
+    },
+    "main/claude/Q11/3": {
+      "path": "data/browser_baseline/public_answers/8dd7ede922e5d775.json",
+      "sha256": "15b13722ad86b4ee571ab0add21a1aeeb62306e8dbc51eb04a5f18bb0149e227"
+    },
+    "main/claude/Q12/1": {
+      "path": "data/browser_baseline/public_answers/c6b929193ff31275.json",
+      "sha256": "0e7a20e3d4f81eca69afcee56c64b7fe17234d97835d103b06b988e02d28a43d"
+    },
+    "main/claude/Q12/2": {
+      "path": "data/browser_baseline/public_answers/8807865683427e72.json",
+      "sha256": "2ac87bf8131250859b9aa4e03cb7a8d85fb60be45c7bbdff1cfb1850f67e583b"
+    },
+    "main/claude/Q12/3": {
+      "path": "data/browser_baseline/public_answers/b8ce44b834c8185a.json",
+      "sha256": "69e1b3ee1dd1911ae59084d70ac1454907bbdaff210292a2cf7d00b50ffe7106"
+    },
+    "main/gemini/Q1/1": {
+      "path": "data/browser_baseline/public_answers/ffc5ff68768d5794.json",
+      "sha256": "fa46cf94f9eed0fb6d251567bb5a09c6aa84224762017fcbd7067257682383fe"
+    },
+    "main/gemini/Q1/2": {
+      "path": "data/browser_baseline/public_answers/c2fd8927b88b0982.json",
+      "sha256": "f3570f859b53a6da01dae69fd679f49a1c2e4c25525c6294cd4848066ee52417"
+    },
+    "main/gemini/Q1/3": {
+      "path": "data/browser_baseline/public_answers/f8f70192f64aa94d.json",
+      "sha256": "4deef5a694745d8dbb0aba70eeeb46461415469931d6c2fe68579663362207c2"
+    },
+    "main/gemini/Q2/1": {
+      "path": "data/browser_baseline/public_answers/913d96d711f4c670.json",
+      "sha256": "54afabab2bff724dc25e2eb2fea870975e43f65b411ce21992fcd16bf9c38a0e"
+    },
+    "main/gemini/Q2/2": {
+      "path": "data/browser_baseline/public_answers/c26db6d8319e3825.json",
+      "sha256": "808be0d3c86fbcec1362dd33281c1c7720b7ce625c65309897d0d6621f1eb9f5"
+    },
+    "main/gemini/Q2/3": {
+      "path": "data/browser_baseline/public_answers/d00d64529c063dac.json",
+      "sha256": "7c397d3aee5a8327f0d91ec4007510405c074a501f20a1eb28da8e31dd316564"
+    },
+    "main/gemini/Q3/1": {
+      "path": "data/browser_baseline/public_answers/15a42f25261c4bc1.json",
+      "sha256": "95de60bfd85c6edc38abafc343773a464f81d0df999e002130516c8e21f0c6bb"
+    },
+    "main/gemini/Q3/2": {
+      "path": "data/browser_baseline/public_answers/33c11f19c74a54e4.json",
+      "sha256": "4ae31dc0bf29bb66c047824cc791d57aaa25f74336276cacc8192ed1f20af3fe"
+    },
+    "main/gemini/Q3/3": {
+      "path": "data/browser_baseline/public_answers/c6bf1f3969ac444f.json",
+      "sha256": "dd5d733966622a7068dc6401a14fbcab1d7e00f5c5e0e6e2f5a432485fa7d8cb"
+    },
+    "main/gemini/Q4/1": {
+      "path": "data/browser_baseline/public_answers/feccf67772e7ab30.json",
+      "sha256": "1e38b9c0d70045bc0fd2e2f48ac50ec772fdcfdf297852090345c7cecfaac1fc"
+    },
+    "main/gemini/Q4/2": {
+      "path": "data/browser_baseline/public_answers/6234ffc5e363c5e6.json",
+      "sha256": "2e47aa4bfcf3773044d2a6e11cbcb52239e0d9e2ca9d193c062a37f8c3860514"
+    },
+    "main/gemini/Q4/3": {
+      "path": "data/browser_baseline/public_answers/46412766cdb97b92.json",
+      "sha256": "db00ba71c81f4135c48d07aaff0ae47c73ff72e8c074dc3e98e06a80b4209650"
+    },
+    "main/gemini/Q5/1": {
+      "path": "data/browser_baseline/public_answers/5c93ba9ca3c0261f.json",
+      "sha256": "24cf404fc20e89329b3846073ff53a620ed7c297d77613a399d94bd9f5647dff"
+    },
+    "main/gemini/Q5/2": {
+      "path": "data/browser_baseline/public_answers/cb62ab197835130b.json",
+      "sha256": "9310914438a9a12c9bbf66700c81bf008bf8fe9351bc14fb4fbb74a293f4e467"
+    },
+    "main/gemini/Q5/3": {
+      "path": "data/browser_baseline/public_answers/9a9bd72b00140aba.json",
+      "sha256": "448aef0b32813aa84089d94a45ad678b1321bd5d28bd38ee0006ea8b2d3b4d5e"
+    },
+    "main/gemini/Q6/1": {
+      "path": "data/browser_baseline/public_answers/d7f51bf6ffeafc30.json",
+      "sha256": "b73a5fb65f83df53d365aecbf57d9e76b59091d09d7014479b0b540aa38b6c97"
+    },
+    "main/gemini/Q6/2": {
+      "path": "data/browser_baseline/public_answers/3fd08402301fd48d.json",
+      "sha256": "eb8739050658c9a6dcfa6bca614f6a4b95af1d30fed7a0aa703a875adaaae6e9"
+    },
+    "main/gemini/Q6/3": {
+      "path": "data/browser_baseline/public_answers/1072857a4b0510c2.json",
+      "sha256": "a63108c4cdbd8c1f5b34c05ae95be09fd165c7a0c4dbec18acff01a5a5daf4d6"
+    },
+    "main/gemini/Q7/1": {
+      "path": "data/browser_baseline/public_answers/e75fc3a369b618c7.json",
+      "sha256": "d053064f9d10079c70a3064d246ceacb5694fb0963bff65dc007202f6f840af4"
+    },
+    "main/gemini/Q7/2": {
+      "path": "data/browser_baseline/public_answers/242a6ebd0e3d90a8.json",
+      "sha256": "1b55425abd22d01a0d45027ddb1c34fec83cb28e878a69632d79eda9df1e5f8f"
+    },
+    "main/gemini/Q7/3": {
+      "path": "data/browser_baseline/public_answers/e56dc3042737a699.json",
+      "sha256": "74c9d2aa1ff399a9a6c87cda2d73f288d72324dcf96e48df259f59a27b283292"
+    },
+    "main/gemini/Q8/1": {
+      "path": "data/browser_baseline/public_answers/4f67e3126639afb2.json",
+      "sha256": "543915081ed46b5d9ea896797a6caf0071b805c333101e93ef8cb1681778d037"
+    },
+    "main/gemini/Q8/2": {
+      "path": "data/browser_baseline/public_answers/216f27f0fd8dda28.json",
+      "sha256": "79e33105581580f7447128bcfd60eeb08cdbf12ac20184012d4a9b9d41389e84"
+    },
+    "main/gemini/Q8/3": {
+      "path": "data/browser_baseline/public_answers/c9cb9bbd9aa061a5.json",
+      "sha256": "6f13bc5dbaac3d2147f202cd45b71b95f87cf2b669f5775be84eb9ff152b7dd3"
+    },
+    "main/gemini/Q9/1": {
+      "path": "data/browser_baseline/public_answers/b3b3be4648abaab1.json",
+      "sha256": "687996ee1865782a96162e1511bc749d7b1310ce8fc8a9411f3dd67d39c7a244"
+    },
+    "main/gemini/Q9/2": {
+      "path": "data/browser_baseline/public_answers/5bf5c67f6290384e.json",
+      "sha256": "c342e5aa97ea195623bafa9f02c0d1824e370d2c5f3a16bd09b45b57cb7f15d8"
+    },
+    "main/gemini/Q9/3": {
+      "path": "data/browser_baseline/public_answers/b879fff1ba4da0bf.json",
+      "sha256": "95c71b189500cf68780b2e732c52f363e4b915a197728a3941154ca3ded796d0"
+    },
+    "main/gemini/Q10/1": {
+      "path": "data/browser_baseline/public_answers/2ea76c5c78b15723.json",
+      "sha256": "7e2297cab3a9eace202fc44c2f1b5e05a84a9926fa22844222bd45dcfc069ea1"
+    },
+    "main/gemini/Q10/2": {
+      "path": "data/browser_baseline/public_answers/4dd60efb3ad95e35.json",
+      "sha256": "1dbc31ba48a6384db43039dac0a38ffd59ec3b30368dd56ed719c4d17a83985e"
+    },
+    "main/gemini/Q10/3": {
+      "path": "data/browser_baseline/public_answers/ef495c17e40a793f.json",
+      "sha256": "4fc0dd944970714dd9b79b26aaf91fc575b67575f654518d3abfcd2786bc6ed2"
+    },
+    "main/gemini/Q11/1": {
+      "path": "data/browser_baseline/public_answers/523586ba23032343.json",
+      "sha256": "05f10c3ce3dc267e8ce6371bc1e4f6ab7e16c29be31ff6a98313bda3f4731007"
+    },
+    "main/gemini/Q11/2": {
+      "path": "data/browser_baseline/public_answers/14f27f871d2cf502.json",
+      "sha256": "409e3a0a9b50ab9323e69193ff1ffd2d080176a4be9ac69ffc863cc667663773"
+    },
+    "main/gemini/Q11/3": {
+      "path": "data/browser_baseline/public_answers/c8e0e90720638a02.json",
+      "sha256": "af0696e388d3545745503c9d3163222b532cc97d1ec0c425ebe8aa3d46237cc0"
+    },
+    "main/gemini/Q12/1": {
+      "path": "data/browser_baseline/public_answers/255e30f87cf68d69.json",
+      "sha256": "012f0c976c6985be503a45c7ecf7af17717a788b88b4f921982b5fe9e4c3244e"
+    },
+    "main/gemini/Q12/2": {
+      "path": "data/browser_baseline/public_answers/fce77b42c079f7b0.json",
+      "sha256": "d439235a43c7870326eac5932175d4b5e472e219f63f2f7e38c2c6b14df2068f"
+    },
+    "main/gemini/Q12/3": {
+      "path": "data/browser_baseline/public_answers/400da1d3c94e27be.json",
+      "sha256": "25c4abc291a3d52441803368b9bc7c2ca6bff8110056a58293f42a7750e9d5db"
+    },
+    "main/perplexity/Q1/1": {
+      "path": "data/browser_baseline/public_answers/2436bcfe3eccccbf.json",
+      "sha256": "1d9f2d44a58517038d390757abfd4a41586b69c391d2837a9cc8bdd318e44df0"
+    },
+    "main/perplexity/Q1/2": {
+      "path": "data/browser_baseline/public_answers/eb02cec0ed726f6a.json",
+      "sha256": "4cd3f723de85cdb3e9d3a3b748c20a8ccc2c2867514374ae75c4e662acc743cc"
+    },
+    "main/perplexity/Q1/3": {
+      "path": "data/browser_baseline/public_answers/4e87bf9838d9bcb5.json",
+      "sha256": "8a9a85f880b85d8eb5b667ba8aeebeba91deb30b98dc51765491f6439c31538d"
+    },
+    "main/perplexity/Q2/1": {
+      "path": "data/browser_baseline/public_answers/55b2a68bbc193d0b.json",
+      "sha256": "d96cee50a75872c74227f5d05289818a59dd7cc2f16356be697b64d9a03acef9"
+    },
+    "main/perplexity/Q2/2": {
+      "path": "data/browser_baseline/public_answers/6b549434065ab13e.json",
+      "sha256": "c8477e721f8a03082533a8281cb8d1cdf01fa264efa721a5ea01197cb0a27734"
+    },
+    "main/perplexity/Q2/3": {
+      "path": "data/browser_baseline/public_answers/98e0f47bf593c0fd.json",
+      "sha256": "cd841a5d3c8e418615bc86f9030735f57ce18b6184de9436b46234e5fcda5418"
+    },
+    "main/perplexity/Q3/1": {
+      "path": "data/browser_baseline/public_answers/5ab17e576fcbefaa.json",
+      "sha256": "ea433a1181931d9f74cb3ca75a29479a8fa68dbddfbe6fd46b824f6c71ddbb9d"
+    },
+    "main/perplexity/Q3/2": {
+      "path": "data/browser_baseline/public_answers/5c5c20b101954149.json",
+      "sha256": "e6c3f1e388be940350fd8c215fb8db036ec82f0aab598482da120df8d803b285"
+    },
+    "main/perplexity/Q3/3": {
+      "path": "data/browser_baseline/public_answers/e422f1eb0b2c6ceb.json",
+      "sha256": "56d97d255b8aac4b886645b840a867c1260843cba7045e7f11cdda1868e2b231"
+    },
+    "main/perplexity/Q4/1": {
+      "path": "data/browser_baseline/public_answers/587c722d9373f806.json",
+      "sha256": "60e49a025b93c99f4b009692b846899284ef8042b24d194f6d165ec971d75f2c"
+    },
+    "main/perplexity/Q4/2": {
+      "path": "data/browser_baseline/public_answers/3af6265e3c956f44.json",
+      "sha256": "c28501a48418e520164d63f263a005c20868b6453592f2a1bbf96218981cabeb"
+    },
+    "main/perplexity/Q4/3": {
+      "path": "data/browser_baseline/public_answers/42a422a89aad42ca.json",
+      "sha256": "4438da3fd79c954bac7463c9dbaa6e3ba304e8dcb1dca8d4306c7e770f929e2d"
+    },
+    "main/perplexity/Q5/1": {
+      "path": "data/browser_baseline/public_answers/2df4f4f4ddf15678.json",
+      "sha256": "8a3639619ac40f498448d046c13274570861cdb1c703f82d1113df131ad57526"
+    },
+    "main/perplexity/Q5/2": {
+      "path": "data/browser_baseline/public_answers/e797a1d9ada46140.json",
+      "sha256": "02aa937783cd0d101bc0f1ea79d5bb3d5c27faab72b3085d0a35a2dc3cfb4869"
+    },
+    "main/perplexity/Q5/3": {
+      "path": "data/browser_baseline/public_answers/cd03a79c24b75dd4.json",
+      "sha256": "0d79636d95efc293be73e998d368a52aa1c052ed8efaa18a0b1e46794edc5738"
+    },
+    "main/perplexity/Q6/1": {
+      "path": "data/browser_baseline/public_answers/bc7b7fa0616f9144.json",
+      "sha256": "82f0f416bb82a38e1bf82173ddae2813b278ce92b6233d3e6e3bd891a3506ded"
+    },
+    "main/perplexity/Q6/2": {
+      "path": "data/browser_baseline/public_answers/917fe7e32571a737.json",
+      "sha256": "3b6b28244099acd357f9d80e98cddbad438cb3f2a0ac9a188839e58026a6ff25"
+    },
+    "main/perplexity/Q6/3": {
+      "path": "data/browser_baseline/public_answers/37a7d9a14246c904.json",
+      "sha256": "15b787b940794022c02f94133d0974f7f4dfa14b67dfb5d9e05fb3307f9724ed"
+    },
+    "main/perplexity/Q7/1": {
+      "path": "data/browser_baseline/public_answers/823b44e5b6485e68.json",
+      "sha256": "3d3b03b3b53700e9e8e36242a44547528542b6520dcfaddb44f998e57c953fe9"
+    },
+    "main/perplexity/Q7/2": {
+      "path": "data/browser_baseline/public_answers/994e7138389225cb.json",
+      "sha256": "bce110bf509d531c63fcc9e90aa14c5d842e3e68630fc3a79049cd884896d971"
+    },
+    "main/perplexity/Q7/3": {
+      "path": "data/browser_baseline/public_answers/abf5503fb1181ad3.json",
+      "sha256": "92cd059d4fdd72e1c1ee6871110678ab167ba9a64154a7b8f6561c6ec8ecac25"
+    },
+    "main/perplexity/Q8/1": {
+      "path": "data/browser_baseline/public_answers/ec756abb38b6c6fb.json",
+      "sha256": "cdf65bf09bf169cb057060e912ac686e1459324751ebc214cac5c32abb05e5b7"
+    },
+    "main/perplexity/Q8/2": {
+      "path": "data/browser_baseline/public_answers/941d4b3f1764c09a.json",
+      "sha256": "548f89195d346a01c9e1f6691be50e1495a86e24b7ffc78bc17ca6c26f2aba51"
+    },
+    "main/perplexity/Q8/3": {
+      "path": "data/browser_baseline/public_answers/f3c1474d84e1150c.json",
+      "sha256": "b0fdb9935643cd649190083883db5cc0e1138a218b52a10f8436b7139c7bd8dc"
+    },
+    "main/perplexity/Q9/1": {
+      "path": "data/browser_baseline/public_answers/ae9d561f1f727906.json",
+      "sha256": "0cad517d68bdcf6cb76432b9513ca15df4aba693b9fde66f438b793453bb4d54"
+    },
+    "main/perplexity/Q9/2": {
+      "path": "data/browser_baseline/public_answers/92dad354e3ddeb52.json",
+      "sha256": "3d1c368edeb93fc0cd61809c22bad8b334b36fe7cfc7b461bff53891252957f5"
+    },
+    "main/perplexity/Q9/3": {
+      "path": "data/browser_baseline/public_answers/7a67f4150fe11df2.json",
+      "sha256": "ceef6b9353adbd2203308098d1be13177874e845c6fc3bdc614ab30d49affbde"
+    },
+    "main/perplexity/Q10/1": {
+      "path": "data/browser_baseline/public_answers/3e83d2d123c60eb9.json",
+      "sha256": "eeaa107ade6df262339133bb50813b549c537e89a91f934744b4e822a9a8d883"
+    },
+    "main/perplexity/Q10/2": {
+      "path": "data/browser_baseline/public_answers/9e2fd3bfb4d1d10d.json",
+      "sha256": "690b024900c79bf553517142b9a3a1a2f82203a6e96e208df670c01ac9bc7765"
+    },
+    "main/perplexity/Q10/3": {
+      "path": "data/browser_baseline/public_answers/1f01dd1dd9f572fc.json",
+      "sha256": "ca326b5a5f0313c9a8a953607520fd5e799cc6daf13ba3819d892d93a5fe1847"
+    },
+    "main/perplexity/Q11/1": {
+      "path": "data/browser_baseline/public_answers/0f015557ea311f87.json",
+      "sha256": "8be036ae871cf72f988e3aec9dc8ea37b5218688e20ee8a7b35db7e1219916d1"
+    },
+    "main/perplexity/Q11/2": {
+      "path": "data/browser_baseline/public_answers/44d8f8f80e5962a3.json",
+      "sha256": "7a31b84a6b4189430ecc752104752a2f8e5048d5944e7d57f30033abc092bf24"
+    },
+    "main/perplexity/Q11/3": {
+      "path": "data/browser_baseline/public_answers/9b89d501c75c0f93.json",
+      "sha256": "068cb51c59b914ebfaeeb53e8cec13f1fdf5cbac1b157a2cc49bbe5e25344752"
+    },
+    "main/perplexity/Q12/1": {
+      "path": "data/browser_baseline/public_answers/8034fce6902cd2ce.json",
+      "sha256": "1e6f3a82ea7657e56ce45de8da1df6a91b3e563329049fa4a850f6f08c09c08e"
+    },
+    "main/perplexity/Q12/2": {
+      "path": "data/browser_baseline/public_answers/fc2974d723b16db4.json",
+      "sha256": "30d4b9f0b4ed7e3ab30e8830682ecb5b3d9dfd095086eff409acf5062bc075fc"
+    },
+    "main/perplexity/Q12/3": {
+      "path": "data/browser_baseline/public_answers/b239685ee0191f9a.json",
+      "sha256": "19aef288a15bc482d40aa1ed9021a82ec4ea651f8752a7ca68c3438ec3a4891a"
+    },
+    "supplement/copilot_search/Q1/1": {
+      "path": "data/browser_baseline/public_answers/b91a66608830fb74.json",
+      "sha256": "695dccecc59e6da1e83f39f4dd5c2bb2a490e9284d046f26513a0fae27a4b379"
+    },
+    "supplement/copilot_search/Q2/1": {
+      "path": "data/browser_baseline/public_answers/0918fec5bbb3acb5.json",
+      "sha256": "1ad8e29a44d6ce5582d37e6b2c401759d45a69fe5fe8e48fc0c0144431f5b29e"
+    },
+    "supplement/copilot_search/Q4/1": {
+      "path": "data/browser_baseline/public_answers/bc5fc190ec7b7793.json",
+      "sha256": "8ae37566fc26d2b7a8f8db5cbdfd41f2e08c8dd250ced10dfdc063233a1e1622"
+    },
+    "supplement/copilot_search/Q6/1": {
+      "path": "data/browser_baseline/public_answers/878a9625cd780c8e.json",
+      "sha256": "ff1d467bc06c3f8b9b45448f77b3b6d78d86d1e7716921b95a12ced072baaf02"
+    },
+    "supplement/copilot_search/Q10/1": {
+      "path": "data/browser_baseline/public_answers/0d8d0540bb35a747.json",
+      "sha256": "77f47082c9064e288f338940ab064458faf78c8e25dc226d2ec5383b0fd5a97f"
+    },
+    "supplement/copilot_search/Q12/1": {
+      "path": "data/browser_baseline/public_answers/4e0dc267ce5c6eb1.json",
+      "sha256": "18041ff37bb9c8893e2e558e194471058c77b6c0c5f3034cba6e1992dc516921"
+    },
+    "supplement/google_ai_mode/Q1/1": {
+      "path": "data/browser_baseline/public_answers/44fd6bdd81c05ce8.json",
+      "sha256": "a44c1e755c6047dff1510b24323951aa133eeceb2dc4060a0a12c5304cfe23cb"
+    },
+    "supplement/google_ai_mode/Q2/1": {
+      "path": "data/browser_baseline/public_answers/196412a8c30a774c.json",
+      "sha256": "1054fcf12916ce73975c3cc948e6ff64a9d015fca3c327ac5b161ce69f071514"
+    },
+    "supplement/google_ai_mode/Q4/1": {
+      "path": "data/browser_baseline/public_answers/ebac589084ee064e.json",
+      "sha256": "f056f7e15f3e3bb35b38a1a18bdd4f145ae4ab380af98a8e40b52932b8517551"
+    },
+    "supplement/google_ai_mode/Q6/1": {
+      "path": "data/browser_baseline/public_answers/d1f52e1e6ae352d7.json",
+      "sha256": "0cf4319379286b618ec92ec1a7d6d22bcbedbc74632bc67e0062eff8b9949753"
+    },
+    "supplement/google_ai_mode/Q10/1": {
+      "path": "data/browser_baseline/public_answers/700da4a8e8f403c4.json",
+      "sha256": "3a685040e40b487f594a4d6bfe6125ca60b4c600dd7d6c83292bde566085075c"
+    },
+    "supplement/google_ai_mode/Q12/1": {
+      "path": "data/browser_baseline/public_answers/e7d78de74fb60014.json",
+      "sha256": "5278c5c053ae4716d9cb1a77cb1f1b973d28f027d2524a6028a148225b50406f"
+    }
+  }
+}

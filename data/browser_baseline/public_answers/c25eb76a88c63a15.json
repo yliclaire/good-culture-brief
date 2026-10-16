@@ -1,0 +1,15 @@
+{
+  "observation_id": "main/claude/Q5/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI want cottage cheese with live and active cultures. Which brand should I choose, and why?",
+  "reviewed_answer": "My pick is Good Culture. Every product in its cottage cheese line contains live and active cultures, so there’s no need to hunt for a special version. It also scores well on taste and simplicity: the 2% version has only five ingredients (skim milk, whole milk, cream, sea salt, and live and active cultures) and avoids the thickeners and gums some brands use. In a taste test of 13 brands, Good Culture Organic Whole Milk Classic came out on top. The main drawback is price: it costs more than many other brands. \n\nDepending on what matters most to you, these are good alternatives:\n\nNancy’s Organic is the one to choose if you want the most probiotic-focused option. It contains four strains of lactic cultures plus live probiotic cultures, and it’s made without rennet or thickeners. It’s tangier than most. \n\nBreakstone’s Live-Active is the budget-friendly choice, and it’s sold in most supermarkets. Be sure to buy the “Live-Active” line specifically. Breakstone’s regular cottage cheese is made with cultured milk but isn’t labeled as having live and active cultures. \n\nKalona SuperNatural and Westby are other clean-label organic options. Both list live and active cultures among their ingredients. \n\nWhatever brand you buy, check the label. Many cottage cheeses are made with only vinegar, not live cultures. Even fermented ones can lose their microbes during processing: the cooking step can kill the starter cultures, so you can only count on live microbes in products labeled “live and active cultures”. The words “cultured milk” alone don’t guarantee live cultures. Look for “live and active cultures” or “probiotic cultures” on the tub.",
+  "audit_excerpts": [
+    "Kalona SuperNatural and Westby are other clean-label organic options. Both list live and active cultures among their ingredients. eatthis ",
+    "My pick is Good Culture. Every product in its cottage cheese line contains live and active cultures, so there’s no need to hunt for a special version. It also scores well on taste and simplicity: the 2% version has only five ingredients (skim milk, whole milk, cream, sea salt, and live and active cultures) and avoids the thickeners and gums some brands use. In a taste test of 13 brands, Good Culture Organic Whole Milk Classic came out on top. The main drawback is price: it costs more than many other brands. Organic Cottage Cheese +3 "
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

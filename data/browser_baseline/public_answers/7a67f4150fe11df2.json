@@ -1,0 +1,16 @@
+{
+  "observation_id": "main/perplexity/Q9/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI dislike lumpy textures. Which brand or product should I try, and why?",
+  "reviewed_answer": "Try Good Culture Organic 2% Low-Fat Classic Small Curd Cottage Cheese first. Its curds are unusually small and tender, and its thick, ricotta-like consistency makes the texture feel much smoother than typical cottage cheese rather than lumpy.\n\nBest choices for a smooth texture\nProduct\tWhy it may work for you\tWatch-outs\nGood Culture 2% Classic\tSmall, soft curds; thick and dense, closer to ricotta than chunky cottage cheese. \n\tIt is fairly thick and tangy, so it may feel more like a spread than a creamy spoonable dairy product. \n\nHood Country Style 4%\tA richer, creamier, milky option; Serious Eats named it its overall winner for creamy, mild cottage cheese. \nseriouseats\n\tIt still has curds—just softer and better integrated into the cream. \nseriouseats\n\nBreakstone’s 2% Small Curd\tTraditional, creamy, buttery flavor with a slightly thicker dressing due to tapioca starch. \n\tCurds are still present, though the texture is generally smooth and cohesive. \nMy recommendation\n\nStart with Good Culture 2% if you want the least “cottage-cheese-like” curd experience. Reviewers repeatedly describe its curds as small, tender, and easy to overlook, with a thick texture that resembles ricotta.\n\nIf you prefer something milder and creamier rather than tangy, choose Hood Country Style 4% instead.\nseriouseats\n\nThe most reliable fix\n\nIf even small curds bother you, buy any cottage cheese you like and blend it for 20–30 seconds in a blender or food processor. Consumer Reports specifically recommends blending to eliminate lumps, and it also suggests looking for products labeled “smooth” or “whipped.”\n\nAvoid Aldi Friendly Farms Regular Small Curd if texture is your main concern: despite the “small curd” name, testing found it had some of the largest, bounciest curds and a looser dressing.",
+  "audit_excerpts": [
+    "Try Good Culture Organic 2% Low-Fat Classic Small Curd Cottage Cheese first. Its curds are unusually small and tender, and its thick, ricotta-like consistency makes the texture feel much smoother than typical cottage cheese rather than lumpy. consumerreports +2",
+    "Breakstone’s 2% Small Curd Traditional, creamy, buttery flavor with a slightly thicker dressing due to tapioca starch. consumerreports +1 Curds are still present, though the texture is generally smooth and cohesive. consumerreports +1 My recommendation",
+    "Avoid Aldi Friendly Farms Regular Small Curd if texture is your main concern: despite the “small curd” name, testing found it had some of the largest, bounciest curds and a looser dressing. nytimes"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

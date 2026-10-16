@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q6/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",
+  "reviewed_answer": "Buy a store brand, most practically Walmart’s Great Value, in the largest tub you’ll finish before it spoils. Cottage cheese is a basic product, so store brands are much cheaper than name brands without being meaningfully different.\n\nCurrent Walmart prices (online): Great Value’s 24 oz tubs in 4%, 2%, and fat-free are $2.87 each, or 12.0¢/oz, and the 48 oz 4% small curd tub is $5.46, or 11.4¢/oz. A serving is ½ cup (about 4 oz), and each 24 oz tub holds 6 servings with 12 grams of protein each. That works out to about 46¢ per serving from the 48 oz tub and 48¢ from the 24 oz tub. By comparison, Lactaid’s 16 oz tub is 21.1¢/oz and Breakstone’s 4-packs of 4 oz cups are 24.5¢/oz, roughly twice as much. \n\nAldi is about as cheap. In one taste test, Aldi’s Friendly Farms brand cost around $2.69 for 24 ounces, about $0.11 per ounce, making it the cheapest of the brands tested. The reviewer found it a bit watery, though. That’s about the same per serving as Great Value. If you live closer to an Aldi, there’s no reason to go out of your way to Walmart. \n\nOther store brands also do well. Target’s Good & Gather and most regional supermarket brands usually come in around 14 to 17¢/oz. In one ranking, Great Value was by far the cheapest product, at $2.94 for 24 ounces. \n\nA few tips:\n\nFat level doesn’t change the price. Great Value charges the same for 4%, 2%, and fat-free, so choose whichever you like.\nBuy the 48 oz tub only if you’ll finish it in about a week after opening. Throwing out half a tub costs more than the bulk discount saves.\nWatch for sales on name brands. Brands like Daisy or Hood sometimes drop below store-brand prices for a short time. Otherwise, the store brand is the consistent low-cost choice.\n\nPrices vary by region and change often, so check the per-ounce price on the shelf tag at your store.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

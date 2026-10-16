@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q1/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand should I buy, and why?",
+  "reviewed_answer": "Buy Good Culture Simply Cottage Cheese (2% milkfat) if you want the best all-around U.S. grocery-store cottage cheese. It is repeatedly favored by chefs and dietitians for its creamy, non-watery texture, fresh tang, high protein, and short ingredient list—milk, cream, and sea salt—without gums or stabilizers.\n\nWhy Good Culture\n\nTexture and flavor: Chefs describe it as creamy without being watery, with a balanced tang and substantial curds.\n\nClean label: Its simple formulation avoids the added thickeners and stabilizers common in some competitors.\n\nNutrition: It uses live active cultures and offers strong protein, making it a good choice for breakfast bowls, snacks, or savory dishes.\n\nAvailability: It is widely carried at mainstream U.S. retailers, including Target.\n\nBest alternatives\nIf you want…\tBuy\tWhy\nThe cheapest clean-label option\tDaisy 4% Cottage Cheese\tOnly milk, cream, and salt; no stabilizers or thickeners, with about 13 g protein per half-cup. \n\nA lower-fat everyday option\tDaisy Low-Fat 2% Small Curd\tIt was one of Consumer Reports’ top picks, alongside Good Culture. \n\nThe best traditional, dense style\tFriendship Dairies 4% Small Curd California Style\tWirecutter’s top pick: fine, ricotta-like curds with a tangy, sweet dairy finish. \n\nA budget option\tTrader Joe’s Low-Fat Small Curd\tA dietitian-recommended value pick with good nutrition and texture. \nQuick buying rule\n\nChoose 2% for a good balance of creaminess and lower saturated fat; choose 4% if you want a richer, more traditional cottage cheese. The calorie difference between nonfat and 4% is modest—roughly 30 calories per serving—so texture and ingredient quality matter more than chasing the lowest fat.\n\nFor [name and location withheld], I’d start with Good Culture 2%; if it is unavailable or you want to spend less, get Daisy 2% or 4%.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

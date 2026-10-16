@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q6/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",
+  "reviewed_answer": "Buy Great Value 4% Milkfat Small Curd Cottage Cheese (24 oz) from Walmart if you want the lowest cost per serving. It costs about $2.87–$2.94 per 24-oz tub, or 12.0–12.3 cents per ounce—slightly cheaper than Aldi’s comparable Friendly Farms tub.\n\nWhy Great Value wins on cost\n\nUsing the standard 1/2-cup (about 4 oz) serving, a 24-oz tub provides roughly six servings, so it works out to about $0.48–$0.49 per serving. The 4% version has 12 g of protein per serving, matching Aldi’s regular small-curd option.\n\nOption\tSize / price\tCost per oz\tApprox. cost per 1/2-cup serving\nGreat Value 4% small curd\t24 oz / $2.87–$2.94\t12.0–12.3¢\t~48–49¢ \n\nAldi Friendly Farms 4% small curd\t24 oz / $3.15\t13¢\t~52¢ \n\nTrader Joe’s small curd\t32 oz / $4.49\t~14¢\t~56¢ \nWhat to buy\n\nBest default: Great Value 4% small curd—lowest listed unit price and a satisfying amount of fat for regular eating.\n\nIf you prefer lower fat: Great Value 1% or 2% low-fat small curd is the same 24-oz price, so it does not improve cost per serving but may fit your nutrition preference.\n\nIf Aldi is more convenient: Friendly Farms 4% small curd is an excellent close second at 13¢/oz and 12 g protein per serving.\n\nCaveat\n\nPrices vary by store and region, and Walmart’s online price may differ from your local [name and location withheld] store. The practical rule: compare the price per ounce on the shelf tag and choose the largest plain tub with the lowest unit price; avoid single-serve cups, which usually cost substantially more per ounce.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

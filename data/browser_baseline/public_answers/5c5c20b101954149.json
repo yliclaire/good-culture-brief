@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q3/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand would you recommend for a high-protein snack, and why?",
+  "reviewed_answer": "For a high-protein cottage-cheese snack, I’d recommend Good Culture 2% Milkfat Simply Cottage Cheese as the best all-around choice: it has about 14 g protein per 1/2-cup serving, a short ingredient list, and was rated especially well for flavor and texture.\n\nWhy Good Culture\n\nStrong protein density: 14 g per half cup makes it an easy, filling snack with roughly 90 calories, 2.5 g fat, and 5 g carbs per serving.\n\nBetter everyday choice: The 2% version balances protein with a creamier texture than fat-free options, so it’s more enjoyable to eat consistently.\n\nSimple formulation: Reviewers highlighted its relatively simple ingredient list alongside its high protein content.\n\nIf you want maximum protein\n\nChoose Mulu 2% Cottage Cheese instead. It provides 18 g of complete protein per half cup—notably higher than most conventional cottage cheeses—because it adds concentrated milk and whey proteins.\n\nQuick pick guide\nYour priority\tBest pick\tWhy\nBest overall snack\tGood Culture 2%\t14 g protein, good taste/texture, simple ingredients. \n\nHighest protein\tMulu 2%\t18 g protein per half cup. \n\nWidely available, classic taste\tDaisy 4%\t13 g protein per serving and a familiar, traditional cottage-cheese profile. \n\nPortable snack\tBreakstone’s single-serve cups\t12 g protein per serving in convenient individual cups. \n\nFor most people, I’d buy Good Culture 2%; if you’re specifically optimizing protein per bite, go with Mulu.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "observation_id": "supplement/copilot_search/Q1/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand should I buy, and why?",
+  "reviewed_answer": "Excluded incomplete answer. Original partial capture retained in private archive.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

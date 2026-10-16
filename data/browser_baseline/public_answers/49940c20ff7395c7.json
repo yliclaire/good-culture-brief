@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q4/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI prefer simple ingredients. Which brand should I choose, and why?",
+  "reviewed_answer": "Daisy (the regular 4% version) has the shortest ingredient list you’ll find. Daisy Regular Cottage Cheese had the highest score in America’s Test Kitchen’s taste test and the shortest ingredient list, with just three items: cultured skim milk, cream, and salt. It’s also inexpensive and sold in most U.S. supermarkets. \n\nGood Culture is the better choice if you want organic dairy or probiotics. It’s made with organic skim milk, organic whole milk, organic cream, Celtic sea salt, and live and active cultures, and contains no gums, carrageenan, or preservatives. The live cultures matter because in standard cottage cheese making, the culture is killed when the curd is heated, so Daisy doesn’t provide probiotics. Good Culture costs more, and some of its versions are organic while others aren’t, so check the label if that matters to you. \n\nYou may also see Nancy’s or Kalona Supernatural, which are small organic brands with similarly short ingredient lists.\n\nMany other brands add thickeners. For example, Breakstone’s uses tapioca starch. America’s Test Kitchen found that the wetter products tended to contain more additives, such as xanthan, guar, and locust bean gum. Whatever brand you pick, read the label: the simplest cottage cheese is just milk, cream, salt, and possibly cultures. Light or flavored versions of the same brand can have more ingredients.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

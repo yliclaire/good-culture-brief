@@ -867,10 +867,10 @@
     }
   ],
   "models": {
-    "gemini": "",
-    "anthropic": "",
     "perplexity": "",
-    "openai": ""
+    "anthropic": "",
+    "openai": "",
+    "gemini": ""
   },
   "note": "Each request is fresh. Request limit is not a dollar spending cap. Search is enabled but not guaranteed. No supplemental Google AI Mode or Copilot API is implied."
 }

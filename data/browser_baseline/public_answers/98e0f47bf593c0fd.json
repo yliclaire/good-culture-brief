@@ -1,0 +1,14 @@
+{
+  "observation_id": "main/perplexity/Q2/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",
+  "reviewed_answer": "For your first tub, I’d choose Good Culture Low-Fat Classic Cottage Cheese (2% milkfat). It’s widely recommended by chefs and reviewers for a creamy, balanced flavor and pleasant curd texture—making it a good introduction rather than a gamble.\n\nWhy Good Culture\n\nApproachable flavor: It is consistently praised for tasting fresh and creamy without being overly sour or watery.\n\nGood first texture: Its curds are generally described as tender and well-sized, which matters a lot if you’re new to cottage cheese.\n\nEasy to use: Try it plain with a pinch of salt and black pepper, or with fruit, honey, granola, tomatoes, or on toast. That lets you discover whether you like it savory, sweet, or both.\n\nWidely available: Good Culture is sold at many mainstream U.S. grocers, including Target.\n\nWhat to buy\n\nStart with the 16-ounce Low-Fat Classic / 2% milkfat version. Consumer Reports’ nutritionist similarly suggests beginning with 2% cottage cheese, then moving to 4% if you want something richer and creamier.\n\nIf you can’t find it\n\nKemps 2% Cottage Cheese is a strong backup: it topped recent taste rankings for its tender curds and straightforward, classic cottage-cheese flavor.\n\nAvoid buying a large tub for your first try—16 ounces is plenty to test it in a few meals without committing too much.",
+  "audit_excerpts": [
+    "Approachable flavor: It is consistently praised for tasting fresh and creamy without being overly sour or watery. eatingwell +1"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

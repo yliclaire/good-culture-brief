@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q2/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",
+  "reviewed_answer": "Good Culture Classic 4% Cottage Cheese\nFor a first try, go full-fat (4%) and plain. It has the mildest, creamiest flavor and the least of the watery, rubbery texture that turns people off cottage cheese. Good Culture is thick, lightly tangy, and has a short, clean ingredient list, and it's widely sold at major US grocers like Whole Foods, Target, Kroger, and Harris Teeter. The trade-off: it's usually the priciest option on the shelf, often around $4–5 for a 16 oz tub.\n\nGood Culture is a good pick for a first-timer because it’s the brand most likely to change someone’s mind about cottage cheese. In one taste test of eight major national brands, Good Culture won over cottage cheese lovers and skeptics alike, with its fluffy, ricotta-like consistency. EatingWell’s blind tasting with dietitians also named Good Culture Double Cream Classic Cottage Cheese its best overall. Chowhound picked it as well, and its tester noted that it was the most expensive she tried by a substantial margin but still felt worth it. \n\nIf you’d rather spend less, Daisy 4% is a solid choice. The same eight-brand test rated it the creamiest, describing it as rich and creamy, in both flavor and texture. Daisy also has only a few simple ingredients. \n\nFor your first taste, try a spoonful plain first, then with something sweet like berries, peaches, or a drizzle of honey, and then with something savory like black pepper, cherry tomatoes, or everything-bagel seasoning. Most people find they strongly prefer one way over the other. If the lumpy curds bother you, blend it smooth. It becomes a lot like ricotta or a thick dip.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

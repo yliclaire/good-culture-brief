@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q4/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI prefer simple ingredients. Which brand should I choose, and why?",
+  "reviewed_answer": "Choose Good Culture Simply Cottage Cheese—most likely the 2% Low-Fat Classic or 4% Classic, depending on whether you want lighter or richer. It best matches your “simple ingredients” priority while also scoring highly for taste and texture.\n\nWhy Good Culture\n\nIts cottage cheese is made with a short list of core ingredients—milk, cream, sea salt, and live active cultures—and avoids gums and stabilizers that many competitors use.\n\nIndependent taste tests have ranked it at or near the top for creamy texture, balanced tang, and versatile flavor.\n\nThe 2% version is a good everyday choice: thick, high in protein, and less rich than the 4%; the 4% version is better if you want maximum creaminess.\n\nBest alternative\n\nIf Good Culture is unavailable or you want the simplest possible label at a lower price, choose Daisy Low-Fat 2% Small Curd. Consumer Reports’ 2026 testing named it a top pick and specifically highlighted its simple ingredient list, mild milky sweetness, and lack of unnecessary additives.\n\nWhat to look for\n\nAim for an ingredient list of roughly: cultured milk, cream, salt, and live active cultures. Avoid or deprioritize tubs with gums, starches, carrageenan, or other stabilizers if minimal processing is your main criterion.\n\nBottom line: Buy Good Culture Simply 2% Low-Fat Classic Cottage Cheese first; choose Daisy Low-Fat 2% Small Curd as the simple, widely available backup.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

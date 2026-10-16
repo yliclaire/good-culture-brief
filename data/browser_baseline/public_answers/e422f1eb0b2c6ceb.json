@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q3/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand would you recommend for a high-protein snack, and why?",
+  "reviewed_answer": "My top pick is Good Culture 2% Milkfat Simply Cottage Cheese for a high-protein snack: it delivers about 14 g of protein per 1/2-cup serving while keeping the ingredient list simple, and it is widely available in U.S. grocery stores.\n\nWhy Good Culture\n\nStrong protein density: 14 g per half cup makes it an easy way to add protein without a large snack.\n\nSimple formulation: Its “Simply” line is a good fit if you prefer fewer additives than some flavored or high-protein cottage cheeses.\n\nBalanced texture and taste: It has also performed well in taste comparisons, which matters if you plan to eat it plain or with fruit.\n\nGood alternatives\nBrand\tBest for\tProtein noted\nGood Culture 2% Simply\tOverall high-protein everyday snack\t14 g per 1/2 cup \n\nDaisy 4%\tClassic taste and simple ingredients\t13 g per 1/2 cup \n\nClover Sonoma Organic\tOrganic preference\t14 g per 1/2 cup \n\nBreakstone’s Live Active Low-Fat\tPortable single-serve cups\t12 g per serving \nPractical choice\n\nFor the highest protein per bite, choose Good Culture 2% Simply; for the most convenient grab-and-go option, choose Breakstone’s single-serve cups. If sodium is a concern, compare labels because cottage cheese can be relatively salty, and consider a no-salt-added variety such as Friendship Dairies 1% Small Curd, which lists 15 g protein with much lower sodium per serving.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

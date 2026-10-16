@@ -1,0 +1,14 @@
+{
+  "observation_id": "main/chatgpt/Q7/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI'm watching my sodium intake. Which brand or product should I choose, and why?",
+  "reviewed_answer": "My top recommendation is Friendship Dairies No Salt Added Low Fat Cottage Cheese (1% milkfat). It has just 45 mg of sodium per ½-cup serving, while many regular cottage cheeses contain 300–400 mg or more.\n\nThat makes it an excellent choice if reducing sodium is your main priority, without sacrificing protein.\n\nBest cottage cheese choices for sodium\nBest for lowest sodium\n\nFriendship Dairies No Salt Added, 1%\n\n45 mg\n\nsodium / ½ cup\n\n16 g protein · 90 calories\n\nAbout 87% less sodium than Friendship's regular low-fat variety, with the same protein content. \n\n\nBreakstone's Low Sodium, 2%\n\n200 mg\n\nsodium / ½ cup\n\n13 g protein · 100 calories\n\nA reasonable alternative when you want a saltier, more traditional cottage cheese taste. Still substantially lower in sodium than many regular varieties. \n\n\nHow much difference does it make?\n\nSodium per ½-cup serving\n\nFriendship No Salt Added\n\n45 mg\n\nBreakstone's Low Sodium\n\n200 mg\n\nFriendship Regular Low Fat\n\n340 mg\n\nBased on current retailer nutrition listings. \nWhat to look for when shopping\n\nChoose \"No Salt Added\" when possible. Naturally occurring sodium remains, but added salt is omitted.\n\nCheck the Nutrition Facts label. In U.S. labeling, \"low sodium\" generally means 140 mg or less per serving. \"Reduced sodium\" can still mean substantially more.\n\nDon't confuse low-fat with low-sodium. A fat-free or 1% cottage cheese can still contain lots of salt.\n\nConsider taste. No-salt-added cottage cheese may taste milder. Fresh berries, cinnamon, herbs, or salt-free seasoning can help.\n\nFriendship's no-salt-added variety may be harder to find, so check participating Whole Foods locations or other grocers, and confirm the exact package label.\n\nBottom line: Choose Friendship Dairies No Salt Added 1% if you can find it. At 45 mg sodium and 16 g protein per ½ cup, it's the strongest sodium-conscious option among the products I verified. Breakstone's Low Sodium is a useful fallback at 200 mg, although it does not meet the FDA's strict \"low sodium\" threshold.",
+  "audit_excerpts": [
+    "A reasonable alternative when you want a saltier, more traditional cottage cheese taste. Still substantially lower in sodium than many regular varieties. Kroger +1"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

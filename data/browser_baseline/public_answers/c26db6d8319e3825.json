@@ -1,0 +1,14 @@
+{
+  "observation_id": "main/gemini/Q2/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",
+  "reviewed_answer": "For a first-time buyer in the U.S., the absolute best brand to start with is Good Culture (specifically their Classic 2% Low-Fat or 4% Whole Milk cottage cheese).\n\nIf you can't find Good Culture, Daisy is your next-best gold standard.\n\nWhy Good Culture is the Top Pick for Beginners\n\nClean, Minimal Ingredients: Unlike many legacy brands that load up their products with stabilizers, gums, or modified food starches, Good Culture keeps it remarkably simple (organic skim milk, organic whole milk, cream, sea salt, live active cultures, and microbial enzymes).   \n\nSuperior Texture: A common complaint from cottage cheese haters is that cheap brands are watery, soupy, or have a chalky mouthfeel. Good Culture has thick, uniform curds suspended in a rich, velvety cream rather than a pool of thin liquid.   \n\nThe Flavor Profile: It has a pleasant, mild tang (thanks to the added live probiotics) that tastes fresh and clean rather than overly sour or artificial.   \n\nThe Runner-Up: Daisy Cottage Cheese\n\nIf your local supermarket doesn't carry Good Culture, look for Daisy. Daisy is a legendary crowd-pleaser for a reason: it uses a completely clean ingredient list (just milk, cream, and salt—no gums or thickeners), offering a classic, reliable, and creamy baseline of what traditional American cottage cheese should taste like.   \n\nQuick Tips for Your First Taste\n\nMind the Fat Content:\n\n4% Milkfat (Whole Milk): Richer, creamier, and more decadent. If you want a luxurious, ice-cream-like scoop, start here.\n\n2% (Low-Fat): The sweet spot for most people—strikes a great balance between creaminess and protein content without feeling heavy.   \n\nHow to Eat It: Cottage cheese is a blank canvas.\n\nSavory (Most Popular): Top a scoop with a generous crack of fresh black pepper, a drizzle of good olive oil, sliced cherry tomatoes, or even a spoonful of chili crisp.   \n\nSweet: Pair it with fresh fruit like pineapple chunks, peaches, berries, or a drizzle of honey.\n\nAre you planning to eat it plain straight out of the tub, or were you thinking of using it in a specific recipe (like toast, bowls, or lasagna)?",
+  "audit_excerpts": [
+    "The Flavor Profile: It has a pleasant, mild tang (thanks to the added live probiotics) that tastes fresh and clean rather than overly sour or artificial. The Skimm"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/chatgpt/Q2/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",
+  "reviewed_answer": "For your very first cottage cheese purchase, I'd recommend Daisy 4% Milkfat Cottage Cheese.\n\nIt's a particularly good introduction because it tastes fresh, creamy, and mildly tangy, without being overly sour. It's also reasonably priced and easy to find in U.S. grocery stores.\n\nDaisy Pure and Natural Cottage Cheese, 4% Milkfat, 16 oz (1 …\n\n$3.97\n16 oz • Walmart • Price may vary by location\nMy first-time pick\n\nWhy I like it for beginners\n\nCreamy, fresh dairy flavor\n\nOnly three main ingredients: cultured milk, cream, and salt\n\nFull-fat 4% version gives a richer, more satisfying mouthfeel\n\nGood value for experimenting\n\nDaisy also performed very well in independent taste tests. Consumer Reports recently named its 2% small-curd version among its top picks, while America's Test Kitchen previously selected Daisy's 4% version as a winner. \n\nAnother excellent option\n\nGood Culture Cottage Cheese, Simply, 4% Milkfat, Whole Milk …\n\n$4.23 at Walmart\n\nThicker, with smaller, softer curds and a more pronounced tang. I'd choose this if you enjoy plain Greek yogurt or other tangy dairy foods. \n\nWhat should you expect?\n\nCottage cheese is unlike cheddar or mozzarella. It's a soft, cold, spoonable cheese with little white curds surrounded by creamy liquid. The flavor is lightly salty, milky, and a bit tangy.\n\nFor your first taste, try a spoonful plain, then try it with something familiar.\n\nSweet: Berries and a little honey\n\nSavory: Toast, tomatoes, and black pepper\n\nMy buying advice: Start with a small container of plain 4% Daisy. Avoid fat-free cottage cheese for your first purchase, since its less-rich texture may give you an unfair first impression. If you dislike Daisy's larger curds, try Good Culture before deciding cottage cheese isn't for you.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

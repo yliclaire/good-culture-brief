@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q11/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",
+  "reviewed_answer": "The likely reason Good Culture is missing is demand rather than a problem with the product. The brand has publicly acknowledged it’s been hard to find, and says it is working to restock without changing its recipe. Reporting on the wider shortage says trends in health and food production have emptied shelves and pushed cottage cheese makers to their limits. That means other brands may also run low, so it helps to have a couple of backups in mind. \n\nWhat sets Good Culture apart is a short ingredient list with no gums or stabilizers, live and active cultures, high protein, and pasture-raised milk. The best substitutes match as much of that as possible.\n\nDaisy is the easiest swap and the one I’d try first. The ingredients are just cultured skim milk, cream, and salt, with no thickeners. Nearly every major grocery store carries it, and it’s usually cheaper than Good Culture. Its curds are a bit softer and it isn’t marketed for probiotics, but in taste and simplicity it’s the closest widely available match.\n\nNancy’s Organic is the best choice if you care most about the cultures. It’s organic, it’s cultured, and it has a tangy, yogurt-like flavor. Look for it at Whole Foods, Sprouts, and natural food stores.\n\nKalona SuperNatural is the closest match if you value pasture-raised or grass-fed milk. It’s organic, minimally processed, and has no stabilizers. It’s mostly sold in natural and co-op grocers.\n\nStore brands and Hood or Breakstone’s will do in a pinch, but read the label. Some versions contain guar gum, carrageenan, or other thickeners, and some low-fat versions use more of them. If the ingredients are only milk, cream, salt, and cultures (and maybe enzymes), you’re fine.\n\nBrands sometimes change their recipes, so a quick look at the ingredient panel is the best way to make sure you’re getting the clean-label product you like.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

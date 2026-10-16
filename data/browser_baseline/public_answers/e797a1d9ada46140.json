@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q5/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI want cottage cheese with live and active cultures. Which brand should I choose, and why?",
+  "reviewed_answer": "Choose Good Culture—specifically Good Culture Simply 2% Low-Fat Classic Cottage Cheese or the 4% version. It is explicitly made with live and active cultures, and it was the top-rated cottage cheese in a 2026 Wirecutter taste test for its creamy texture, tender curds, and balanced tang.\n\nWhy Good Culture fits your goal\n\nLive and active cultures: Its ingredient list includes live and active cultures, including Lactobacillus paracasei.\n\nStrong independent reviews: Wirecutter named its Simply 2% and Simply 4% Classic varieties its top picks, attributing the tangy flavor to live probiotic cultures.\n\nSimple formulation: It is marketed as having simple ingredients, high protein, and no artificial ingredients.\n\nGood taste and texture: Independent taste testing also ranked Good Culture highly, praising its curd size, moisture level, and tang.\nallrecipes\n\nWhat to buy\nIf you want\tPick\nLower fat, still creamy\tGood Culture Simply 2% Low-Fat Classic Cottage Cheese \n\nRicher, more traditional dairy flavor\tGood Culture Simply 4% Milkfat Classic Cottage Cheese \n\nA more yogurt-like, tangy option\tNancy’s Organic Probiotic Low-Fat Cottage Cheese \nLabel-check tip\n\nAt the store, confirm the tub says “live and active cultures” in the ingredient list; avoid relying only on phrases like “probiotic” or “cultured.” Good Culture is the clearest mainstream U.S. choice because its cultures are listed directly and its product quality is consistently well reviewed.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

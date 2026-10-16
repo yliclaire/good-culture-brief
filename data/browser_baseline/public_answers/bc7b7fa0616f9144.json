@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q6/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",
+  "reviewed_answer": "Buy Walmart’s Great Value cottage cheese—specifically the 24 oz 4% small-curd tub if you want the lowest cost per serving. At about $2.87–$2.94 for 24 oz, it costs roughly 12.0–12.3 cents per ounce, making it materially cheaper than Kroger, Target’s Good & Gather, and Daisy.\n\nWhy it wins on cost\nBrand / product\tTypical price\tCost per oz\tRelative cost\nGreat Value 4% Small Curd, 24 oz\t$2.87–$2.94\t12.0–12.3¢\tLowest \n\nKroger 4% Small Curd, 24 oz\t$3.19\t13.3¢\t~8–11% more \n\nGood & Gather 4% Small Curd, 24 oz\t$3.39\t14.1¢\t~15–18% more \n\nDaisy 4%, 24 oz\t$3.94–$5.29\t16.4–22.0¢\t~33–83% more \n\nCottage cheese nutrition labels commonly use a 1/2-cup serving, so a 24 oz tub provides about 6 servings. That puts Great Value at roughly 48–49 cents per serving, versus about 53 cents for Kroger, 57 cents for Good & Gather, and 66–88 cents for Daisy.\n\nWhich version to choose\n\nBest value: Great Value 4% small curd, 24 oz—lowest price and the richest, most conventional cottage-cheese style.\n\nIf you prefer lower fat: Great Value 2% low-fat, also $2.94 for 24 oz, has the same unit price in the listed Walmart listing.\n\nIf you want fat-free: Great Value 0% is listed at the same $2.87 / 12.0¢ per oz price, though taste and texture may be less satisfying.\n\nCaveats\n\nPrices vary by store and region, and Walmart’s online price may differ from your local [name and location withheld]-area store. But based on current listed prices, Great Value is the clear cost-per-serving winner; Kroger’s store brand is the best fallback if you shop at Kroger and its local price is competitive.\n\nIf taste matters more than a few cents per serving, Daisy is often preferred for its simple ingredient list, but it costs substantially more per ounce.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

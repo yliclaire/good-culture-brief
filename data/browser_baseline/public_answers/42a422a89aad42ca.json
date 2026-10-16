@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q4/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI prefer simple ingredients. Which brand should I choose, and why?",
+  "reviewed_answer": "Choose Good Culture 2% Milkfat Simply Cottage Cheese if your top priority is a short, clean ingredient list. Its Simply line is made with skim milk, whole milk, cream, sea salt, and live active cultures—no gums, thickeners, added sugar, or artificial ingredients.\n\nWhy Good Culture\n\nMinimal ingredients: Milk, cream, sea salt, and live cultures are exactly the kind of short list to look for in cottage cheese.\n\nNo common stabilizers: Many cottage cheeses add gums or thickeners such as guar gum, locust bean gum, or carrageenan; Good Culture’s Simply version avoids them.\n\nGood texture and protein: Reviewers consistently describe it as thick, creamy, and high in protein—about 19 g per serving in one review.\n\nWidely recommended: Multiple chef and expert roundups name Good Culture their top pick specifically for its simple ingredients and clean, creamy profile.\n\nBest alternative\n\nIf you want the shortest possible list and a lower price, choose Daisy Cottage Cheese. Its 4% variety uses just milk, cream, and salt, with no stabilizers or thickeners; Consumer Reports also rated its 2% small-curd version among its top performers.\n\nPriority\tBest pick\tWhy\nSimplest overall formula + creamy texture\tGood Culture Simply 2%\tMilk, cream, sea salt, live cultures; no gums or artificial ingredients. \n\nFewest ingredients / budget-friendly\tDaisy\tMilk, cream, and salt; no stabilizers or thickeners. \n\nOrganic preference\tGood Culture Organic 2%\tOrganic dairy with a similarly simple formulation, though its texture is denser. \n\nFor your preference, I’d start with Good Culture Simply 2% Milkfat Classic. If you find it too thick or expensive, Daisy 2% or 4% is the strongest simple-ingredient backup.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

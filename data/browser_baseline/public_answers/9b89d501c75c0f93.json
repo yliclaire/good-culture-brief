@@ -1,0 +1,20 @@
+{
+  "observation_id": "main/perplexity/Q11/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",
+  "reviewed_answer": "Buy Daisy 4% small-curd cottage cheese as your closest everyday substitute. In a 2025 blind tasting, Daisy ranked best overall for its soft, distinct, evenly formed curds and creamy, rich texture; it also has a very short ingredient list—skim milk, cultured cream, and salt—without the gums or starches found in many alternatives.\n\nBest substitutes by priority\nIf you liked Good Culture for…\tBuy\tWhy\nCreamy, snackable texture\tDaisy 4% small curd\tBest overall in blind tasting; plush curds and a rich cream layer. \n\nLower fat / higher protein\tDaisy 2% Low Fat or Friendship 1% Low Fat\tBoth are specifically recommended alternatives when Good Culture is unavailable. \n\nMinimal ingredients and tang\tNancy’s Organic Cottage Cheese\tChefs recommend it for an ingredient list and profile similar to Good Culture. \n\nBlending into sauces or egg bites\t365 Organic (Whole Foods)\tSmall curds that nearly melt, making it especially good for smooth blends. \n\nCooking, such as gnocchi or stuffed shells\tBreakstone’s\tSmaller curds and a slightly drier texture prevent dishes from becoming too wet. \n\nFirm curds in bowls or salads\tOrganic Valley\tA runner-up for its bouncy, evenly sized curds and balanced creaminess. \nMy recommendation\n\nFor plain eating with fruit, tomatoes, crackers, or a high-protein bowl, choose Daisy 4%. It is the most likely to reproduce the satisfying texture and clean flavor you enjoy in Good Culture, though it may be slightly less tangy because it does not emphasize live cultures the way Good Culture does.\n\nIf your usual purchase is Good Culture 2% Low-Fat, start with Daisy 2% Low Fat; if you want the closest “clean label,” look for Nancy’s Organic. Good Culture is known for simple ingredients, live active cultures, and high protein, so checking the label for “live and active cultures,” short ingredient lists, and at least about 12–14 g protein per half-cup will help you find the best match.",
+  "audit_excerpts": [
+    "Buy Daisy 4% small-curd cottage cheese as your closest everyday substitute. In a 2025 blind tasting, Daisy ranked best overall for its soft, distinct, evenly formed curds and creamy, rich texture; it also has a very short ingredient list—skim milk, cultured cream, and salt—without the gums or starches found in many alternatives. delish",
+    "If your usual purchase is Good Culture 2% Low-Fat, start with Daisy 2% Low Fat; if you want the closest “clean label,” look for Nancy’s Organic. Good Culture is known for simple ingredients, live active cultures, and high protein, so checking the label for “live and active cultures,” short ingredient lists, and at least about 12–14 g protein per half-cup will help you find the best match. cspi +1",
+    "Firm curds in bowls or salads Organic Valley A runner-up for its bouncy, evenly sized curds and balanced creaminess. delish My recommendation",
+    "Blending into sauces or egg bites 365 Organic (Whole Foods) Small curds that nearly melt, making it especially good for smooth blends. delish",
+    "Cooking, such as gnocchi or stuffed shells Breakstone’s Smaller curds and a slightly drier texture prevent dishes from becoming too wet. delish",
+    "Minimal ingredients and tang Nancy’s Organic Cottage Cheese Chefs recommend it for an ingredient list and profile similar to Good Culture. eatingwell",
+    "Lower fat / higher protein Daisy 2% Low Fat or Friendship 1% Low Fat Both are specifically recommended alternatives when Good Culture is unavailable. cspi"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

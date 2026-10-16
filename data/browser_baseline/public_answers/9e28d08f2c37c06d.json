@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q3/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand would you recommend for a high-protein snack, and why?",
+  "reviewed_answer": "For a high-protein snack, I’d point most people to Good Culture. Its single-serve cups are built for snacking: depending on the variety, a cup has roughly 14 to 19 grams of protein, the ingredient list is short (cultured milk, cream, salt, live cultures), and there are no gums or thickeners. The curds are also thick and creamy, which helps if you’ve found cottage cheese watery or bland before. It’s sold at most major US grocers, including Whole Foods, Target, and many regional chains.\n\nIf you’d rather buy tubs and portion them yourself, Daisy is the better value. It has about 13 to 14 grams of protein per half cup, contains only cultured skim milk, cream, and salt, and is widely available at a lower price per ounce than Good Culture. Many people consider it the best-tasting mainstream brand.\n\nWhen comparing brands, check the serving size on the label. Some brands list protein per half cup (113 grams) and others per 5.3-ounce cup (150 grams), which can make one look higher in protein than it really is. To get the most protein per calorie, choose low-fat (1% or 2%) or nonfat versions. Plain versions are also a better bet than fruit-on-the-bottom cups, which add sugar and often reduce protein. Formulations change, so check the nutrition panel on the specific product you pick up.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "observation_id": "main/chatgpt/Q9/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI dislike lumpy textures. Which brand or product should I try, and why?",
+  "reviewed_answer": "If you dislike lumpy textures, I'd recommend trying Anderson Erickson Whipped Smooth Cottage Cheese first. Unlike traditional cottage cheese, which contains noticeable curds, this product is designed to have a smooth, whipped consistency.\n\nThere are two good approaches: buy cottage cheese that's already whipped, or choose a particularly creamy small-curd variety.\n\nMy top 3 picks\nBest for avoiding lumps\n\nAnderson Erickson Whipped Smooth Cottage Cheese\n\nWhipped, smooth texture\n\nThe closest match to your preference. It's made specifically to avoid the chunky consistency of regular cottage cheese, so it's worth seeking out if texture is your biggest concern.\n\n$4.44 at Walmart\n\ngood culture Cottage Cheese, 4% Milkfat, Whole Milk Classic\n\nBest conventional cottage cheese to try\n\nSmall, soft curds and a thick, creamy texture that feels more cohesive and less watery than many alternatives. It's still textured, but its curds are relatively unobtrusive. It also won a 2026 taste test by The Kitchn. \n\n$5.29 at Food Bazaar\n\nBreakstone's Cottage Cheese, 4% Milkfat, Small Curd, 16 oz T…\n\nBest creamy alternative\n\nIts small curds sit in a rich, creamy dressing, giving it a softer overall mouthfeel. It still has distinct lumps, so I'd choose this only if you can tolerate a little texture.\n\n$2.67 at Walmart\n\nA trick that makes almost any cottage cheese smooth\n\nIf you want absolutely no lumps, buy Good Culture 4% cottage cheese and blend it for 30–60 seconds in a blender or food processor until smooth.\n\nThe result is a thick, creamy spread similar to whipped ricotta or Greek yogurt, without the noticeable curds. Consumer Reports also recommends blending cottage cheese for people who dislike its texture. \n\nMy bottom line: Try Anderson Erickson Whipped Smooth if you can find it. If it's unavailable, get Good Culture 4% and blend it. I wouldn't rely on a small-curd label alone if lumps are a dealbreaker.",
+  "audit_excerpts": [
+    "Small, soft curds and a thick, creamy texture that feels more cohesive and less watery than many alternatives. It's still textured, but its curds are relatively unobtrusive. It also won a 2026 taste test by The Kitchn. The Kitchn"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

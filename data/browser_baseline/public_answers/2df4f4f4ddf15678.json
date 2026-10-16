@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/perplexity/Q5/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI want cottage cheese with live and active cultures. Which brand should I choose, and why?",
+  "reviewed_answer": "Choose Good Culture Simply 2% Low-Fat Classic Cottage Cheese (or its 4% version if you prefer richer dairy). It explicitly contains live and active cultures, including Lactobacillus paracasei, and it also has a simple ingredient list, high protein, and strong taste/texture reviews.\n\nWhy Good Culture\n\nLive and active cultures: The 2% Classic contains live and active Lactobacillus paracasei cultures, which is exactly what you’re looking for.\n\nSimple ingredients: Its listed ingredients are skim milk, whole milk, cream, sea salt, and live and active cultures—no added sugar or artificial ingredients.\n\nNutrition: A half-cup serving provides 14 g protein, 100 calories, and 340 mg sodium.\n\nQuality reputation: Independent taste tests have named Good Culture a top cottage-cheese pick for its creamy texture, balanced tang, and protein content.\n\nAlternatives\nBrand\tCultures?\tBest for\tNote\nGood Culture Simply 2% or 4%\tYes—live and active cultures\tBest overall choice\tTangier, thick, creamy, high protein. \n\nDaisy Low-Fat 2%\tCultured milk, but check the label for a “live and active cultures” claim\tMinimal ingredients\tIngredients are cultured skim milk, cream, and salt; it is not the same explicit live-culture claim as Good Culture. \n\nNancy’s Organic Probiotic Cottage Cheese\tYes—probiotic\tYogurt-like tang\tA good organic/probiotic-focused alternative. \nWhat to check on the label\n\nLook for the phrase “live and active cultures” or a named culture such as Lactobacillus paracasei. “Cultured milk” alone means the product was fermented, but it does not necessarily guarantee that live cultures remain in the finished tub.\n\nIf your priority is specifically live cultures, buy Good Culture; if you want organic plus probiotics, consider Nancy’s.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

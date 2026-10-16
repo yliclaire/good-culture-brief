@@ -1,0 +1,597 @@
+{
+  "review_status": "reviewed",
+  "reviewer": "Codex assistant: synthesis of previously reviewed findings; not independent human coding",
+  "reviewed_at": "2026-10-16",
+  "source_fingerprint": "4b6ad384c60eba11f4f0b443e6691120f5d41ba77474b5898054358033e11bf3",
+  "evidence_date": "2026-10-15",
+  "default_question": "Q3",
+  "default_branded_question": "Q11",
+  "question_labels": {
+    "Q1": "General recommendation",
+    "Q2": "First purchase",
+    "Q3": "High-protein snack",
+    "Q4": "Simple ingredients",
+    "Q5": "Live and active cultures",
+    "Q6": "Minimum cost per serving",
+    "Q7": "Lower sodium",
+    "Q8": "Lactose intolerance",
+    "Q9": "Avoiding lumpy texture",
+    "Q10": "Worth paying more than Daisy?",
+    "Q11": "Good Culture unavailable",
+    "Q12": "Switch from Daisy?"
+  },
+  "metric_bindings": {
+    "protein_leads": {
+      "view": "main|baseline|question|Q3|all",
+      "field": "first_choice_credit_sum",
+      "brand": "$focal"
+    },
+    "protein_n": {
+      "view": "main|baseline|question|Q3|all",
+      "field": "n",
+      "brand": "$focal"
+    },
+    "culture_leads": {
+      "view": "main|baseline|question|Q5|all",
+      "field": "first_choice_credit_sum",
+      "brand": "$focal"
+    },
+    "culture_n": {
+      "view": "main|baseline|question|Q5|all",
+      "field": "n",
+      "brand": "$focal"
+    },
+    "ingredient_leads": {
+      "view": "main|baseline|question|Q4|all",
+      "field": "first_choice_credit_sum",
+      "brand": "$focal"
+    },
+    "ingredient_primary": {
+      "view": "main|baseline|question|Q4|all",
+      "field": "first_choice_credit_sum",
+      "brand": "$primary"
+    },
+    "ingredient_n": {
+      "view": "main|baseline|question|Q4|all",
+      "field": "n",
+      "brand": "$focal"
+    },
+    "ingredient_no_lead": {
+      "view": "main|baseline|question|Q4|all",
+      "field": "no_lead_n",
+      "brand": "$focal"
+    },
+    "budget_rec": {
+      "view": "main|baseline|question|Q6|all",
+      "field": "recommended_sum",
+      "brand": "$focal"
+    },
+    "budget_n": {
+      "view": "main|baseline|question|Q6|all",
+      "field": "n",
+      "brand": "$focal"
+    },
+    "budget_great_value": {
+      "view": "main|baseline|question|Q6|all",
+      "field": "first_choice_credit_sum",
+      "brand": "Private label: Great Value"
+    },
+    "premium_conditional": {
+      "view": "main|baseline|question|Q10|all",
+      "field": "premium:conditional",
+      "brand": "$focal"
+    },
+    "premium_n": {
+      "view": "main|baseline|question|Q10|all",
+      "field": "n",
+      "brand": "$focal"
+    },
+    "premium_no_lead": {
+      "view": "main|baseline|question|Q10|all",
+      "field": "lead_status:conditional_only",
+      "brand": "$focal"
+    },
+    "premium_primary": {
+      "view": "main|baseline|question|Q10|all",
+      "field": "first_choice_credit_sum",
+      "brand": "$primary"
+    },
+    "stockout_subs": {
+      "view": "main|baseline|question|Q11|all",
+      "field": "substitute_sum",
+      "brand": "$primary"
+    },
+    "stockout_leads": {
+      "view": "main|baseline|question|Q11|all",
+      "field": "first_choice_credit_sum",
+      "brand": "$primary"
+    },
+    "stockout_n": {
+      "view": "main|baseline|question|Q11|all",
+      "field": "n",
+      "brand": "$focal"
+    },
+    "switch_primary": {
+      "view": "main|baseline|question|Q12|all",
+      "field": "first_choice_credit_sum",
+      "brand": "$primary"
+    },
+    "switch_no_lead": {
+      "view": "main|baseline|question|Q12|all",
+      "field": "lead_status:conditional_only",
+      "brand": "$focal"
+    },
+    "switch_n": {
+      "view": "main|baseline|question|Q12|all",
+      "field": "n",
+      "brand": "$focal"
+    }
+  },
+  "evidence_selections": [
+    {
+      "evidence_id": "E01",
+      "finding_id": "F1",
+      "role": "support",
+      "observation_id": "main/claude/Q3/2",
+      "excerpt": "For a high-protein snack, I’d point you to Good Culture, with Daisy as a close runner-up.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E02",
+      "finding_id": "F1",
+      "role": "support",
+      "observation_id": "main/claude/Q5/1",
+      "excerpt": "My pick is Good Culture. Every product in its cottage cheese line contains live and active cultures, so there’s no need to hunt for a special version.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E03",
+      "finding_id": "F1",
+      "role": "counterexample",
+      "observation_id": "main/chatgpt/Q4/1",
+      "excerpt": "My final pick: Buy Daisy 4% for everyday use. Choose Good Culture Organic 4% if organic sourcing is important to you. Both fit your preference for straightforward ingredients, and there's no compelling reason to pay more solely to get a shorter label.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E04",
+      "finding_id": "F1",
+      "role": "counterexample_to_uniform_Daisy_win",
+      "observation_id": "main/perplexity/Q4/1",
+      "excerpt": "Choose Good Culture Simply Cottage Cheese—most likely the 2% Low-Fat Classic or 4% Classic, depending on whether you want lighter or richer.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E05",
+      "finding_id": "F1",
+      "role": "limit",
+      "observation_id": "main/chatgpt/Q3/1",
+      "excerpt": "One caveat: Good Culture isn't dramatically higher in protein than Daisy when you compare equal serving sizes. If you prefer Daisy's taste or find it substantially cheaper, it's an equally reasonable everyday choice.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E06",
+      "finding_id": "F1",
+      "role": "counterexample_to_unique_cultures",
+      "observation_id": "main/chatgpt/Q5/2",
+      "excerpt": "Bottom line: Buy Nancy's Organic Probiotic Cottage Cheese, 2%, if you want the most explicitly probiotic-focused product among these choices. Choose Good Culture Simply 2% if you care equally about live cultures, protein and a thick, creamy texture.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E07",
+      "finding_id": "F2",
+      "role": "support",
+      "observation_id": "main/chatgpt/Q6/1",
+      "excerpt": "My recommendation: Buy Great Value cottage cheese from Walmart, ideally the 48-ounce tub. Among the widely available U.S. options I checked, it offers one of the lowest costs per serving without requiring a warehouse-club membership.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E08",
+      "finding_id": "F2",
+      "role": "variation",
+      "observation_id": "main/perplexity/Q6/3",
+      "excerpt": "Buy Aldi Friendly Farms Regular Small Curd Cottage Cheese if you have an Aldi nearby.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E09",
+      "finding_id": "F2",
+      "role": "boundary",
+      "observation_id": "main/claude/Q6/3",
+      "excerpt": "Watch for sales on name brands. Brands like Daisy or Hood sometimes drop below store-brand prices for a short time. Otherwise, the store brand is the consistent low-cost choice.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E10",
+      "finding_id": "F3",
+      "role": "support",
+      "observation_id": "main/perplexity/Q11/2",
+      "excerpt": "Buy Daisy 4% Small Curd Cottage Cheese as your closest everyday substitute.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E11",
+      "finding_id": "F3",
+      "role": "counterexample_to_unconditional_moat",
+      "observation_id": "main/chatgpt/Q10/3",
+      "excerpt": "For most U.S. shoppers, I'd buy Daisy as the default and Good Culture as the texture-driven upgrade.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E12",
+      "finding_id": "F3",
+      "role": "premium_support",
+      "observation_id": "main/gemini/Q10/1",
+      "excerpt": "If you eat cottage cheese plain, love a tangy profile, or use it for savory bowls, Good Culture is usually worth the splurge. But if you use cottage cheese primarily as a versatile canvas for sweet mix-ins—or go through a tub every couple of days—Daisy is the smarter, more economical everyday staple.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E13",
+      "finding_id": "F3",
+      "role": "limit_on_11_of_12",
+      "observation_id": "main/gemini/Q11/3",
+      "excerpt": "Recommendation: Grab Daisy if you want the cleanest ingredient list, or Organic Valley if you want that premium, rich dairy taste.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E14",
+      "finding_id": "F4",
+      "role": "engine_contrast",
+      "observation_id": "main/chatgpt/Q1/1",
+      "excerpt": "My recommendation: Buy Daisy Cottage Cheese. It's the best all-around choice for most U.S. shoppers, combining excellent taste, simple ingredients, plenty of protein, and a reasonable price.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E15",
+      "finding_id": "F4",
+      "role": "engine_contrast",
+      "observation_id": "main/claude/Q1/1",
+      "excerpt": "Good Culture Cottage Cheese\nIt's the best all-rounder for most people.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E16",
+      "finding_id": "F4",
+      "role": "claim_conflict",
+      "observation_id": "main/claude/Q10/3",
+      "excerpt": "most cottage cheese, including Daisy’s standard line, doesn’t keep them alive, since heating the curd kills the culture",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E17",
+      "finding_id": "F4",
+      "role": "claim_conflict",
+      "observation_id": "main/chatgpt/Q5/2",
+      "excerpt": "Daisy confirms that its classic 4% cottage cheese contains live and active cultures.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    },
+    {
+      "evidence_id": "E18",
+      "finding_id": "F4",
+      "role": "supplement_counterexample",
+      "observation_id": "supplement/copilot_search/Q4/1",
+      "excerpt": "If you want the cleanest, simplest ingredient list, Good Culture Organic Whole Milk Cottage Cheese is the strongest choice because it contains only milk, cream, sea salt, and live cultures while avoiding gums and stabilizers.",
+      "review_note": "Reread in complete cleaned answer and checked against coded interpretation; verify literal excerpt against raw evidence during report build. Product/medical/price content is engine perception, not externally verified."
+    }
+  ],
+  "headline": "Good Culture leads on protein, but faces credible substitutes.",
+  "opening": "Good Culture wins on protein and live-culture recommendations. Its premium faces a clear substitution challenge: Daisy leads on simple ingredients and stockout replacement, while private labels lead on budget. The investment case depends on buyers choosing Good Culture again at a premium. Prioritize repeat-purchase evidence through price changes and competitor trial.",
+  "subtitle": "Main study: four browser experiences, 12 prompts and three passes, giving 144 included answers. The separate search supplement has 11 included answers and one truncated answer excluded. This report uses saved responses; no new queries or external fact checks were run.",
+  "needs_title": "Good Culture leads on protein and live-culture questions.",
+  "stress_title": "Budget and availability change the recommended brand.",
+  "durability_title": "Which advantages could a larger dairy brand challenge?",
+  "robustness_title": "The engines often name Good Culture, but differ on what to buy.",
+  "hero_stats": [
+    {
+      "label": "Protein positioning",
+      "numerator": "protein_leads",
+      "denominator": "protein_n",
+      "description": "Good Culture is the overall first choice for a high-protein snack."
+    },
+    {
+      "label": "Ingredient simplicity",
+      "numerator": "ingredient_primary",
+      "denominator": "ingredient_n",
+      "description": "Daisy is the overall first choice for simple ingredients."
+    },
+    {
+      "label": "Stockout replacement",
+      "numerator": "stockout_leads",
+      "denominator": "stockout_n",
+      "description": "Daisy is the overall first choice when Good Culture is unavailable. This is an explicitly branded prompt."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "body": "Good Culture leads {{protein_leads}} / {{protein_n}} high-protein answers and {{culture_leads}} / {{culture_n}} live-culture answers. For simple ingredients, it leads {{ingredient_leads}} / {{ingredient_n}}. Daisy leads {{ingredient_primary}}, and {{ingredient_no_lead}} answers give conditional choices. The broad health hypothesis is not consistently supported across engines; protein, cultures and ingredient simplicity need separate treatment.",
+      "implication_label": "Differentiation",
+      "implication": "Good Culture is often the preferred brand for these needs. Simple ingredients alone do not distinguish it from an incumbent, and these recommendations do not establish nutritional superiority.",
+      "question": "When products and serving sizes are comparable, which preference keeps buyers choosing Good Culture?"
+    },
+    {
+      "id": "F2",
+      "body": "Good Culture is recommended in {{budget_rec}} / {{budget_n}} budget answers. Great Value leads {{budget_great_value}} / {{budget_n}}. The other answers choose another private label or give conditional choices. The prompt explicitly prioritizes minimum cost.",
+      "implication_label": "Pricing risk",
+      "implication": "Private labels may limit the premium among shoppers who prioritize cost. The study does not measure actual trade-down, savings or price elasticity.",
+      "question": "How does repeat purchase change when promotions or household budgets change the price gap?"
+    },
+    {
+      "id": "F3",
+      "body": "Support for paying more is conditional in {{premium_conditional}} / {{premium_n}} answers. Of these, {{premium_no_lead}} answers give conditional overall choices and {{premium_primary}} default to Daisy. When Good Culture is unavailable, Daisy is a substitute in {{stockout_subs}} / {{stockout_n}} answers and the overall lead in {{stockout_leads}}. In the switching prompt, {{switch_primary}} / {{switch_n}} default to Daisy and {{switch_no_lead}} give conditional choices.",
+      "implication_label": "Reasons to pay more and reasons to switch",
+      "implication": "Answers support paying more for texture, eating it plain or sourcing preferences, while treating an incumbent as an acceptable replacement. Conditional support is not rejection. These prompts name the brands, and the answers do not measure actual switching.",
+      "question": "After trying a replacement during a Good Culture stockout, what brings a buyer back?"
+    },
+    {
+      "id": "F4",
+      "body": "The engines often name Good Culture, but their overall purchase choices vary by engine and shopper need. Being mentioned is different from being the default recommendation. Conditional answer formats account for some of the differences.",
+      "implication_label": "What to track",
+      "implication": "Track recommendations by shopper need and engine, including how consistently they repeat. Check them against actual conversion and repeat purchase. Whether particular sources drive recommendations remains untested.",
+      "question": "Which public product messages consistently appear in recommendations, and do those recommendations correspond to purchases?"
+    }
+  ],
+  "durability_intro": "The answers suggest where a larger competitor could challenge Good Culture. The competitive interpretations below are hypotheses for diligence. The study cannot estimate an entrant's market share or establish a moat.",
+  "durability": [
+    [
+      "Protein snacking",
+      "Good Culture leads the protein prompt; some answers also recommend credible protein alternatives.",
+      "A protein recommendation does not establish a product advantage that competitors cannot match.",
+      "Compare products and serving sizes, then examine purchase and retention data."
+    ],
+    [
+      "Simple ingredients",
+      "Daisy frequently leads the simple-ingredients prompt.",
+      "An incumbent already competes on a short ingredient list.",
+      "Test which differences consumers recognize and pay for."
+    ],
+    [
+      "Live cultures",
+      "Good Culture performs well, but engines disagree about Daisy's cultures.",
+      "Exclusivity is uncertain. A comparable product and clearer messaging could challenge Good Culture.",
+      "Verify product claims and test consumer understanding. Factual checks are deferred here."
+    ],
+    [
+      "Texture and eating it plain",
+      "Premium answers favor Good Culture for particular texture and use preferences.",
+      "The eating experience may matter more than generic nutrition claims; its ability to retain buyers is unmeasured.",
+      "Use blind preference research and repeat-purchase data."
+    ],
+    [
+      "Replacement",
+      "Daisy is the recurring stockout substitute.",
+      "An acceptable alternative can win the recommendation. The answers do not measure availability or actual switching.",
+      "Examine stockouts, retail availability and household purchases."
+    ]
+  ],
+  "durability_close": "The answers show where Good Culture is recommended. To judge whether that advantage lasts, we need to know whether buyers keep choosing it when an incumbent offers an acceptable alternative.",
+  "repeat_summary": "{{stable_discovery}} / {{discovery_cells}} engine-and-question combinations keep the same coded lead outcome across the recorded passes. This includes stable answers with no overall lead. Repeated outcomes do not establish agreement between independent consumers or identical reasoning.",
+  "hypothesis_note": "H1 compares the protein and simple-ingredients prompts with general recommendation and first purchase. H2 compares budget with that same baseline. The strict matched-context versions of both original tests are unavailable. The Q2-only alternatives were added after collection; their budget comparison retains one pass. The broad health result is mixed, while the baseline budget result is consistently unfavorable to Good Culture. The stronger live-culture question remains separate from H1.",
+  "supplement_note": "In the separate search supplement, both engines choose Good Culture for first purchase (Q2), and neither gives it overall first-choice credit on budget (Q6). For simple ingredients, Google AI Mode gives conditional Daisy/Good Culture choices. Copilot chooses Good Culture, but its answer contains a location reference. Copilot Q1 is truncated and excluded. We could not establish that Google Q12 came from an independent session. Each question has one pass, so this supplement cannot show repeat consistency and remains separate from the main study.",
+  "citation_summary": "{{mapped_claims}} / {{selected_claims}} selected material claims have a recorded link between the claim paragraph and an engine citation. We mapped citations we could recover. This selective coverage cannot establish representative source coverage or which sources caused recommendations.",
+  "methods": [
+    "Each observation is one engine's answer to an exact prompt in one collection pass. We chose unprompted discovery, shopper constraints and branded comparisons to test substitution and when an engine supports paying more. Questions receive equal weight, which does not represent how often shoppers have each need.",
+    "The initial comparison set is Daisy, Breakstone's, Knudsen and Lactaid. We also retain every additional brand named in the answers, including private labels. This deliberately chosen outside-in sample is not a complete definition of the market.",
+    "The first brand named may not be the overall purchase choice. Lists and conditional answers do not provide comparable ordinal rankings, so we report overall lead, first textual mention and any recommendation separately. Explicit equal ties split first-choice credit. Conditional-only, unclear and no-recommendation answers stay in the denominator.",
+    "Main and supplemental answers remain separate. Baseline includes answers with visible personal or location context. Sensitivity checks retain question/pass combinations without recorded context flags across every planned engine. An unflagged answer is not proven neutral. The truncated supplemental answer is excluded with a recorded reason. Its original is retained privately; the public baseline contains an audit placeholder. The same assistant reviewed the coding, so the study has no independent human agreement check."
+  ],
+  "tools": [
+    [
+      "Consumer browser interfaces",
+      "Saved answers, settings, screenshots and visible source controls.",
+      "Captures the experience a shopper may see. Account context, retrieval and model settings are not fully controlled."
+    ],
+    [
+      "Codex / AI assistance",
+      "Organized evidence, drafted code, supported coding and helped write the analysis.",
+      "Reduces repeated evidence-handling work. Coding decisions and investment interpretation still need review."
+    ],
+    [
+      "Codebook and supporting excerpts",
+      "Distinguishes mentions, purchase recommendations, overall leads, conditions and citation links.",
+      "Avoids treating every named brand or first list item as an endorsement. These distinctions require judgment."
+    ],
+    [
+      "Python standard-library pipeline",
+      "Checks inputs and denominators, calculates metrics for all brands, and records file hashes.",
+      "Calculations can be inspected and rerun offline. The report reads the outputs automatically."
+    ],
+    [
+      "HTML / JavaScript",
+      "Displays charts, filters, answers and print-friendly pages.",
+      "Report assets are local. Browser and print review are still required."
+    ],
+    [
+      "GitHub Actions and API adapters",
+      "Runs rebuilds and supports optional future collection through fresh API requests.",
+      "The current study uses browser data. A private GitHub Actions build has succeeded; API collection still needs a live pilot."
+    ]
+  ],
+  "reuse_intro": "The calculation and report code reads each study's configuration and reviewed evidence. Build brief can rerun the current study from the saved browser data. For a new quarter, keep the core prompts and codebook, record setting changes, and compare the same engine/question combinations. Different samples should be reported separately.",
+  "reuse_boundary": "For a new study, first preview or collect responses. Review the coding and interpretation, register the approved study package, then run Build brief. Only collection needs API keys. A new brand or quarter needs its own review before using the narrative. The Birkenstock example contains a category configuration and no collected results.",
+  "future": [
+    [
+      "Retail and household purchase data",
+      "Do the recommendations correspond to purchases, retention or trade-down?"
+    ],
+    [
+      "Comparable SKU prices, promotions and availability",
+      "What premium do buyers actually pay, and what changes around promotions or stockouts?"
+    ],
+    [
+      "Blind preference and consumer research",
+      "Which taste, texture or sourcing preferences lead buyers to purchase again?"
+    ],
+    [
+      "Immediate citation capture and product checks",
+      "Which observed claims are supported, comparable and consistently cited?"
+    ],
+    [
+      "Repeated collection with stronger context controls",
+      "Do the original comparisons hold under better control of account and location context?"
+    ]
+  ],
+  "closing": "Repeat-purchase evidence should test whether buyers keep choosing Good Culture when cheaper or more available alternatives are offered.",
+  "print_questions": [
+    "Q3",
+    "Q5",
+    "Q4",
+    "Q6",
+    "Q10",
+    "Q11",
+    "Q12"
+  ],
+  "presentation": {
+    "version": "editorial_v7_sharpened_investment_call",
+    "chapters": [
+      {
+        "id": "view",
+        "label": "Investment view"
+      },
+      {
+        "id": "story-positioning",
+        "label": "Positioning"
+      },
+      {
+        "id": "story-competition",
+        "label": "Competitors"
+      },
+      {
+        "id": "story-durability",
+        "label": "Durability"
+      },
+      {
+        "id": "story-diligence",
+        "label": "Next diligence"
+      }
+    ],
+    "positioning_questions": [
+      "Q3",
+      "Q5"
+    ],
+    "preview_questions": [
+      "Q3",
+      "Q4",
+      "Q6",
+      "Q8"
+    ],
+    "pressure_question": "Q11",
+    "pressure_brand": "$primary",
+    "quote_id": "E10",
+    "competition_title": "Different needs bring different competitors into contention.",
+    "competition_intro": "Daisy leads on simple ingredients. Private labels lead when cost comes first; for lactose intolerance, engines also recommend Lactaid.",
+    "pressure_title": "Daisy is the usual replacement when Good Culture is unavailable.",
+    "premium_note": "The answers support paying more only under certain conditions. The stockout prompt assumes unavailability; it does not measure shelf availability, willingness to pay or actual switching.",
+    "diligence_title": "Three tests of premium durability.",
+    "agenda": [
+      {
+        "title": "Why pay more?",
+        "finding_index": 0,
+        "evidence": "Comparable products and servings, blind preference tests and repeat-purchase data."
+      },
+      {
+        "title": "How sensitive are buyers to price?",
+        "finding_index": 1,
+        "evidence": "Household retention, prices paid and promotion response."
+      },
+      {
+        "title": "What brings buyers back?",
+        "finding_index": 2,
+        "evidence": "Stockout exposure and repeat purchase after trying an alternative."
+      }
+    ],
+    "limits": "The prompts were deliberately selected, and the results measure engine answers rather than consumer demand. Engine and account context affect comparability. The original strict matched-context hypotheses are unavailable. Citation mapping is selective, factual verification is deferred, and the same assistant reviewed the coding. Main and supplemental results remain separate."
+  },
+  "decision_support": {
+    "status": "Preliminary investment view",
+    "decision": "Make premium durability the gating diligence question. Establish whether buyers keep paying more when the price gap widens or an acceptable substitute is available before assigning pricing power to the brand.",
+    "scenario_title": "If an incumbent matched the health messaging, what would remain?",
+    "scenario_assumption": "Scenario, not an observed launch: an incumbent offers comparable health messaging and an acceptable product. We have not verified product equivalence, retailer support, launch economics or consumer response.",
+    "scenario_rows": [
+      [
+        "Protein and ingredient messaging",
+        "Good Culture leads protein; Daisy leads simple ingredients.",
+        "Test whether a comparable incumbent product removes a reason to choose Good Culture. The answers do not establish product parity.",
+        "Blind and branded comparisons using comparable products and servings."
+      ],
+      [
+        "Price and availability",
+        "Budget answers favor private labels; Daisy is the usual stockout substitute.",
+        "A credible lower-priced or more available substitute could pressure the premium. Actual distribution and switching remain unmeasured.",
+        "Prices paid, promotions, availability and purchases around stockouts."
+      ],
+      [
+        "Taste, texture and eating it plain",
+        "Some premium answers support Good Culture for particular eating preferences.",
+        "Product preference could remain a reason to return even if health messaging converges. Its persistence is untested.",
+        "Repeat purchase after trial and preference research with brand cues removed."
+      ]
+    ],
+    "scenario_conclusion": "The investment case would be stronger if buyers preferred the product in blind comparisons and returned after trying substitutes. If preference depended mainly on brand cues or disappeared as the premium widened, the case would rely more heavily on branding and execution.",
+    "priorities": [
+      {
+        "title": "Retention through price changes",
+        "request": "Household repeat purchase alongside prices paid, promotions and comparable SKUs.",
+        "stronger": "Retention holds as the paid premium widens, after considering promotions, availability and buyer mix.",
+        "weaker": "Repeat purchase falls as the premium widens or remains dependent on promotions.",
+        "decision": "Determines how much confidence to place in premium durability; the current study cannot estimate elasticity."
+      },
+      {
+        "title": "Preference versus the incumbent",
+        "request": "Blind and branded comparisons of comparable Good Culture and incumbent products.",
+        "stronger": "Preference persists when brand cues are removed.",
+        "weaker": "Preference disappears in blind comparisons or is concentrated in a narrow use case.",
+        "decision": "Distinguishes evidence of product preference from messaging alone; neither outcome independently establishes retention."
+      },
+      {
+        "title": "Return after substitution",
+        "request": "Purchase histories around stockouts and competitor trials, with store availability observed.",
+        "stronger": "Buyers return to Good Culture when it is available again.",
+        "weaker": "Buyers stay with the replacement after availability recovers.",
+        "decision": "Tests whether the accepted replacement is a temporary fallback or a persistent competitive loss."
+      }
+    ],
+    "challenges": [
+      {
+        "finding": "F1",
+        "title": "Health positioning: recommendation is not unique product superiority",
+        "evidence_ids": [
+          "E05",
+          "E06"
+        ],
+        "conclusion": "The protein and live-culture lead survives as a finding about recommendations. It does not show that those benefits are exclusive, nutritionally superior or commercially defensible."
+      },
+      {
+        "finding": "F2",
+        "title": "Budget pressure: the answer depends on the shopping constraint",
+        "evidence_ids": [
+          "E09"
+        ],
+        "conclusion": "The minimum-cost prompt supports a budget-risk hypothesis, not universal trade-down. The promotion caveat is an engine statement; actual prices and household behavior have not been checked."
+      },
+      {
+        "finding": "F3",
+        "title": "Substitution: a reason to pay more still appears in the answers",
+        "evidence_ids": [
+          "E12",
+          "E13"
+        ],
+        "conclusion": "Daisy’s stockout lead does not establish that buyers abandon Good Culture. Conditional premium support and use-case preferences remain; actual return purchase needs testing."
+      },
+      {
+        "finding": "F4",
+        "title": "Engine dependence: the same general prompt can produce different defaults",
+        "evidence_ids": [
+          "E14",
+          "E15"
+        ],
+        "conclusion": "The visibility finding survives, but a universal default-brand claim would not. Engine, question and pass must remain visible; source influence is still untested."
+      }
+    ]
+  },
+  "workflow_host": {
+    "repository_url": "https://github.com/yliclaire/good-culture-brief",
+    "workflow_url": "https://github.com/yliclaire/good-culture-brief/actions/workflows/build-brief.yml",
+    "collection_workflow_url": "https://github.com/yliclaire/good-culture-brief/actions/workflows/collect-answers.yml",
+    "validated_collection_run_url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38867472323"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q4/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI prefer simple ingredients. Which brand should I choose, and why?",
+  "reviewed_answer": "If simple ingredients are your priority, Daisy is the brand to reach for. Its regular cottage cheese has just three ingredients: cultured skim milk, cream, and salt. It’s also a taste-test favorite: in America’s Test Kitchen’s blind tasting, Daisy had both the highest score and the shortest ingredient list. They also noticed a pattern worth knowing: the wetter products tended to contain more additives like xanthan, guar, and locust bean gum, which are added to bind ingredients and reduce wateriness, while the top two picks had no gums at all. Daisy is widely available and inexpensive, which makes it an easy everyday choice. \nAmerica's Test Kitchen LogoCook's Country LogoCook's Illustrated Logo +2\n\nA close second is Good Culture, especially if you care about organic or probiotics. Its classic version is made from organic skim milk, whole milk, cream, Celtic sea salt, and live and active cultures, with no gums, carrageenan, or preservatives. That’s a couple more items than Daisy, but they’re all simple, and the live cultures are a plus that Daisy doesn’t offer. It typically costs more, though. Nancy’s is another good option if you see it; it makes its dairy with a few organic, non-GMO ingredients. \n\nOne tip: ingredient lists can vary between a brand’s versions (low-fat, fruit-added, etc.), and flavored or reduced-fat products from many brands are more likely to include stabilizers. Whatever you pick, a quick glance at the label for gums, carrageenan, or “modified food starch” will tell you whether it fits your preference.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

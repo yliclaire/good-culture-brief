@@ -1,0 +1,17 @@
+{
+  "observation_id": "main/perplexity/Q11/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",
+  "reviewed_answer": "Buy Daisy 4% Small Curd Cottage Cheese as your closest everyday substitute. In a blind taste test, Daisy ranked best overall for its soft, evenly formed curds and rich creaminess; it also has a very short ingredient list—skim milk, cultured cream, and salt—so it most closely matches Good Culture’s clean-label appeal.\n\nBest substitutes by priority\nIf you want…\tBuy\tWhy\nClosest all-purpose replacement\tDaisy 4% Small Curd\tCreamy, plush curds and simple ingredients; best for eating straight, with fruit, or as a dip. \n\nLower fat, similar protein\tDaisy 2% Low Fat\tExplicitly recommended as a Good Culture alternative; Good Culture’s 2% version has about 14 g protein per half-cup, so compare labels for your preferred macro profile. \n\nOrganic / cleaner ingredient list\tOrganic Valley\tNamed a runner-up for balanced curds and creaminess, and chefs also recommend it as a Good Culture alternative. \n\nBlending into smoothies, sauces, or egg bites\t365 Organic (Whole Foods)\tIts small, soft curds blend especially smoothly. \n\nCooking, such as gnocchi, kugel, or stuffed shells\tBreakstone’s\tSmaller curds and a slightly drier texture help it integrate without making dishes watery. \nWhat to look for\n\nSince you like Good Culture, prioritize:\n\nSmall curd rather than large curd for a closer texture.\n\n2% or 4% milkfat depending on whether you usually buy the low-fat or classic version.\n\nLive and active cultures if you value the tangy flavor and probiotic aspect.\n\nA short ingredient list and minimal gums/stabilizers, which are part of Good Culture’s appeal.\n\nIf you can only find one: Daisy. If your usual Good Culture is the 2% low-fat tub, choose Daisy 2% Low Fat first; if it is the 4% classic, choose Daisy 4% Small Curd.",
+  "audit_excerpts": [
+    "Buy Daisy 4% Small Curd Cottage Cheese as your closest everyday substitute. In a blind taste test, Daisy ranked best overall for its soft, evenly formed curds and rich creaminess; it also has a very short ingredient list—skim milk, cultured cream, and salt—so it most closely matches Good Culture’s clean-label appeal. delish",
+    "Organic / cleaner ingredient list Organic Valley Named a runner-up for balanced curds and creaminess, and chefs also recommend it as a Good Culture alternative. delish +1",
+    "Blending into smoothies, sauces, or egg bites 365 Organic (Whole Foods) Its small, soft curds blend especially smoothly. delish",
+    "Cooking, such as gnocchi, kugel, or stuffed shells Breakstone’s Smaller curds and a slightly drier texture help it integrate without making dishes watery. delish What to look for"
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

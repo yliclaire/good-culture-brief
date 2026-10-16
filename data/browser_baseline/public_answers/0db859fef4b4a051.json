@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q1/1",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand should I buy, and why?",
+  "reviewed_answer": "Good Culture Cottage Cheese\nIt's the best all-rounder for most people. The ingredient list is short (cultured milk, cream, salt, live cultures, no gums or stabilizers), it's high in protein, and it contains live and active cultures, which most mainstream cottage cheeses don't. The texture is thick and creamy with distinct curds rather than watery or soupy, and it's sold at most big US grocers (Whole Foods, Target, Kroger, Walmart, Costco). The trade-offs are price, since it typically costs noticeably more per ounce than store brands, and a slightly tangy flavor from the cultures that some people find less 'classic.'\n\nA couple of alternatives depending on what matters most to you. If you want a cheaper, classic-tasting option that’s still clean, Daisy is the one to get. Its ingredients are simple too (milk, cream, salt), with no additives, and it’s widely available and usually cheaper than Good Culture. If gut health is your main reason for eating it, Nancy’s is a good pick. It’s especially rich in live probiotic cultures, though it’s tangier and harder to find outside the West Coast and natural-food stores.\n\nA quick tip whatever you choose: check the label for gums like guar, xanthan, or carrageenan. Many store brands and some big names use them as thickeners. They’re harmless, but brands without them generally taste fresher and have a better texture. Also, 4% milkfat versions tend to taste noticeably richer than low-fat or nonfat ones, if you’re not set on cutting calories.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

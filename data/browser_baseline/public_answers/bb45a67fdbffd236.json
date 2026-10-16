@@ -1,0 +1,12 @@
+{
+  "observation_id": "main/claude/Q4/2",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nI prefer simple ingredients. Which brand should I choose, and why?",
+  "reviewed_answer": "Daisy is the one to get. Its classic 4% cottage cheese has just three ingredients: cultured skim milk, cream, and salt, with no gums, stabilizers, or preservatives. It also tastes good: America’s Test Kitchen ranked it first in a blind tasting, and it had both the highest score and the shortest ingredient list of the products they tried. It’s sold almost everywhere and is usually reasonably priced. \n\nSome reasons the ingredient list matters for cottage cheese:\n\nOther brands often add thickeners. ATK found that the wetter products tended to contain more additives such as xanthan, guar, and locust bean gum, which are used to bind the cheese and make it less watery. \nDaisy’s 2% version adds one small thing. It lists vitamin A palmitate after the milk, cream, and salt. That’s a normal fortification in reduced-fat dairy, not a filler. If you want the absolute shortest list, buy the 4%. \n\nA close alternative is Good Culture, which contains only milk, cream, sea salt, and live active cultures. It’s thicker and creamier than Daisy, and in an EatingWell survey all four chefs chose it, partly because it lacks the gums and stabilizers found in some brands. The main downside is price: it usually costs more per ounce than Daisy. \n\nIf you want organic, check Good Culture’s organic line or Nancy’s.\n\nWhatever you buy, check the label. Store brands and “lite” or flavored versions are the ones most likely to have extra additives.",
+  "audit_excerpts": [],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}

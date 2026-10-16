@@ -1,0 +1,14 @@
+{
+  "observation_id": "main/claude/Q3/3",
+  "exact_prompt": "I'm shopping for cottage cheese in the United States.\n\nWhich brand would you recommend for a high-protein snack, and why?",
+  "reviewed_answer": "My pick for a high-protein snack is Good Culture, with Daisy as a close runner-up.\n\nWhy Good Culture: It leads on protein in the snack-size format. The Classic 2% single-serve cup is 5.3 oz with 19 g of protein and is made from pasture-raised milk. The ingredient list is short (milk, cream, salt, live cultures), and it’s thicker and less watery than many brands, which makes it more satisfying to eat straight from the cup. The single-serve size works well for grab-and-go snacking. The trade-off is price: it usually costs more per ounce than mainstream brands. \n\nWhy Daisy is a strong alternative: It’s cheaper, sold almost everywhere, and has an equally clean ingredient list (cultured skim milk, cream, salt). Its 5.3 oz cups have 17 g of protein in both the 2% and 4% versions. If you’d rather buy a large tub and portion it yourself, Daisy is probably the best value for the protein. \n\nA few tips for comparing labels in the store:\n\nCheck the serving size. Cups are often 5.3 oz, but tubs list protein per ½ cup, which is usually around 12 to 14 g. That makes cups look higher in protein even when the cottage cheese is similar.\n\nChoose plain over fruit-on-the-bottom. The fruit versions have less protein per ounce and more sugar.\n\nLook at the sodium. Cottage cheese can be fairly salty, so compare brands if that matters to you.\n\nPick the fat level you like. 2% and 4% have almost the same protein, so choose based on taste. 4% tastes richer, and 2% or nonfat saves a few calories.\n\nFor an easy snack upgrade, add berries and a drizzle of honey for something sweet, or everything-bagel seasoning and cherry tomatoes for something savory.",
+  "audit_excerpts": [
+    "Why Good Culture: It leads on protein in the snack-size format. The Classic 2% single-serve cup is 5.3 oz with 19 g of protein and is made from pasture-raised milk. The ingredient list is short (milk, cream, salt, live cultures), and it’s thicker and less watery than many brands, which makes it more satisfying to eat straight from the cup. The single-serve size works well for grab-and-go snacking. The trade-off is price: it usually costs more per ounce than mainstream brands. walmart "
+  ],
+  "provenance": {
+    "kind": "sanitized_browser_export",
+    "original_capture_sha256": "1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d",
+    "original_archive": "Retained privately; not distributed",
+    "redaction_note": "Personal name/location references and interface material withheld. Coding decisions, flags, denominators and measurements retained."
+  }
+}
