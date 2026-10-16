@@ -1,0 +1,233 @@
+{
+  "scope": "Recovered selected-claim attachments, not source influence",
+  "rows": [
+    {
+      "layer": "main",
+      "domain": "aldi.us",
+      "observation_ids": [
+        "main/perplexity/Q6/2"
+      ],
+      "urls": [
+        "https://www.aldi.us/store/aldi/products/18648946-friendly-farms-cottage-cheese-24-oz"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "americastestkitchen.com",
+      "observation_ids": [
+        "main/claude/Q4/1"
+      ],
+      "urls": [
+        "https://www.americastestkitchen.com/taste_tests/1893-cottage-cheese"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "aol.com",
+      "observation_ids": [
+        "main/claude/Q2/1"
+      ],
+      "urls": [
+        "https://www.aol.com/articles/tasted-8-cottage-cheese-brands-140000086.html"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "chowhound.com",
+      "observation_ids": [
+        "main/claude/Q4/1"
+      ],
+      "urls": [
+        "https://www.chowhound.com/2171003/quality-cottage-cheese-brand/"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "cooksillustrated.com",
+      "observation_ids": [
+        "main/claude/Q4/1"
+      ],
+      "urls": [
+        "https://cooksillustrated.com/taste_tests/454-cottage-cheese"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "delish.com",
+      "observation_ids": [
+        "main/perplexity/Q11/2",
+        "main/perplexity/Q11/3"
+      ],
+      "urls": [
+        "https://www.delish.com/food/a65290671/cottage-cheese-taste-test/"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "eatthis.com",
+      "observation_ids": [
+        "main/claude/Q5/1"
+      ],
+      "urls": [
+        "https://www.eatthis.com/cottage-cheese-brands-best-ingredients/"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "foodandwine.com",
+      "observation_ids": [
+        "main/perplexity/Q10/3"
+      ],
+      "urls": [
+        "https://www.foodandwine.com/best-cottage-cheese-consumer-reports-12163398"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "foodnetwork.com",
+      "observation_ids": [
+        "main/perplexity/Q3/1",
+        "main/perplexity/Q3/3"
+      ],
+      "urls": [
+        "https://www.foodnetwork.com/healthy/articles/healthiest-cottage-cheese"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "goodculture.com",
+      "observation_ids": [
+        "main/claude/Q5/1",
+        "main/perplexity/Q8/1"
+      ],
+      "urls": [
+        "https://goodculture.com/collections/lactose-free/",
+        "https://www.goodculture.com/cottage-cheese"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "inkl.com",
+      "observation_ids": [
+        "main/perplexity/Q10/3"
+      ],
+      "urls": [
+        "https://www.inkl.com/news/8-cottage-cheese-brands-compared-the-winner-wasnt-the-most-expensive"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "kalonasupernatural.com",
+      "observation_ids": [
+        "main/gemini/Q4/1"
+      ],
+      "urls": [
+        "https://kalonasupernatural.com/products/organic-lowfat-cottage-cheese/#:~:text=Organic%20Lowfat%20Cottage%20Cheese%20%7C%20Kalona%20SuperNatural.,%26%20our%20planet.%20You'll%20taste%20the%20difference!"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "labelgrade.com",
+      "observation_ids": [
+        "main/perplexity/Q3/3"
+      ],
+      "urls": [
+        "https://labelgrade.com/best/cottage-cheese"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "mashed.com",
+      "observation_ids": [
+        "main/perplexity/Q10/3",
+        "main/perplexity/Q12/1",
+        "main/perplexity/Q12/3"
+      ],
+      "urls": [
+        "https://www.mashed.com/2149937/cottage-cheese-brands-ranked-worst-best/"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "missourigirlhome.com",
+      "observation_ids": [
+        "main/gemini/Q4/1"
+      ],
+      "urls": [
+        "https://missourigirlhome.com/top-two-best-tasting-and-healthiest-cottage-cheese-brands/#:~:text=All%20of%20that%20luscious%20creaminess%20goes%20into,list%20and%20still%20manages%20to%20taste%20amazing."
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "nytimes.com",
+      "observation_ids": [
+        "main/perplexity/Q1/3",
+        "main/perplexity/Q9/3"
+      ],
+      "urls": [
+        "https://www.nytimes.com/wirecutter/reviews/best-cottage-cheese/"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "seriouseats.com",
+      "observation_ids": [
+        "main/perplexity/Q9/3"
+      ],
+      "urls": [
+        "https://www.seriouseats.com/cottage-cheese-taste-test-12013627"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "target.com",
+      "observation_ids": [
+        "main/perplexity/Q4/3"
+      ],
+      "urls": [
+        "https://www.target.com/p/good-culture-2-low-fat-classic-cottage-cheese-16oz/-/A-52007667"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "tastingtable.com",
+      "observation_ids": [
+        "main/claude/Q5/1"
+      ],
+      "urls": [
+        "https://www.tastingtable.com/1853007/healthiest-cottage-cheese-variety"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "theskimm.com",
+      "observation_ids": [
+        "main/perplexity/Q5/1"
+      ],
+      "urls": [
+        "https://www.theskimm.com/food/best-cottage-cheese-brands"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "walmart.com",
+      "observation_ids": [
+        "main/claude/Q6/1"
+      ],
+      "urls": [
+        "https://www.walmart.com/browse/food/cottage-cheese/976759_9176907_1001468_2109292",
+        "https://www.walmart.com/ip/10315020"
+      ]
+    },
+    {
+      "layer": "main",
+      "domain": "wholefoodsmarket.com",
+      "observation_ids": [
+        "main/claude/Q4/1"
+      ],
+      "urls": [
+        "https://www.wholefoodsmarket.com/product/good-culture-organic-whole-milk-classic-cottage-cheese-4-milk-fat-16-oz-b072f4xnt6"
+      ]
+    }
+  ]
+}

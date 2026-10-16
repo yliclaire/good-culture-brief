@@ -1,0 +1,496 @@
+{
+  "kind": "synthetic_demonstration",
+  "baseline": {
+    "schema_version": 1,
+    "wave": "2026-Q4",
+    "question_id": "Q3",
+    "question_label": "High-protein snack",
+    "focal_brand": "Good Culture",
+    "protocol": {
+      "question": "Which brand would you recommend for a high-protein snack, and why?",
+      "context": "I'm shopping for cottage cheese in the United States.",
+      "market": "United States",
+      "focal_brand": "Good Culture",
+      "layer": "main",
+      "population": "baseline",
+      "metric": "first_choice_credit_sum",
+      "codebook": "2.0.0+context-rules-2.1.0",
+      "engines": [
+        "chatgpt",
+        "claude",
+        "gemini",
+        "perplexity"
+      ],
+      "repeat_labels": [
+        "1",
+        "2",
+        "3"
+      ],
+      "metadata": {
+        "engine": [
+          "chatgpt",
+          "claude",
+          "gemini",
+          "perplexity"
+        ],
+        "model": [
+          "GPT-6; Medium",
+          "Gemini Auto; underlying model not disclosed",
+          "Opus 5.5; Medium",
+          "not disclosed",
+          "not disclosed; native Search"
+        ],
+        "mode": [
+          "incognito",
+          "temporary",
+          "unpersonalized temporary"
+        ],
+        "sign_in": [
+          "Not recorded"
+        ],
+        "engine_settings": {
+          "chatgpt": [
+            [
+              "GPT-6; Medium",
+              "unpersonalized temporary",
+              "Not recorded",
+              ""
+            ]
+          ],
+          "claude": [
+            [
+              "Opus 5.5; Medium",
+              "incognito",
+              "Not recorded",
+              ""
+            ]
+          ],
+          "gemini": [
+            [
+              "Gemini Auto; underlying model not disclosed",
+              "temporary",
+              "Not recorded",
+              ""
+            ]
+          ],
+          "perplexity": [
+            [
+              "not disclosed",
+              "incognito",
+              "Not recorded",
+              ""
+            ],
+            [
+              "not disclosed; native Search",
+              "incognito",
+              "Not recorded",
+              ""
+            ]
+          ]
+        }
+      },
+      "collection_protocol": {
+        "mode": "manual_browser_with_saved_evidence",
+        "fresh_chat_per_question": true,
+        "record": [
+          "exact_prompt",
+          "capture_timestamp",
+          "displayed_model",
+          "privacy_mode",
+          "sign_in_status",
+          "complete_answer",
+          "screenshot",
+          "original_dom_or_ax",
+          "citation_destinations",
+          "context_flags"
+        ],
+        "never_replace_originals_with_selected_retries": true
+      }
+    },
+    "protocol_hash": "177719f7f2ed0a8ac5c14b54bb865a82e18f4e3cd58e29c1cd2b2fe9fa4358ae",
+    "n": 12,
+    "first_choice_credit": 12.0,
+    "synthetic": false,
+    "observation_ids": [
+      "main/chatgpt/Q3/1",
+      "main/chatgpt/Q3/2",
+      "main/chatgpt/Q3/3",
+      "main/claude/Q3/1",
+      "main/claude/Q3/2",
+      "main/claude/Q3/3",
+      "main/gemini/Q3/1",
+      "main/gemini/Q3/2",
+      "main/gemini/Q3/3",
+      "main/perplexity/Q3/1",
+      "main/perplexity/Q3/2",
+      "main/perplexity/Q3/3"
+    ]
+  },
+  "cases": {
+    "unchanged": {
+      "label": "Same recorded setup; unchanged result",
+      "future": {
+        "schema_version": 1,
+        "wave": "synthetic_next_wave",
+        "question_id": "Q3",
+        "question_label": "High-protein snack",
+        "focal_brand": "Good Culture",
+        "protocol": {
+          "question": "Which brand would you recommend for a high-protein snack, and why?",
+          "context": "I'm shopping for cottage cheese in the United States.",
+          "market": "United States",
+          "focal_brand": "Good Culture",
+          "layer": "main",
+          "population": "baseline",
+          "metric": "first_choice_credit_sum",
+          "codebook": "2.0.0+context-rules-2.1.0",
+          "engines": [
+            "chatgpt",
+            "claude",
+            "gemini",
+            "perplexity"
+          ],
+          "repeat_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "metadata": {
+            "engine": [
+              "chatgpt",
+              "claude",
+              "gemini",
+              "perplexity"
+            ],
+            "model": [
+              "GPT-6; Medium",
+              "Gemini Auto; underlying model not disclosed",
+              "Opus 5.5; Medium",
+              "not disclosed",
+              "not disclosed; native Search"
+            ],
+            "mode": [
+              "incognito",
+              "temporary",
+              "unpersonalized temporary"
+            ],
+            "sign_in": [
+              "Not recorded"
+            ],
+            "engine_settings": {
+              "chatgpt": [
+                [
+                  "GPT-6; Medium",
+                  "unpersonalized temporary",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "claude": [
+                [
+                  "Opus 5.5; Medium",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "gemini": [
+                [
+                  "Gemini Auto; underlying model not disclosed",
+                  "temporary",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "perplexity": [
+                [
+                  "not disclosed",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ],
+                [
+                  "not disclosed; native Search",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ]
+              ]
+            }
+          },
+          "collection_protocol": {
+            "mode": "manual_browser_with_saved_evidence",
+            "fresh_chat_per_question": true,
+            "record": [
+              "exact_prompt",
+              "capture_timestamp",
+              "displayed_model",
+              "privacy_mode",
+              "sign_in_status",
+              "complete_answer",
+              "screenshot",
+              "original_dom_or_ax",
+              "citation_destinations",
+              "context_flags"
+            ],
+            "never_replace_originals_with_selected_retries": true
+          }
+        },
+        "protocol_hash": "177719f7f2ed0a8ac5c14b54bb865a82e18f4e3cd58e29c1cd2b2fe9fa4358ae",
+        "n": 12,
+        "first_choice_credit": 12.0,
+        "synthetic": true,
+        "observation_ids": []
+      },
+      "result": {
+        "status": "no_alert",
+        "delta_pp": 0.0,
+        "changed_fields": [],
+        "message": "No alert under the illustrative rule. This does not establish stability in consumer demand."
+      }
+    },
+    "decline": {
+      "label": "Same recorded setup; illustrative decline",
+      "future": {
+        "schema_version": 1,
+        "wave": "synthetic_next_wave",
+        "question_id": "Q3",
+        "question_label": "High-protein snack",
+        "focal_brand": "Good Culture",
+        "protocol": {
+          "question": "Which brand would you recommend for a high-protein snack, and why?",
+          "context": "I'm shopping for cottage cheese in the United States.",
+          "market": "United States",
+          "focal_brand": "Good Culture",
+          "layer": "main",
+          "population": "baseline",
+          "metric": "first_choice_credit_sum",
+          "codebook": "2.0.0+context-rules-2.1.0",
+          "engines": [
+            "chatgpt",
+            "claude",
+            "gemini",
+            "perplexity"
+          ],
+          "repeat_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "metadata": {
+            "engine": [
+              "chatgpt",
+              "claude",
+              "gemini",
+              "perplexity"
+            ],
+            "model": [
+              "GPT-6; Medium",
+              "Gemini Auto; underlying model not disclosed",
+              "Opus 5.5; Medium",
+              "not disclosed",
+              "not disclosed; native Search"
+            ],
+            "mode": [
+              "incognito",
+              "temporary",
+              "unpersonalized temporary"
+            ],
+            "sign_in": [
+              "Not recorded"
+            ],
+            "engine_settings": {
+              "chatgpt": [
+                [
+                  "GPT-6; Medium",
+                  "unpersonalized temporary",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "claude": [
+                [
+                  "Opus 5.5; Medium",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "gemini": [
+                [
+                  "Gemini Auto; underlying model not disclosed",
+                  "temporary",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "perplexity": [
+                [
+                  "not disclosed",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ],
+                [
+                  "not disclosed; native Search",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ]
+              ]
+            }
+          },
+          "collection_protocol": {
+            "mode": "manual_browser_with_saved_evidence",
+            "fresh_chat_per_question": true,
+            "record": [
+              "exact_prompt",
+              "capture_timestamp",
+              "displayed_model",
+              "privacy_mode",
+              "sign_in_status",
+              "complete_answer",
+              "screenshot",
+              "original_dom_or_ax",
+              "citation_destinations",
+              "context_flags"
+            ],
+            "never_replace_originals_with_selected_retries": true
+          }
+        },
+        "protocol_hash": "177719f7f2ed0a8ac5c14b54bb865a82e18f4e3cd58e29c1cd2b2fe9fa4358ae",
+        "n": 12,
+        "first_choice_credit": 9.0,
+        "synthetic": true,
+        "observation_ids": []
+      },
+      "result": {
+        "status": "review",
+        "delta_pp": -25.0,
+        "changed_fields": [],
+        "message": "Review the answers, pass variation and competitive changes before drawing an investment conclusion."
+      }
+    },
+    "model_change": {
+      "label": "Model metadata changes; hold comparison",
+      "future": {
+        "schema_version": 1,
+        "wave": "synthetic_next_wave",
+        "question_id": "Q3",
+        "question_label": "High-protein snack",
+        "focal_brand": "Good Culture",
+        "protocol": {
+          "question": "Which brand would you recommend for a high-protein snack, and why?",
+          "context": "I'm shopping for cottage cheese in the United States.",
+          "market": "United States",
+          "focal_brand": "Good Culture",
+          "layer": "main",
+          "population": "baseline",
+          "metric": "first_choice_credit_sum",
+          "codebook": "2.0.0+context-rules-2.1.0",
+          "engines": [
+            "chatgpt",
+            "claude",
+            "gemini",
+            "perplexity"
+          ],
+          "repeat_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "metadata": {
+            "engine": [
+              "chatgpt",
+              "claude",
+              "gemini",
+              "perplexity"
+            ],
+            "model": [
+              "SYNTHETIC_CHANGED_MODEL"
+            ],
+            "mode": [
+              "incognito",
+              "temporary",
+              "unpersonalized temporary"
+            ],
+            "sign_in": [
+              "Not recorded"
+            ],
+            "engine_settings": {
+              "chatgpt": [
+                [
+                  "GPT-6; Medium",
+                  "unpersonalized temporary",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "claude": [
+                [
+                  "Opus 5.5; Medium",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "gemini": [
+                [
+                  "Gemini Auto; underlying model not disclosed",
+                  "temporary",
+                  "Not recorded",
+                  ""
+                ]
+              ],
+              "perplexity": [
+                [
+                  "not disclosed",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ],
+                [
+                  "not disclosed; native Search",
+                  "incognito",
+                  "Not recorded",
+                  ""
+                ]
+              ]
+            }
+          },
+          "collection_protocol": {
+            "mode": "manual_browser_with_saved_evidence",
+            "fresh_chat_per_question": true,
+            "record": [
+              "exact_prompt",
+              "capture_timestamp",
+              "displayed_model",
+              "privacy_mode",
+              "sign_in_status",
+              "complete_answer",
+              "screenshot",
+              "original_dom_or_ax",
+              "citation_destinations",
+              "context_flags"
+            ],
+            "never_replace_originals_with_selected_retries": true
+          }
+        },
+        "protocol_hash": "177719f7f2ed0a8ac5c14b54bb865a82e18f4e3cd58e29c1cd2b2fe9fa4358ae",
+        "n": 12,
+        "first_choice_credit": 9.0,
+        "synthetic": true,
+        "observation_ids": []
+      },
+      "result": {
+        "status": "hold",
+        "delta_pp": null,
+        "changed_fields": [
+          "metadata"
+        ],
+        "message": "Hold comparison: collection/design metadata changed (metadata). Inspect and establish a comparable series before interpreting a brand trend."
+      }
+    }
+  },
+  "threshold_pp": 25
+}

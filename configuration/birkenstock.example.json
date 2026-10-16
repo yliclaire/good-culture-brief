@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "study_id": "birkenstock",
+  "run_id": "birkenstock_design_example",
+  "wave": "uncollected",
+  "study_status": "draft",
+  "focal_brand": "Birkenstock",
+  "competitors": [
+    "Teva",
+    "Crocs",
+    "ECCO"
+  ],
+  "category": "comfort sandals",
+  "market": "United States",
+  "context": "I'm shopping for sandals in the United States.",
+  "codebook_version": "draft_footwear_1",
+  "attributes": [
+    "comfort",
+    "fit",
+    "support",
+    "durability",
+    "style",
+    "price",
+    "availability",
+    "materials",
+    "other"
+  ],
+  "questions": [
+    {
+      "id": "general_pick",
+      "kind": "discovery",
+      "theme": "general",
+      "text": "Which sandal brand should I buy, and why?"
+    },
+    {
+      "id": "first_purchase",
+      "kind": "discovery",
+      "theme": "first_purchase",
+      "text": "I'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "id": "walking_comfort",
+      "kind": "discovery",
+      "theme": "comfort",
+      "text": "I want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "id": "long_life",
+      "kind": "discovery",
+      "theme": "durability",
+      "text": "I prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "id": "budget",
+      "kind": "discovery",
+      "theme": "value",
+      "text": "I want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "id": "premium",
+      "kind": "branded",
+      "theme": "premium",
+      "text": "Is Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "id": "replacement",
+      "kind": "branded",
+      "theme": "substitution",
+      "text": "I usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "id": "switch",
+      "kind": "branded",
+      "theme": "conversion",
+      "text": "I usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    }
+  ],
+  "layers": [
+    {
+      "id": "main",
+      "engines": [
+        "chatgpt",
+        "claude",
+        "gemini",
+        "perplexity"
+      ],
+      "question_ids": [
+        "general_pick",
+        "first_purchase",
+        "walking_comfort",
+        "long_life",
+        "budget",
+        "premium",
+        "replacement",
+        "switch"
+      ],
+      "repeat_labels": [
+        "pass_a",
+        "pass_b",
+        "pass_c"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "discovery",
+      "label": "Unprompted discovery",
+      "question_ids": [
+        "general_pick",
+        "first_purchase",
+        "walking_comfort",
+        "long_life",
+        "budget"
+      ],
+      "coverage": "planned_within_layer"
+    },
+    {
+      "id": "branded",
+      "label": "Explicit brand questions",
+      "question_ids": [
+        "premium",
+        "replacement",
+        "switch"
+      ],
+      "coverage": "planned_within_layer"
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "comfort_vs_general",
+      "label": "Walking comfort versus general shopping",
+      "baseline_questions": [
+        "general_pick",
+        "first_purchase"
+      ],
+      "comparison_questions": [
+        "walking_comfort"
+      ],
+      "layers": [
+        "main"
+      ],
+      "analysis_status": "prespecified"
+    },
+    {
+      "id": "budget_vs_general",
+      "label": "Budget versus general shopping",
+      "baseline_questions": [
+        "general_pick",
+        "first_purchase"
+      ],
+      "comparison_questions": [
+        "budget"
+      ],
+      "layers": [
+        "main"
+      ],
+      "analysis_status": "prespecified"
+    }
+  ],
+  "limitations": [
+    "Illustrative study design only: no Birkenstock responses collected and no findings inferred.",
+    "The competitor roster, prompts and attribute taxonomy require category review before use. The roster is a proposed comparison set, not a verified competitive-market definition."
+  ],
+  "collection_protocol": {
+    "mode": "manual_browser_with_saved_evidence",
+    "fresh_chat_per_question": true,
+    "record": [
+      "exact_prompt",
+      "capture_timestamp",
+      "displayed_model",
+      "privacy_mode",
+      "sign_in_status",
+      "complete_answer",
+      "screenshot",
+      "original_dom_or_ax",
+      "citation_destinations",
+      "context_flags"
+    ],
+    "never_replace_originals_with_selected_retries": true
+  },
+  "interpretation_requirements": [
+    "Where does the focal brand win or lose, to whom and why?",
+    "Could a larger competitor substitute for the focal brand advantage?",
+    "Close every finding with confidence, diligence risk or a management question."
+  ]
+}

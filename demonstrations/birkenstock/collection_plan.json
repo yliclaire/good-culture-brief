@@ -1,0 +1,876 @@
+{
+  "planned_requests": 96,
+  "jobs": [
+    {
+      "observation_id": "api/gemini/premium/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "premium",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/perplexity/replacement/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "replacement",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/walking_comfort/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "walking_comfort",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/budget/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "budget",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/long_life/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "long_life",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/walking_comfort/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "walking_comfort",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/general_pick/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "general_pick",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/replacement/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "replacement",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/openai/first_purchase/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "first_purchase",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/switch/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "switch",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/anthropic/first_purchase/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "first_purchase",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/budget/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "budget",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/general_pick/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "general_pick",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/replacement/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "replacement",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/gemini/replacement/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "replacement",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/openai/budget/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "budget",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/premium/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "premium",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/anthropic/premium/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "premium",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/perplexity/replacement/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "replacement",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/premium/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "premium",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/perplexity/switch/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "switch",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/openai/switch/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "switch",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/anthropic/premium/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "premium",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/gemini/replacement/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "replacement",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/gemini/walking_comfort/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "walking_comfort",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/general_pick/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "general_pick",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/gemini/long_life/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "long_life",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/switch/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "switch",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/anthropic/walking_comfort/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "walking_comfort",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/long_life/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "long_life",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/long_life/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "long_life",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/long_life/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "long_life",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/budget/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "budget",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/first_purchase/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "first_purchase",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/replacement/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "replacement",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/openai/long_life/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "long_life",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/premium/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "premium",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/gemini/general_pick/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "general_pick",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/openai/replacement/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "replacement",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/openai/first_purchase/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "first_purchase",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/budget/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "budget",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/first_purchase/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "first_purchase",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/general_pick/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "general_pick",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/openai/first_purchase/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "first_purchase",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/switch/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "switch",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/perplexity/walking_comfort/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "walking_comfort",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/long_life/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "long_life",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/premium/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "premium",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/openai/walking_comfort/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "walking_comfort",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/first_purchase/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "first_purchase",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/long_life/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "long_life",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/general_pick/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "general_pick",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/openai/replacement/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "replacement",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/gemini/budget/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "budget",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/long_life/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "long_life",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/general_pick/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "general_pick",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/walking_comfort/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "walking_comfort",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/general_pick/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "general_pick",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/general_pick/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "general_pick",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/replacement/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "replacement",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/openai/budget/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "budget",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/budget/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "budget",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/walking_comfort/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "walking_comfort",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/first_purchase/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "first_purchase",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/replacement/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "replacement",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/gemini/first_purchase/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "first_purchase",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/walking_comfort/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "walking_comfort",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/premium/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "premium",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/gemini/long_life/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "long_life",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/general_pick/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "general_pick",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/switch/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "switch",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/perplexity/premium/3",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "premium",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/perplexity/general_pick/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "general_pick",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/switch/1",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "switch",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/gemini/budget/1",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "budget",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/general_pick/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "general_pick",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nWhich sandal brand should I buy, and why?"
+    },
+    {
+      "observation_id": "api/openai/walking_comfort/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "walking_comfort",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/switch/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "switch",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/openai/walking_comfort/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "walking_comfort",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/long_life/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "long_life",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/long_life/2",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "long_life",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI prioritize durability and repairability. Which sandal brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/first_purchase/3",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "first_purchase",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/replacement/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "replacement",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Birkenstock sandals, but my preferred pair is unavailable. What should I buy instead, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/first_purchase/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "first_purchase",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/budget/1",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "budget",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/openai/switch/2",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "switch",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/gemini/walking_comfort/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "walking_comfort",
+      "repeat": "3",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want sandals for a full day of walking. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/anthropic/budget/2",
+      "layer": "api",
+      "engine": "anthropic",
+      "question_id": "budget",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/switch/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "switch",
+      "repeat": "2",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/gemini/first_purchase/2",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "first_purchase",
+      "repeat": "2",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI'm buying my first pair of everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/perplexity/premium/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "premium",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/perplexity/budget/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "budget",
+      "repeat": "1",
+      "prompt_type": "discovery",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI want to minimize the cost of comfortable everyday sandals. Which brand should I choose, and why?"
+    },
+    {
+      "observation_id": "api/gemini/premium/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "premium",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    },
+    {
+      "observation_id": "api/gemini/switch/3",
+      "layer": "api",
+      "engine": "gemini",
+      "question_id": "switch",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/perplexity/switch/1",
+      "layer": "api",
+      "engine": "perplexity",
+      "question_id": "switch",
+      "repeat": "1",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nI usually buy Teva sandals. Under what circumstances, if any, should I switch to Birkenstock?"
+    },
+    {
+      "observation_id": "api/openai/premium/3",
+      "layer": "api",
+      "engine": "openai",
+      "question_id": "premium",
+      "repeat": "3",
+      "prompt_type": "branded",
+      "exact_prompt": "I'm shopping for sandals in the United States.\n\nIs Birkenstock worth paying more for than Teva? Explain when you would choose each."
+    }
+  ],
+  "models": {
+    "gemini": "",
+    "anthropic": "",
+    "perplexity": "",
+    "openai": ""
+  },
+  "note": "Each request is fresh. Request limit is not a dollar spending cap. Search is enabled but not guaranteed. No supplemental Google AI Mode or Copilot API is implied."
+}

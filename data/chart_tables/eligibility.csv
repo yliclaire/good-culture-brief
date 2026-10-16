@@ -1,0 +1,469 @@
+observation_id,layer,engine,question_id,repeat,prompt_type,exact_prompt,collected,reviewed,excluded,pending,baseline_eligible,context_flagged,context_flags_json,quality_reason,captured_at_utc,model,privacy_mode,evidence_file,evidence_line,screenshot,matched_context_eligible,matched_removal_reasons
+main/chatgpt/Q1/1,main,chatgpt,Q1,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:50:48.607Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,1,evidence/127442d2764ecccbd50c6686d6086a37ec72f348ca0a5c1651bd34c319816d09.jpg,False,perplexity:context_flagged
+main/chatgpt/Q1/2,main,chatgpt,Q1,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:27:09.452Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,13,evidence/0e17c9fb6e18c7ad87cea527848deec229f7aa97b30c4dffcde06b942366e550.jpg,False,perplexity:context_flagged
+main/chatgpt/Q1/3,main,chatgpt,Q1,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:30:01.295Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,25,evidence/b0033121ed393c25498723210890c6b103fc895932c5b626f3e9d39d85b465d6.jpg,False,perplexity:context_flagged
+main/chatgpt/Q2/1,main,chatgpt,Q2,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:14:36.215Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,2,evidence/738a051c6e14f6de3a54a30490a5a895e60de5e467c48513d300e15ef5e260bb.jpg,True,
+main/chatgpt/Q2/2,main,chatgpt,Q2,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:36:29.693Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,14,evidence/3f6e1d8eb1b54843246a35f8c1e103d41a4da89e8b024b9232a89c963e25e333.jpg,True,
+main/chatgpt/Q2/3,main,chatgpt,Q2,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:30:01.846Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,26,evidence/124db0d8a96193f3bbf03d4f714995db118791fdaf9710f4cddc97fdb3ab91ef.jpg,True,
+main/chatgpt/Q3/1,main,chatgpt,Q3,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:15:28.765Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,3,evidence/caa4ed9fb5f7d2ba2e850acaf40488edae01aa99708d847609f79697218cea40.jpg,True,
+main/chatgpt/Q3/2,main,chatgpt,Q3,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:42:09.029Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,15,evidence/11b0874092fd94679d41776316d67ad97cbbeb8d3ba3f82157d2170be12d43a2.jpg,True,
+main/chatgpt/Q3/3,main,chatgpt,Q3,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:30:47.904Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,27,evidence/7613f843de0b16350e3e5e5b715b3195d5e0f75a7fad9f67129aeaca5a510bda.jpg,True,
+main/chatgpt/Q4/1,main,chatgpt,Q4,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:18:19.072Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,4,evidence/f01b67c3762f7dc52ded99d008b875a28890f8148712c50a2020b7cb16d0bd54.jpg,True,
+main/chatgpt/Q4/2,main,chatgpt,Q4,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:47:46.627Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,16,evidence/5b047cf67fe743a44512fdb3728c255498a2c5abb3a44b1c62f843f8221642b6.jpg,True,
+main/chatgpt/Q4/3,main,chatgpt,Q4,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:44:14.541Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,28,evidence/0f9c0d35d8a4fe25338505f45b0d814957ebcd6390beb653807c4b5de32b0da0.jpg,True,
+main/chatgpt/Q5/1,main,chatgpt,Q5,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:20:06.457Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,5,evidence/b6e87418ce6eda3fab4b434ee5b2270f15f91422d36ed48506646d6cdc6069e2.jpg,True,
+main/chatgpt/Q5/2,main,chatgpt,Q5,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches prompt; conflicting overall rank adjudicated as unclear under existing codebook; retain in denominator.,2026-10-15T06:57:04.301Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,17,evidence/28a0d20ac00e9d889ee1cbc2601829a6e7504830af83a5650b8fa1e79661ff13.jpg,True,
+main/chatgpt/Q5/3,main,chatgpt,Q5,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete authored answer recovered; UI and source-panel content excluded.,2026-10-15T07:39:10.640Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,29,evidence/a84bdcb8cf3b9bf96b1aa6ec7723deccfbf45c0a8197aba19f02ddd1f32b87ed.png,True,
+main/chatgpt/Q6/1,main,chatgpt,Q6,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:22:14.700Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,6,evidence/ef941afc100809df9148365a5b9a16e9f906fb47bfd24b96dc2c2cd0e8f6fa28.jpg,False,perplexity:context_flagged
+main/chatgpt/Q6/2,main,chatgpt,Q6,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:59:37.399Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,18,evidence/a475ca4da3ccdf2a6f922fa08360a9ca25276be49a0d746ae67dd4ca7d19806b.jpg,False,perplexity:context_flagged
+main/chatgpt/Q6/3,main,chatgpt,Q6,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:44:15.069Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,30,evidence/f454a7ac86ca88bb93e63987c283a79e7fe9dca24e285a3e6c792fbfb07d4f50.jpg,True,
+main/chatgpt/Q7/1,main,chatgpt,Q7,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:23:37.007Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,7,evidence/09b354e47c7303f9c7371957d6762f5874f8c3b4191145864e2f42a5fa12289c.jpg,False,claude:context_flagged
+main/chatgpt/Q7/2,main,chatgpt,Q7,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete authored answer recovered; UI and source-panel content excluded.,2026-10-15T07:02:53.675Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,19,evidence/f4be4e78b2970b8f7ec8e6399eb7b532386e59cb43a2ea02ed9a2187f7894f90.jpg,True,
+main/chatgpt/Q7/3,main,chatgpt,Q7,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:44:15.300Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,31,evidence/902b0dcef71fbe0ad76d0ab75e6c1f90088a772a155c2caed323632a5a992a06.jpg,True,
+main/chatgpt/Q8/1,main,chatgpt,Q8,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:25:32.785Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,8,evidence/2c407ae321f22f944bdb6a78aa48747f16f72abdfad4ffdb381297ffa8f2a269.jpg,False,perplexity:context_flagged
+main/chatgpt/Q8/2,main,chatgpt,Q8,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete authored answer recovered; UI and source-panel content excluded.,2026-10-15T07:13:04.622Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,20,evidence/e47dbe250308305727216be03062e4f86d71ca89440120b6e4653668c16352af.jpg,False,perplexity:context_flagged
+main/chatgpt/Q8/3,main,chatgpt,Q8,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:46:01.726Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,32,evidence/7c8fc862489c2ee9581ca7a925c8cb2982ffe620eea4ba67ca5d1321f9c3a0d1.jpg,True,
+main/chatgpt/Q9/1,main,chatgpt,Q9,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:27:21.334Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,9,evidence/4a74cdce19e0805c6f82fb0e90c579b8006b3a294fbc74363258203a3cae6095.jpg,True,
+main/chatgpt/Q9/2,main,chatgpt,Q9,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:15:44.449Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,21,evidence/660e8bbbcbb165dcd16a58e76472fb7246c27eaf6a8c8221c79a54f9bdd9ea00.jpg,True,
+main/chatgpt/Q9/3,main,chatgpt,Q9,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:46:03.619Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,33,evidence/c6e6bfde688f2dfc7540f6e231ede4ea8ddc295a40e4574b532b3677a8c6484c.jpg,True,
+main/chatgpt/Q10/1,main,chatgpt,Q10,1,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:31:07.235Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,10,evidence/f7fc3235fa631309c6357b90fa95e0c2ae0103b4056162a647c3ff2d59d52ebb.jpg,False,perplexity:context_flagged
+main/chatgpt/Q10/2,main,chatgpt,Q10,2,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:18:58.403Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,22,evidence/5cd208e2ad5f38724851779095ef87c18a30d5e914633773f0644d0f955db05f.jpg,True,
+main/chatgpt/Q10/3,main,chatgpt,Q10,3,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:46:04.439Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,34,evidence/79945c67177603e6a537de78701dca8cd21d7798cd7cba52216bfa256d3ce554.jpg,True,
+main/chatgpt/Q11/1,main,chatgpt,Q11,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:51:54.703Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,11,evidence/ace4f827edaff072beced6d24951eb2a0bbacf4945a77d9a10ea089b5f571346.jpg,True,
+main/chatgpt/Q11/2,main,chatgpt,Q11,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:25:22.652Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,23,evidence/fcf709868d3ac38a3c08cc9bbf1dcfe1b100c2e79e0716ebfa5a1714da341bbd.jpg,True,
+main/chatgpt/Q11/3,main,chatgpt,Q11,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:48:18.354Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,35,evidence/06c8332e4e703c910eb1aaf569422f196be973663f868c6b8e42347441efa401.jpg,True,
+main/chatgpt/Q12/1,main,chatgpt,Q12,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:54:20.106Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,12,evidence/621c4596476f411ae80ed6846bacfb6397aaaaa0fe4d1ad2bd9e3bce7e6b2dc9.jpg,True,
+main/chatgpt/Q12/2,main,chatgpt,Q12,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:29:12.295Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,24,evidence/c7c6170daae1d2032998b144253dd2827bcf8f488c739acd2441a13bd11aa45d.jpg,True,
+main/chatgpt/Q12/3,main,chatgpt,Q12,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:48:19.363Z,GPT-6; Medium,unpersonalized temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,36,evidence/d6a19d73a91500993b1d6acfb7c639b8134c15201e8ef5c323dc4210327ceade.jpg,True,
+main/claude/Q1/1,main,claude,Q1,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:13:11.294Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,37,evidence/390e07216a72316b45b5f331a3687895d907723f1471d312037cd3512fc9a4d9.jpg,False,perplexity:context_flagged
+main/claude/Q1/2,main,claude,Q1,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:19:49.678Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,49,evidence/580a204eb99b4bbaae9f5a42b2a515506cc0ddd3f206493fd555d9a77d7824bf.jpg,False,perplexity:context_flagged
+main/claude/Q1/3,main,claude,Q1,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:02:05.116Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,61,evidence/bcd8b9e641ceba4b0390434d265d6a42a751dbb7d1abb0535f0526dcd9fd76b1.jpg,False,perplexity:context_flagged
+main/claude/Q2/1,main,claude,Q2,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:14:38.028Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,38,evidence/ec67be9f88f50d600fb26f40bae45dfad8c5845ab9035780f5386a10dd4c8246.jpg,True,
+main/claude/Q2/2,main,claude,Q2,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:22:42.928Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,50,evidence/92a4edaec0e65691689f27ad6b3d608b8f441598c70f76b631f32894022436ab.jpg,True,
+main/claude/Q2/3,main,claude,Q2,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:03:32.999Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,62,evidence/8820ea0a5a3a8a856e7b6d3f39602ec1c7d598a7737be7fd5884e04590e8f60a.jpg,True,
+main/claude/Q3/1,main,claude,Q3,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:15:30.215Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,39,evidence/16d2af10fa981eb0c45c8d9c040ff4866197af2be1efb76f1931314d5eb03d05.jpg,True,
+main/claude/Q3/2,main,claude,Q3,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:25:21.870Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,51,evidence/6e5b92f66297b0fa69aa9e2edc477db3aaeab97105d1e3c364e07724ddda3c9f.jpg,True,
+main/claude/Q3/3,main,claude,Q3,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:04:56.019Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,63,evidence/ee75f5b46859b45cf4ebc67581500ac7b9b1aa1ae6a094d2d6f741c29a24b57a.jpg,True,
+main/claude/Q4/1,main,claude,Q4,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:18:28.161Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,40,evidence/87594f74e03ee93743b8c488a5ef12fdb269703bf3fdb8c9f410ad0c2b2281ec.jpg,True,
+main/claude/Q4/2,main,claude,Q4,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:30:17.684Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,52,evidence/31b3087dd30774a63850e31fba6a3433037f53f89fee1446ee795ce2ef5673d2.jpg,True,
+main/claude/Q4/3,main,claude,Q4,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:06:03.328Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,64,evidence/c7c6e10bf6af12030a8a569ff8969870e2f9d18a8a00ecae051b4d02791515b8.jpg,True,
+main/claude/Q5/1,main,claude,Q5,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:20:18.970Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,41,evidence/8a565ad5debd602def564c09b8ac66fa5c2d9b99ee6fb2c3597a8bf66d22b291.jpg,True,
+main/claude/Q5/2,main,claude,Q5,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:33:04.091Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,53,evidence/0468f9f3a31300a3fb366f117d806af6f15417dbc2834c517725da05f420f62d.jpg,True,
+main/claude/Q5/3,main,claude,Q5,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:09:41.295Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,65,evidence/a9562beab01bbf73fdf26a3502cfde5d45b302a2ae958fe39091d6a131cd0c2d.jpg,True,
+main/claude/Q6/1,main,claude,Q6,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:22:27.200Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,42,evidence/d27d4e19e91d50509a990cf21074326f703d0a7f3c21b622c338b5e3a7e3e20e.jpg,False,perplexity:context_flagged
+main/claude/Q6/2,main,claude,Q6,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:39:36.868Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,54,evidence/9e7c90e4f6836a13b2d937e0ffb50a908bbe352862aec34174be3d528f39fb8c.jpg,False,perplexity:context_flagged
+main/claude/Q6/3,main,claude,Q6,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:11:54.051Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,66,evidence/e7b633d313d31a26757b648f40f024ed5c9ee9cb2bc0634fa11e2f79e5883d2c.jpg,True,
+main/claude/Q7/1,main,claude,Q7,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,True,"[""personal_location""]",Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:24:12.459Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,43,evidence/a93f21ee15ace6b44d54256b0f39f7f0aadff6aa54b1beb3974c57f2c7a10b3a.jpg,False,claude:context_flagged
+main/claude/Q7/2,main,claude,Q7,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:41:44.353Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,55,evidence/f1d1ad8d1ed48c8ad7d355a34cc2a4017d5e761a6b1f5ca68a5e276921ddd5e4.jpg,True,
+main/claude/Q7/3,main,claude,Q7,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:13:20.218Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,67,evidence/7eda365f6969982dcd1f1b0e2218306dcd27a89b5887ca8999813d4faff82f46.jpg,True,
+main/claude/Q8/1,main,claude,Q8,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:25:40.741Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,44,evidence/2d22e4dd6e07345898a33f734f9e7c899295afb28406b52a6a9045e4986be7db.jpg,False,perplexity:context_flagged
+main/claude/Q8/2,main,claude,Q8,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:44:36.867Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,56,evidence/e7483031df3d4078f7338a234491d2e15b63ed56ba87eac9996ae42a758171a8.jpg,False,perplexity:context_flagged
+main/claude/Q8/3,main,claude,Q8,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:14:37.184Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,68,evidence/39e2368df0853a72fe788c1eac8c4d5751a936a2996e8796c8be6ebfed5dc7cb.jpg,True,
+main/claude/Q9/1,main,claude,Q9,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:26:56.156Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,45,evidence/78e49f1ffa75dd644f131af5f0a241ceab6ee43a76ba57b51e482c895484b87f.jpg,True,
+main/claude/Q9/2,main,claude,Q9,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:47:09.620Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,57,evidence/b040e710b2d80e4f350c5901f52f839ba384003e122c05ddb052aa4b0b07698b.jpg,True,
+main/claude/Q9/3,main,claude,Q9,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:16:02.656Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,69,evidence/7f52517018c7b9badf228b6d704eb65cc856e45ec149c3a382f43b4a339eef49.jpg,True,
+main/claude/Q10/1,main,claude,Q10,1,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:31:18.025Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,46,evidence/c350b7f066375e54cf07fcded56461577a226c9eb84193f249b603f7e1a1201b.jpg,False,perplexity:context_flagged
+main/claude/Q10/2,main,claude,Q10,2,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete authored answer recovered; UI and source-panel content excluded.,2026-10-15T06:54:22.450Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,58,evidence/743a87f46528bc55b7d4402f59281728cd03b6774a5554290188229aa352f4ad.jpg,True,
+main/claude/Q10/3,main,claude,Q10,3,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:17:30.439Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,70,evidence/ea2aa5b6630cf87bd47dbd74253eac9e845ef25d036f9c9e7da6fd1a7375b79c.jpg,True,
+main/claude/Q11/1,main,claude,Q11,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:33:50.464Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,47,evidence/040c6980a9b3105a8eee1380a74aff7859bd10d06799fe2d78d04f4caabac18e.jpg,True,
+main/claude/Q11/2,main,claude,Q11,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:57:53.476Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,59,evidence/ebc68dfb5e9e5d708747b5796f5d0642a9e1d5d6fa9e6e68938800a500a675dc.jpg,True,
+main/claude/Q11/3,main,claude,Q11,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:19:13.099Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,71,evidence/1bbf87ae1b7d6904e8a41a296b5a9bf0a69fba2c7fa0c5a3c7ba8236d9d70a7e.jpg,True,
+main/claude/Q12/1,main,claude,Q12,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:43:11.540Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,48,evidence/1b57114b2dfdb3522f1fb820d8e224b89fb01637dcd736881c3f142f372a6bc2.jpg,True,
+main/claude/Q12/2,main,claude,Q12,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:00:10.013Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,60,evidence/291c4d044e2661fb43e245e429d0065f0e71d245d9241db4c540bdb623730c11.jpg,True,
+main/claude/Q12/3,main,claude,Q12,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:20:29.354Z,Opus 5.5; Medium,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,72,evidence/3ef22a896c7914d01340c4770ece58bb8ae624564329baad48e1a2f9200e7bb4.jpg,True,
+main/gemini/Q1/1,main,gemini,Q1,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:13:12.256Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,73,evidence/31b3f8d301ba64fa7c507cfcd396a0919a2369363f66356ab1687f66e1ab5de2.jpg,False,perplexity:context_flagged
+main/gemini/Q1/2,main,gemini,Q1,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:21:07.480Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,85,evidence/b10fe1163550bef58ec4d4d511d67fedbad3f24ed949983a9f59eaf272dc7e4f.jpg,False,perplexity:context_flagged
+main/gemini/Q1/3,main,gemini,Q1,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:16:42.692Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,97,evidence/c6e48f805cab3fb1438bd2a026f7113396143bb66b54ed202c5ef0d3e4c84c80.jpg,False,perplexity:context_flagged
+main/gemini/Q2/1,main,gemini,Q2,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:14:39.124Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,74,evidence/d3a094b9a7433faeb880feca6a20d37c29eae98baa17219729b3f5112ab93192.jpg,True,
+main/gemini/Q2/2,main,gemini,Q2,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:25:14.231Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,86,evidence/09baac6d1cf606e27bc6192a6ee74dbf39ac1224eb99204bc618f1bb5e29a2ca.jpg,True,
+main/gemini/Q2/3,main,gemini,Q2,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:24:04.419Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,98,evidence/418fadd3943323dc7cddc3d311e48a19a407d6a4c2539243a781383a63af7ce5.jpg,True,
+main/gemini/Q3/1,main,gemini,Q3,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:15:31.039Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,75,evidence/01eb7df3b8dcc7499ff465647562e7661ae0c03ef0ae5ff53c1d0b2be1c00fe7.jpg,True,
+main/gemini/Q3/2,main,gemini,Q3,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:31:09.124Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,87,evidence/73a4f5a3cdfa7a471edc161f39b90230c55186f7102da9829fc92c9f83872c10.jpg,True,
+main/gemini/Q3/3,main,gemini,Q3,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:24:42.390Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,99,evidence/132749f8a9679bc8e8bf2ff6de51be05462c94c4a1d05effc70a73c35071bcdb.jpg,True,
+main/gemini/Q4/1,main,gemini,Q4,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:18:35.728Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,76,evidence/528f9b0c6e2f1a288686a3ab99d40ad5447b9832762fc83278da2eff5aadfa2f.jpg,True,
+main/gemini/Q4/2,main,gemini,Q4,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:32:58.978Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,88,evidence/67318b2e7175098babd034709ee76b694934de6c64db4f16e021719cf68769f8.jpg,True,
+main/gemini/Q4/3,main,gemini,Q4,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:25:44.198Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,100,evidence/c9695673af47629f7e1624b7300f162dd0eb5b21d70f79034025dd6e9d19c96d.jpg,True,
+main/gemini/Q5/1,main,gemini,Q5,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:20:23.528Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,77,evidence/dd3f4d95dace9886ad569017446367e7efa1706a4b637e62fbd8cd872c45f3de.jpg,True,
+main/gemini/Q5/2,main,gemini,Q5,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:40:16.730Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,89,evidence/19e8a65622d6ec763411f219d6364177a4004f4c1c21e50a670529a15c790a31.jpg,True,
+main/gemini/Q5/3,main,gemini,Q5,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:26:19.386Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,101,evidence/a9783e796eba9384109ae48430858a7034f6efbea308ef128bd3fe4363163cdd.jpg,True,
+main/gemini/Q6/1,main,gemini,Q6,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:22:33.869Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,78,evidence/4c214eac6d5928be093f096510d617ca3e874d171c5c40c322439fb107fbef1d.jpg,False,perplexity:context_flagged
+main/gemini/Q6/2,main,gemini,Q6,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:44:40.890Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,90,evidence/90ccc271b252693fe15b0f0bdefa84bd97afbe702c45ddce14a85eb52c607793.jpg,False,perplexity:context_flagged
+main/gemini/Q6/3,main,gemini,Q6,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:27:00.949Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,102,evidence/8e70c25c28a31ed2a248cca11aaccfd45caa423348498b26e9f1f1baa875f119.jpg,True,
+main/gemini/Q7/1,main,gemini,Q7,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:24:16.339Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,79,evidence/205b6fb209686eefc9eabf90b9be483a9c55e9f622ebb210be36e192158d48d5.jpg,False,claude:context_flagged
+main/gemini/Q7/2,main,gemini,Q7,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:47:30.831Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,91,evidence/581fca1d97c4db2b911eae71f00f79dc0c9c58474ca885276656e9cdee81834c.jpg,True,
+main/gemini/Q7/3,main,gemini,Q7,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:28:56.934Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,103,evidence/7c3a87e065cd340a47b9cfe67b590bad20015d2e6852c3e45cd17f0fdd956bb2.jpg,True,
+main/gemini/Q8/1,main,gemini,Q8,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:26:11.827Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,80,evidence/9f436794329b144599fdec9085711f7ed56453097e7525e2bfc4d569466ce59b.jpg,False,perplexity:context_flagged
+main/gemini/Q8/2,main,gemini,Q8,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:57:37.290Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,92,evidence/a568e9e0de66ec9a814916bb5d82e8ac8789084641d7c4a92acd0337e129ad76.jpg,False,perplexity:context_flagged
+main/gemini/Q8/3,main,gemini,Q8,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:30:30.664Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,104,evidence/76563721d140b76c4c2871574c25cf429d2c8c79c7816e22b1fde548269bd92f.jpg,True,
+main/gemini/Q9/1,main,gemini,Q9,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:27:01.992Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,81,evidence/e8e9c924078a0ec2ecb6dc13ec60aec9501ff296dc8106b3ff98f933d6a7300d.jpg,True,
+main/gemini/Q9/2,main,gemini,Q9,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:59:55.252Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,93,evidence/708edbf3ca8cd1bdfc01b3a65356b4ec6e2110a3cf2020046b20e07da7535854.jpg,True,
+main/gemini/Q9/3,main,gemini,Q9,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete authored answer recovered; UI and source-panel content excluded.,2026-10-15T07:40:56.121Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,105,evidence/8a0a0a62c9a8b6a720915f90f51f6c0f3d3b73e51ad58c15f4763d733c403bd5.png,True,
+main/gemini/Q10/1,main,gemini,Q10,1,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:32:41.585Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,82,evidence/c0685d16962eaada0ee60f5789580db961fb60a9e80ea06c24322b50ad4c43b3.jpg,False,perplexity:context_flagged
+main/gemini/Q10/2,main,gemini,Q10,2,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:03:13.743Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,94,evidence/b5d3b2f25960baf606620a9cdb65e7ad5c81b843c89019bd42f75926a26d90d4.jpg,True,
+main/gemini/Q10/3,main,gemini,Q10,3,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:44:20.819Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,106,evidence/70e36d45f9c4a541b8bab62e7bda4362a7e7fdb48002478ccfc0c4a0c444ac07.jpg,True,
+main/gemini/Q11/1,main,gemini,Q11,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:34:04.091Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,83,evidence/6dde8c8d34f331e7c9fad70b307f4f1de378a77d96c971805d1e21be0a59fb24.jpg,True,
+main/gemini/Q11/2,main,gemini,Q11,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:04:36.227Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,95,evidence/61c125f7b3f8a8cf08f62ec56b979efeff266022345ea6d1f7ef508269e36117.jpg,True,
+main/gemini/Q11/3,main,gemini,Q11,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:45:38.799Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,107,evidence/43b18cec5d58e76552e64311037fbdd4f1ecb6713f845d42dfb235e5eb613a2b.jpg,True,
+main/gemini/Q12/1,main,gemini,Q12,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:51:04.646Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,84,evidence/b134525f52cc16091fea26f8fba9e21294db6f39cec871cdbee466dc19a78b38.jpg,True,
+main/gemini/Q12/2,main,gemini,Q12,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:11:22.200Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,96,evidence/a0777e6f57c919b072314c2f46a7ce5e09dcc447f7e83622b02b97ecdaeeeb83.jpg,True,
+main/gemini/Q12/3,main,gemini,Q12,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:48:09.880Z,Gemini Auto; underlying model not disclosed,temporary,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,108,evidence/7da82aa249ae49a3adb0c596406493b61d0fcf3335f18f7ddb9412a2d24218c9.jpg,True,
+main/perplexity/Q1/1,main,perplexity,Q1,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,True,"[""residual_personal_or_location_context""]",Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:13:13.202Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,109,evidence/8656d9d130a0ef2fe6857513f3a9963bc5148c47a81da9cb753f4c05ed02bc6b.jpg,False,perplexity:context_flagged
+main/perplexity/Q1/2,main,perplexity,Q1,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,True,"[""personal_location""]",Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:22:46.158Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,121,evidence/c113eaa1121be714bd7d4c59252d4c9170385a737850b6f2e3fbff47e3f8fd96.jpg,False,perplexity:context_flagged
+main/perplexity/Q1/3,main,perplexity,Q1,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,True,"[""personal_location""]",Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:03:54.106Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,133,evidence/427692b6e006cf42e95bd1fa6d4c38e9588dee0a0fb0ba91ce50c193a13f7c31.jpg,False,perplexity:context_flagged
+main/perplexity/Q2/1,main,perplexity,Q2,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:14:41.884Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,110,evidence/d07d63500581f18c3bea1da2ea82964343246aed7dee760528444689e2839f06.jpg,True,
+main/perplexity/Q2/2,main,perplexity,Q2,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:29:30.667Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,122,evidence/82a9a9b6daef225ed36c72858ca083cdeea4e74fd14e09cc63873fe624a07dc2.jpg,True,
+main/perplexity/Q2/3,main,perplexity,Q2,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:05:13.297Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,134,evidence/76bbc4dadc0416418cd35a3bc1cc3b2b43a1c281a0cae57754d10612c8cf3f87.jpg,True,
+main/perplexity/Q3/1,main,perplexity,Q3,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:15:32.221Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,111,evidence/821ee1076a10868c18d00f901cfb609138ed0132e82aa4ba50353ec2988b824b.jpg,True,
+main/perplexity/Q3/2,main,perplexity,Q3,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:32:33.888Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,123,evidence/57969f19718cb5af9448a29422805a3057e84aab535ed3ac3753dc9771d12763.jpg,True,
+main/perplexity/Q3/3,main,perplexity,Q3,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand would you recommend for a high-protein snack, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:06:42.802Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,135,evidence/933e877ac79ad8a7303504b588b8b888162a30be7003f1c70904003d23f1055a.jpg,True,
+main/perplexity/Q4/1,main,perplexity,Q4,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:18:50.161Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,112,evidence/f79b271b0af1b247117bdfe8b7c47dfcfc7f828e3aeec6c0f931494681b3ce5d.jpg,True,
+main/perplexity/Q4/2,main,perplexity,Q4,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:37:47.362Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,124,evidence/74ced28cf4a612ec67535a9c8cab579d1e8b5dd43530aefd54db5446f58ae09c.jpg,True,
+main/perplexity/Q4/3,main,perplexity,Q4,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:09:57.428Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,136,evidence/457ba474fa83ffcd36b4ff3c9a2dc724023cc48cf427fb900f95ea723e1e85fc.jpg,True,
+main/perplexity/Q5/1,main,perplexity,Q5,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:20:34.954Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,113,evidence/4a7c64786fbf325b1161c7daba9f1fe67bab5ea147504e5a7d31b6972c5e9219.jpg,True,
+main/perplexity/Q5/2,main,perplexity,Q5,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:40:20.748Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,125,evidence/ae4cf922cc15c1c7c440ab81d53f596e5ff51c867967146d6d88ebe90c76a3cd.jpg,True,
+main/perplexity/Q5/3,main,perplexity,Q5,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I want cottage cheese with live and active cultures. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:13:37.539Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,137,evidence/d57a687576dfc0e93e3ff1cb3ea5fe743e2ab3523481f800a0fc97cf08fd8e62.jpg,True,
+main/perplexity/Q6/1,main,perplexity,Q6,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,True,"[""residual_personal_or_location_context""]",Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:22:37.106Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,114,evidence/6d85ad0bd387105dcce993288ac5b069a16e43ab8993e365340da6bcfcf548aa.jpg,False,perplexity:context_flagged
+main/perplexity/Q6/2,main,perplexity,Q6,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,True,"[""personal_location""]",Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:42:21.027Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,126,evidence/cec37a88eb26b82ac7f61fe4e62bffc76f3395e11507fc2be4b867c90144b0a9.jpg,False,perplexity:context_flagged
+main/perplexity/Q6/3,main,perplexity,Q6,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:14:59.098Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,138,evidence/aba995d57f14d417a49b40f541874631d512a7b14622d183a7f7f535c5b0e62b.jpg,True,
+main/perplexity/Q7/1,main,perplexity,Q7,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:24:22.469Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,115,evidence/9383f841e045f72cc51f06b643f696785a816d6b9c4ec62f37956b42bea0b072.jpg,False,claude:context_flagged
+main/perplexity/Q7/2,main,perplexity,Q7,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:45:14.933Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,127,evidence/ea5d7c3c130426fa0638f8570efc393103f27298d6abfee98dbacc05b69cb98a.jpg,True,
+main/perplexity/Q7/3,main,perplexity,Q7,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm watching my sodium intake. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:16:25.666Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,139,evidence/fa50cdb5c6fffd02dbe43695bbe3370e2dd95a7b955b8cec8bacd6a1eb3f36d8.jpg,True,
+main/perplexity/Q8/1,main,perplexity,Q8,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,True,"[""personal_location""]",Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:26:18.703Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,116,evidence/89e21bff306fcdaa6dfe9426e72a664470bc825a47bf786222f78fc765830552.jpg,False,perplexity:context_flagged
+main/perplexity/Q8/2,main,perplexity,Q8,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,True,"[""personal_location""]",Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:46:39.537Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,128,evidence/5c4df38f9689edef427bdddff6f816b4a05ae7ac9316a8e9a872d85a75d2cc47.jpg,False,perplexity:context_flagged
+main/perplexity/Q8/3,main,perplexity,Q8,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I'm lactose intolerant. Which brand or product should I choose, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:17:59.589Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,140,evidence/e9dff03a68fa7f1d1dccc905b9ce1398bc79e69ebba416d008964e2c2b356892.jpg,True,
+main/perplexity/Q9/1,main,perplexity,Q9,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:27:11.766Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,117,evidence/95d702b23eb6f04e5d7451f1d69a9f81dbc3a329a7a87e0b9ecdc2470711fc57.jpg,True,
+main/perplexity/Q9/2,main,perplexity,Q9,2,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:53:02.296Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,129,evidence/c31f3546b0d056561698401e818c16952cac507d6e1ea874d672659fbf135e58.jpg,True,
+main/perplexity/Q9/3,main,perplexity,Q9,3,discovery,"I'm shopping for cottage cheese in the United States.
+
+I dislike lumpy textures. Which brand or product should I try, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:19:26.286Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,141,evidence/2b99d02e9440381123088b74ba72c124227eded8e7fd69a15d11745a4f1d4994.jpg,True,
+main/perplexity/Q10/1,main,perplexity,Q10,1,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,True,"[""residual_personal_or_location_context""]",Full saved answer inspected; proposed interpretation awaiting calibration resolution.,2026-10-15T05:33:05.318Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,118,evidence/474419f2e0fff53a3153ed9c42edcd27d62e9faf1c3e38fb19d565b598daa0b9.jpg,False,perplexity:context_flagged
+main/perplexity/Q10/2,main,perplexity,Q10,2,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T06:59:05.748Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,130,evidence/729470122379f17e838248e04fedfb80e2dcdf37bcec6ac1ea15586d8122fce2.jpg,True,
+main/perplexity/Q10/3,main,perplexity,Q10,3,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete authored answer recovered; UI and source-panel content excluded.,2026-10-15T07:20:47.068Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,142,evidence/3281facb876e8208a4a08cc63aac3b0b3814a57906105d3fc9fd7e98d04bd1ea.jpg,True,
+main/perplexity/Q11/1,main,perplexity,Q11,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:37:37.081Z,not disclosed,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,119,evidence/6aac1c199205a06ea8bba36045a754e69b97789d5a8c1bed91c202b21c326902.jpg,True,
+main/perplexity/Q11/2,main,perplexity,Q11,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:00:49.806Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,131,evidence/b92b636b511ddc88f9937cf1d3fc2a998249bf1335e0628c08598ac1490ec51e.jpg,True,
+main/perplexity/Q11/3,main,perplexity,Q11,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Good Culture, but it is unavailable. What should I buy instead, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:24:13.505Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,143,evidence/850ba693451838b9fd40bb17c34bc575453a81767abe6c533a28b24334987c9c.jpg,True,
+main/perplexity/Q12/1,main,perplexity,Q12,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T05:51:14.414Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,120,evidence/af2604cee5a4d7a064718214b32496213f60f36e60f40f7cd97cfbfbd1d1d211.jpg,True,
+main/perplexity/Q12/2,main,perplexity,Q12,2,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:02:32.226Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,132,evidence/5cc9f845a5c3fda1bb227c9f523761389dc4482141e36c75462d4197004ae797.jpg,True,
+main/perplexity/Q12/3,main,perplexity,Q12,3,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T07:24:57.811Z,not disclosed; native Search,incognito,evidence/1529f4c93fc6429fa57ce5732d69afbe0dc1427c9773d03768e1b4fcc7e97d5d.jsonl,144,evidence/f4cdfe3dd0f7965c36626813675e213b6b0c2ef66778f5bd4fb6d99dcb0a895c.jpg,True,
+supplement/google_ai_mode/Q1/1,supplement,google_ai_mode,Q1,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:09:06.484Z,Google AI Mode; underlying model undisclosed,signed_out; fresh browser tab; not verified incognito,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,1,evidence/e6c40f10393ec92b3a97a59c55197dc939be89aa230899e0fca1315b4c08bf46.png,False,copilot_search:excluded
+supplement/google_ai_mode/Q2/1,supplement,google_ai_mode,Q2,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:10:24.598Z,Google AI Mode; underlying model undisclosed,signed_out; new AI Mode search; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,2,evidence/e1649061500e82b8be4e68f939e245ecc9566d49370b2aeb68f2241955fe15f5.png,True,
+supplement/google_ai_mode/Q4/1,supplement,google_ai_mode,Q4,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,False,[],Complete authored answer recovered; UI and source-panel content excluded.,2026-10-15T15:14:15.728Z,Google AI Mode; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,3,evidence/2c0b017daef006d27aa23d7fca7b030aaf1a72ec04cc6bfe97baa0a0c5de3bfb.png,False,copilot_search:context_flagged
+supplement/google_ai_mode/Q6/1,supplement,google_ai_mode,Q6,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:15:13.405Z,Google AI Mode; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,4,evidence/f78709016c34d05b3f34afe37e8a24c751d3aa64307fdf2f344bf44d7d9c8570.png,True,
+supplement/google_ai_mode/Q10/1,supplement,google_ai_mode,Q10,1,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:15:56.181Z,Google AI Mode; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,5,evidence/1d9fcc75224f6992a99e0a8a7abe298b32586250f82f6c12a25980459be5af95.png,True,
+supplement/google_ai_mode/Q12/1,supplement,google_ai_mode,Q12,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:37:44.285Z,Google AI Mode; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,6,evidence/b03c5e55a4f098438c417645a8fc69abd95b735b741f8ab7db7cbed356d88b42.png,True,
+supplement/copilot_search/Q1/1,supplement,copilot_search,Q1,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+Which brand should I buy, and why?",True,True,True,False,False,False,[],Captured answer ends mid-table; preserve partial text but exclude complete-answer metrics.,2026-10-15T15:11:01.152Z,Copilot Search / AI MODE; underlying model undisclosed,signed_out; fresh single-query search; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,7,evidence/3a772020c7ec7fcc20871e5e0e6ded0a67592c499109969999173cca17f9bb4e.png,False,copilot_search:excluded
+supplement/copilot_search/Q2/1,supplement,copilot_search,Q2,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I've never tried cottage cheese. Which brand would you recommend for a first purchase, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:14:15.913Z,Copilot Search / AI MODE; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,8,evidence/9e9e3fa1066324152e73ad6350d1a4bd487744d29e7020d30f2e74ec2769ef7e.png,True,
+supplement/copilot_search/Q4/1,supplement,copilot_search,Q4,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I prefer simple ingredients. Which brand should I choose, and why?",True,True,False,False,True,True,"[""personal_location""]",Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:15:13.717Z,Copilot Search / AI MODE; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,9,evidence/691eb1b76adb22714a10942f81a1038da4ff027435d2cf456bc7211b4013c5c7.png,False,copilot_search:context_flagged
+supplement/copilot_search/Q6/1,supplement,copilot_search,Q6,1,discovery,"I'm shopping for cottage cheese in the United States.
+
+I eat cottage cheese regularly and want to minimize cost per serving. Which brand should I buy, and why?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:15:56.589Z,Copilot Search / AI MODE; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,10,evidence/b9458ed441ac38716d37a626716dce55f6d9d32bec0e3e0bdfc98e5628f9935f.png,True,
+supplement/copilot_search/Q10/1,supplement,copilot_search,Q10,1,branded,"I'm shopping for cottage cheese in the United States.
+
+Is Good Culture cottage cheese worth paying more for than Daisy? Explain when you would choose each.",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:38:27.561Z,Copilot Search / AI Mode; underlying model undisclosed,signed_out; new search/chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,11,evidence/3fb6c700e1589e6b5104dee47228dfc75a4e0ecb9024ffb2c62ddc3c561d43c6.png,True,
+supplement/copilot_search/Q12/1,supplement,copilot_search,Q12,1,branded,"I'm shopping for cottage cheese in the United States.
+
+I usually buy Daisy. Under what circumstances, if any, should I switch to Good Culture?",True,True,False,False,True,False,[],Complete answer matches fixed prompt; authored prose/tables retained; source and UI sections removed.,2026-10-15T15:39:03.354Z,Copilot Search / AI Mode; underlying model undisclosed,signed_out; new chat; incognito not verified,evidence/5b7f26690f964556b7f44937435963337624ac2d62cfa76d93779207aae19302.jsonl,12,evidence/cc9e538e0a463241c0c2c6e71af1716c3f53aee49e9136762ea568dfcc38adda.png,True,
