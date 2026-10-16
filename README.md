@@ -31,9 +31,9 @@ Anyone can inspect or download the code. To run Actions, fork the repository int
 
 **Review sits between collection and reporting.** Check answers, approve coding, resolve exclusions and review the investment interpretation. Add the approved inputs and their review manifest to the registry before building a new brief. A new quarter or brand does not automatically inherit Good Culture’s conclusion. Browser and API evidence remain separate series.
 
-**Hosted checks passed:** [Good Culture rebuild](https://github.com/yliclaire/good-culture-brief/actions/runs/38877585800) · [Birkenstock preview](https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708). Both run from this public repository.
+**Hosted checks passed:** [Good Culture rebuild](https://github.com/yliclaire/good-culture-brief/actions/runs/38878639643) · [Birkenstock preview](https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708). Both run from this public repository.
 
-[Operating guide and key configuration](docs/OPERATING_GUIDE.md) · [Publication transformation](data/browser_baseline/PUBLICATION.md) · [Validation](VALIDATION.md)
+[Operating guide and key configuration](docs/OPERATING_GUIDE.md) · [Publication transformation](data/browser_baseline/PUBLICATION.md) · [Validation](VALIDATION.md) · [Reviewer access & reproduction check](docs/REVIEWER_AUDIT.md)
 
 ## Where to inspect the implementation
 

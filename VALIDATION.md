@@ -27,3 +27,7 @@ Validated source commit: `bd44a0e`.
 - [Consolidated website deployment](https://github.com/yliclaire/good-culture-brief/actions/runs/38877507206): success, 46 seconds.
 
 The published website loaded in Chrome. Methodology & reuse links to both public workflow definitions and the public study registry. These results validate the consolidated source and sanitized baseline, not live provider compatibility.
+
+## Reviewer follow-through audit
+
+[Audit findings and limits](docs/REVIEWER_AUDIT.md). A fresh checkout passed 45 tests, the documented build and a no-key preview; an extracted source kit rebuilt independently. All 74 local guide links passed across the repository and source kit. Six public entry points returned HTTP 200 without authentication. The [updated hosted build](https://github.com/yliclaire/good-culture-brief/actions/runs/38878639643) passed on revision `73008fd` in 22 seconds.

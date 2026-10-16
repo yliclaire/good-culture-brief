@@ -18,5 +18,37 @@
     "status": "success",
     "duration_seconds": 46
   },
-  "local_tests": 45
+  "local_tests": 45,
+  "reviewer_audit": {
+    "source_commit": "73008fd059430c158955a191900f83f4f076bc97",
+    "tests": 45,
+    "no_provider_keys": true,
+    "documented_build": "passed",
+    "birkenstock_preview": {
+      "planned_requests": 96,
+      "attempted": 0,
+      "captured": 0
+    },
+    "unchanged_analytical_sections": [
+      "views",
+      "numbers",
+      "counts",
+      "metric_bindings",
+      "repeats",
+      "contrasts",
+      "citations",
+      "competitor_matrix"
+    ],
+    "zip_crc": "passed",
+    "downloaded_source_rebuild": "passed",
+    "reviewer_local_links_checked": 74,
+    "hosted_build": {
+      "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38878639643",
+      "status": "success",
+      "duration_seconds": 22
+    },
+    "anonymous_entry_points_checked": 6,
+    "anonymous_http_status": "all 200",
+    "date": "2026-10-16"
+  }
 }
