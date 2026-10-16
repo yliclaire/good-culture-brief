@@ -2,7 +2,7 @@
 
 **[Open the interactive brief ↗](https://yliclaire.github.io/good-culture-brief/)**
 
-Prepared website address; not live until GitHub Pages is enabled and deployment succeeds.
+Open the brief directly in your browser. No download or GitHub account is needed.
 
 An outside-in read of Good Culture’s positioning, competitive substitutes and premium durability using AI answer engines.
 

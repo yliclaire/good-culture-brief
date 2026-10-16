@@ -1,5 +1,5 @@
 {
-  "status": "prepared_not_published",
+  "status": "published_browser_spot_checks_passed",
   "source_fingerprint": "a465ead2baccbbc1716f37d2c7e3d389a5ad159a4a6d5ae625c22819dc559d8b",
   "site_url": "https://yliclaire.github.io/good-culture-brief/",
   "implementation_repository": "https://github.com/yliclaire/answer-engine-benchmark",
@@ -8,16 +8,16 @@
     "local_links_checked": 808,
     "private_marker_scan": "passed; pattern checks are not a guarantee of anonymity",
     "metric_parity": "exact views, numbers and counts unchanged",
-    "actual_browser_review": "pending",
-    "publication": "not performed by exporter"
+    "actual_browser_review": "Chrome desktop navigation, budget filter, answer dialog, evidence page, workflow guide and metadata hold checked; mobile 390px with no document overflow; print companion loaded. Full keyboard audit and print pagination pending.",
+    "publication": "GitHub Pages deployment succeeded: https://github.com/yliclaire/good-culture-brief/actions/runs/38871097459"
   },
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "PUBLICATION.md": "842c3a0197a573c22f0cd90a101a10f0b682abfc96dcbb11c280d4b2ccb9c932",
-    "README.md": "6c1cb8b6750cec691494bf66333cfddb04c1b88119583b02ff3ba85d9e8741a4",
+    "PUBLICATION.md": "1bf47fdf326d948864811cefe9e486906181c44bc6199317345d3d0280b4a309",
+    "README.md": "bf826c02f87f32a1927fa276f78a7f33d5ebc785b9c1be4b341bf10af1a0a01d",
     "assets/monitoring.js": "9522ec5a308f2dc9ba9ba26c664f53ec51341f99111900831dad3d97c8134d71",
     "assets/navigation.js": "48b96f8aa26d05b71ce50cd4cbecd219cec52b11ea15e0a40e0e47fcb980ebc1",
-    "assets/report.css": "95b3870a47e21764fbb9c1975fe1dbc1ecb060b3913600d3b7a0641462d862f1",
+    "assets/report.css": "5d9089ec099131c4075ec43c264384156de2f7b1fbac0895e05dfe891bfdba99",
     "assets/report.js": "d36c25a547790f269477e44ee804d4128582528366948ae8d4ec3bba8df90e5d",
     "configuration/birkenstock.example.json": "36ea971523c9be5e238164e573ab4bab5177e9a23b10373156f530b75061de22",
     "configuration/study.json": "e44ca308438f6efcc0fa85f8a05f7ce9ab7f5d04acdeac5371715e430f19a88a",
@@ -192,14 +192,15 @@
     "evidence/feccf67772e7ab30.html": "3f53343552db1d32f3c155eaa6575df0b04439c5a9042c56282c9fa71860a14e",
     "evidence/ffc5ff68768d5794.html": "33594c14dde40e27b11410fe850bc3c836f3c97a3b87fe9b62241193a512d086",
     "evidence/index.html": "5e6bbb667b16350c0ae06e0e0b6b52763197afa166a450051ba917fb603763c4",
-    "index.html": "9c22023ea42d9087223bd29a086594544796016642b5592395fb1aefb1e2f9cf",
+    "index.html": "5d6371df58b8efa00cdece0780d11d5d377caab60e99e8789e13632c0c6c4106",
     "methodology/assignment.html": "a8ff02a2c9e645a92823b92a32135e27506e3d9c25e83354ce81aafecece5296",
     "methodology/index.html": "d99100177a291d6e4e63c3ea2fd68d57e125d6e2ac24737b4795dd5d59cc6eb3",
     "methodology/monitoring.html": "25ebfd33e064c4cf42c2468c8d11cbc1abc4af50f7a912fdf7890597840e0a4b",
-    "methodology/verification.html": "92bd2bede0347194cff861e8850703e8b4f5c84a5462553d7581fc008a2b4f5f",
-    "print.html": "b1a9cad55b5eb0ea872dfad2fe4aded10b82fbc8773de89f0c9bac227620b8bc",
+    "methodology/verification.html": "df221f058601865f41abb103776ca8106788aba704e7fc5808c43323b68bde06",
+    "print.html": "9b6c3f027477af477c88778cd2466a6b3d4b8af928129192844691aac4822a23",
     "reviewer-guide.html": "da6cf89da7ca8172f5945ee0914cac49874c625f39bf59ba50be1521cd3bd4cd",
     "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-    "web_checks.json": "cff7738d929385fba00f9da09a257938faece3462d257d250b68072afaebe3dd"
-  }
+    "web_checks.json": "f2032bed8fc39f45a373b32814ff5fc18807d79b93bb3c0806ed2e73a728f17e"
+  },
+  "publication_run": "https://github.com/yliclaire/good-culture-brief/actions/runs/38871097459"
 }
