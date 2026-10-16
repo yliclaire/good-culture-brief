@@ -592,6 +592,7 @@
     "repository_url": "https://github.com/yliclaire/good-culture-brief",
     "workflow_url": "https://github.com/yliclaire/good-culture-brief/actions/workflows/build-brief.yml",
     "collection_workflow_url": "https://github.com/yliclaire/good-culture-brief/actions/workflows/collect-answers.yml",
-    "validated_collection_run_url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38867472323"
+    "validated_collection_run_url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708",
+    "validated_run_url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38878639643"
   }
 }

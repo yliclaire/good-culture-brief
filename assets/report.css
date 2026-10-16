@@ -30,3 +30,12 @@
 
 /* Keep reading-view headings below the sticky reader navigation. */
 .view-pane{scroll-margin-top:135px}
+
+/* Keep print headings with their content; break at the methodology pane, not inside its introduction. */
+@media print{
+  #panel-methodology{break-before:page}
+  .panel-intro{break-inside:avoid;break-after:avoid}
+  .workflow-guide{break-before:auto}
+  h2,h3,.section-heading,.exhibit-caption{break-after:avoid}
+  tr{break-inside:avoid}
+}

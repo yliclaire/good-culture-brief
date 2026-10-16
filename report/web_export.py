@@ -80,10 +80,26 @@ def implementation_guide(repo_url):
         '<p>New collection requires approved coding, context/exclusion decisions and interpretation. Registered packages seal input hashes and bind the narrative to the evidence, configuration and calculation fingerprint. Build-time validation checks those bindings. Approved inputs must be committed before building.</p>'
         '<h2>Configuration changes</h2>'
         '<p>Quarterly runs retain comparable prompts, context, repeat plans and coding rules, with model/mode changes recorded. A category change replaces prompts, competitors, attributes and reviewed interpretation; collection, validation, calculations and rendering carry over.</p>'
-        '<p>The <a href="demonstrations/birkenstock/collection_plan.json">Birkenstock plan</a> is an uncollected category example. API and browser evidence remain separate series. Live API collection is unpiloted; adapters use offline fixture tests.</p>'
+        '<p>The <a href="demonstrations/birkenstock/index.html">Birkenstock reuse example</a> is an uncollected category example. API and browser evidence remain separate series. Live API collection is unpiloted; adapters use offline fixture tests.</p>'
         '<h2>Publication baseline</h2>'
         '<p>Sanitized answer text, coding, chart tables and citation attachments preserve the reviewed numeric results. Original interface captures remain private. Citation mapping is selective; factual verification is deferred. Monitoring scenarios are synthetic. <a href="PUBLICATION.md">Publication record</a>.</p>'
     )
+
+
+def assignment_summary(data):
+    n = data['numbers']
+    rows = [
+        ['Competitive position', '<a href="../index.html#story-positioning">Positioning</a> and <a href="../index.html#story-competition">competitors</a>', 'Protein and cultures support positioning; ingredients, budget and stockout prompts identify substitutes.'],
+        ['Investment implications and incumbent challenge', '<a href="../index.html#story-durability">Durability</a> and <a href="../index.html#story-diligence">diligence</a>', 'An explicit competitive scenario and priority tests distinguish observed recommendations from premium durability.'],
+        ['Visibility floor and stronger tests', '<a href="../index.html#robustness">Robustness</a> and <a href="../index.html#stress">premium stress</a>', 'Named, recommended, first-mentioned and overall-lead measures; budget, stockout, switching and repeat tests.'],
+        ['Approach, tools and future direction', '<a href="../index.html#methods">Methods</a>', 'Prompt selection, coding rules, trade-offs, tool contributions and proposed commercial evidence.'],
+        ['Traceability', '<a href="../data/chart_tables/contributions.csv">Contributions</a> and <a href="../evidence/index.html">answers</a>', 'Observation IDs connect populations, brand credits, coding and transcripts; missing comparisons remain unavailable.'],
+        ['Reusable capability', '<a href="../reviewer-guide.html">Pipeline</a> and <a href="../demonstrations/birkenstock/index.html">category example</a>', 'Two workflows, sealed reviewed inputs, reproducible builds and a separate synthetic quarterly comparison.']
+    ]
+    return ('<p>Brand-level benchmark, investment interpretation and reusable implementation. The assignment permits brand-level analysis; this is not a complete SKU audit.</p>'
+            +table(['Case requirement','Location','Delivered'], rows)
+            +'<h2>Evidence limits</h2><p>Citation mapping covers '+str(n['mapped_claims'])+' of '+str(n['selected_claims'])+' selected claims. Source destinations are recorded where recoverable; source influence and material factual claims remain unverified. The original strict matched-context H1/H2 comparisons are unavailable; post-collection alternatives are exploratory. Coding review used the same assistant without independent human agreement.</p>'
+            '<p>Browser and API series, discovery and branded prompts, and main and supplemental samples remain separate. Repeats describe engine variation, not independent consumers. Live API collection remains unpiloted; the category example contains no collected footwear answers.</p>')
 
 
 def render_public(data, repo_url, print_mode=False):
@@ -101,7 +117,7 @@ def render_public(data, repo_url, print_mode=False):
     page = page.replace('The truncated supplemental answer is excluded with a recorded reason and remains available for inspection.',
                         'The truncated supplemental answer is excluded with a recorded reason; its partial text is retained in the private audit archive.')
     page = page.replace('The downloaded brief works locally.',
-                        'This website opens without GitHub access. Running or inspecting the private implementation requires repository access.')
+                        'The source and workflows are public. Running Actions requires write access or a fork with workflows enabled.')
     page = page.replace('Each brief includes the interactive report, a print version, captured answers, chart tables and the code and configuration used to build it. Unzip the package and open it locally; a public website is optional.',
                         'The website contains the interactive brief, print version, reviewed answer text and chart tables. The public repository contains the full source code, sanitized reproducible baseline and both reusable workflows. Original captures remain in a private archive.')
     page = page.replace('Create a private repository and put the contents of <code>code/</code> at its root.',
@@ -181,13 +197,16 @@ def build(release, output, site_url, repo_url):
         value=json.loads((source/'demonstrations/birkenstock'/name).read_text())
         write_json(out/'demonstrations/birkenstock'/name,clean(value))
     write_json(out/'demonstrations/birkenstock/manifest.json', dict(status='preview_only',live_requests=0,source='Birkenstock category design; not collected findings'))
+    from .reuse import render_preview
+    preview_root=out/'demonstrations/birkenstock'
+    (preview_root/'index.html').write_text(render_preview(json.loads((preview_root/'study.json').read_text()),json.loads((preview_root/'collection_plan.json').read_text())))
     (out/'evidence').mkdir()
     rows=[]
     for oid,obs in data['observations'].items():
         urls=''.join('<li><a href="'+esc(u)+'" rel="noreferrer">'+esc(u)+'</a></li>' for u in obs['observed_urls'] if urlsplit(u).scheme in ('http','https'))
         body='<h1>'+esc(engine_name(obs['engine'])+' · '+obs['question_id']+' · pass '+str(obs['repeat']))+'</h1>'
         body+='<p class="metadata">'+esc(oid+' · '+obs['timestamp']+' · '+obs['quality'])+'</p>'
-        body+='<p>'+esc(obs['quality_reason'])+'</p><h2>Exact prompt</h2><p class="transcript">'+esc(obs['prompt'])+'</p>'
+        body+='<details><summary>Capture-stage note (historical)</summary><p>'+esc(obs['quality_reason'])+'</p></details><h2>Exact prompt</h2><p class="transcript">'+esc(obs['prompt'])+'</p>'
         body+='<p>'+esc('Model: '+obs['model']+' | Mode: '+obs['mode']+' | Sign-in: '+obs['sign_in'])+'</p>'
         body+='<p>'+esc('Recorded context flags: '+(', '.join(obs['flags']) or 'None; not proof of neutrality'))+'</p>'
         body+='<h2>Reviewed answer</h2><p class="caption">'+esc(obs['publication_note'])+' Product claims are not independently fact-verified.</p><div class="transcript">'+esc(obs['transcript'])+'</div>'
@@ -202,7 +221,9 @@ def build(release, output, site_url, repo_url):
     method+='<p>Trace each view through denominator IDs, membership and contribution tables, then to the reviewed answer ID. Numeric views and memberships are unchanged from the reviewed source release. Names/location phrases are withheld; originals are retained privately.</p><p><a href="../data/report_data.json">Report data</a> · <a href="../data/chart_tables/brand_metrics.csv">Brand metrics</a> · <a href="../data/chart_tables/denominators.csv">Denominators</a> · <a href="../data/chart_tables/membership.csv">Membership</a> · <a href="../data/chart_tables/contributions.csv">Contributions</a></p>'
     (out/'methodology/index.html').write_text(document('Study method',method,True))
     for name,title,original_name in [('assignment','Assignment coverage','ASSIGNMENT_REVIEW.md'),('monitoring','Quarterly comparison contract','MONITORING.md')]:
-        body='<h1>'+title+'</h1><pre class="transcript">'+esc(clean((source/'methodology'/original_name).read_text()))+'</pre>'
+        body='<h1>'+title+'</h1>'
+        record='<pre class="transcript">'+esc(clean((source/'methodology'/original_name).read_text()))+'</pre>'
+        body+=(assignment_summary(data)+'<details><summary>Detailed coverage record</summary>'+record+'</details>') if name=='assignment' else record
         (out/'methodology'/f'{name}.html').write_text(document(title,body,True))
     (out/'methodology/verification.html').write_text(document('Verification status','<h1>Verification status</h1><p>The underlying benchmark passed offline tests and a GitHub-hosted brief build before this publication export. This web export checks exact metric parity, local links and selected private-data patterns. Browser, keyboard, responsive and print review of this web edition remain pending. Live API collection has not been piloted.</p>',True))
     for name,print_mode in [('index.html',False),('print.html',True)]:

@@ -3,6 +3,6 @@
     "config": "studies/good_culture.json",
     "narrative": "reviewed_studies/good_culture/2026_q4/narrative.json",
     "review_manifest": "reviewed_studies/good_culture/2026_q4/review_manifest.json",
-    "review_manifest_sha256": "eccdb7cab8811622af706403623d195cb154bde20d74f8bfc01614dbd81d729c"
+    "review_manifest_sha256": "48321f59a79710a08cadc3fade08f933c39eeec23ce806f59dc65ea20e8d1bf9"
   }
 }

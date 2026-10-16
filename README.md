@@ -8,6 +8,17 @@ An outside-in assessment of Good Culture’s positioning, substitutes and premiu
 
 **156 captures: 155 included, one excluded.** Main series: 12 prompts × four browser experiences × three passes. The search supplement remains separate. Results measure engine answers, not consumer demand, market share or willingness to pay.
 
+## Case coverage
+
+| Case question | Evidence in the brief |
+| --- | --- |
+| Where does Good Culture win or lose, and to whom? | [Positioning](https://yliclaire.github.io/good-culture-brief/#story-positioning), [competitors](https://yliclaire.github.io/good-culture-brief/#story-competition) and the [full brand matrix](https://yliclaire.github.io/good-culture-brief/#competitors) |
+| Would the position survive a stronger incumbent? | [Durability](https://yliclaire.github.io/good-culture-brief/#story-durability): substitution evidence, attack scenario and priority diligence |
+| How was it measured; which tools and trade-offs? | [Methods and source inventory](https://yliclaire.github.io/good-culture-brief/#methods); [research and code](docs/REVIEWER_GUIDE.md) |
+| What runs again next quarter or for another brand? | [Pipeline](https://yliclaire.github.io/good-culture-brief/reviewer-guide.html), [Birkenstock reuse example](https://yliclaire.github.io/good-culture-brief/demonstrations/birkenstock/index.html) and two workflows below |
+
+Beyond visibility counts, the brief tests budget, premium, stockout and switching constraints; attaches counterexamples to findings; and links chart populations to answer records. A separate synthetic example demonstrates quarterly comparability checks. [Full case coverage and remaining limits](https://yliclaire.github.io/good-culture-brief/methodology/assignment.html).
+
 ## Run the tool
 
 | Workflow | What it does | API keys |
@@ -23,7 +34,7 @@ Actions require write access or a fork with Actions enabled. `build-brief` with 
 
 [Operating guide and key configuration](docs/OPERATING_GUIDE.md) · [Publication transformation](data/browser_baseline/PUBLICATION.md) · [Validation](VALIDATION.md) · [Reviewer access & reproduction check](docs/REVIEWER_AUDIT.md)
 
-## Where to inspect the implementation
+## Repository structure
 
 | Path | Purpose |
 | --- | --- |

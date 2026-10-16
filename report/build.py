@@ -86,7 +86,7 @@ def validate_release(out,data):
             for key in ['href','src']:
                 if a.get(key): self.links.append(a[key])
     checked=0
-    for p in list((out/'evidence').glob('*.html'))+[out/'index.html',out/'print.html']:
+    for p in list((out/'evidence').glob('*.html'))+list((out/'demonstrations').rglob('*.html'))+[out/'index.html',out/'print.html']:
         parser=Links();parser.feed(p.read_text())
         for link in parser.links:
             if urlsplit(link).scheme in ['https','http','mailto']:
@@ -133,6 +133,9 @@ def build_brief(study_id,output):
         save(out/'data/monitoring_baseline.json',monitoring['baseline'])
         from automation.run import execute, parser
         execute(parser().parse_args(['preview','--study','birkenstock','--output',str(out/'demonstrations/birkenstock')]))
+        from .reuse import render_preview
+        preview_root=out/'demonstrations/birkenstock'
+        (preview_root/'index.html').write_text(render_preview(json.loads((preview_root/'study.json').read_text()),json.loads((preview_root/'collection_plan.json').read_text())))
     (out/'assets').mkdir()
     for name in ['report.css','report.js','navigation.js','monitoring.js']:
         shutil.copyfile(Path(__file__).parent/name,out/'assets'/name)
