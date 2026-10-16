@@ -1,5 +1,5 @@
 {
-  "status": "consolidated_local_checks_passed_remote_validation_pending",
+  "status": "consolidated_public_hosted_checks_passed",
   "source_fingerprint": "4b6ad384c60eba11f4f0b443e6691120f5d41ba77474b5898054358033e11bf3",
   "site_url": "https://yliclaire.github.io/good-culture-brief/",
   "implementation_repository": "https://github.com/yliclaire/good-culture-brief",
@@ -9,8 +9,8 @@
     "private_marker_scan": "passed; pattern checks are not a guarantee of anonymity",
     "metric_parity": "exact views, numbers and counts unchanged",
     "actual_browser_review": "pending",
-    "publication": "not performed by exporter",
-    "consolidation": "local build and original/public metric parity passed; remote execution pending",
+    "publication": "Consolidated public repository; original archive remains private",
+    "consolidation": "Public source and website deployed; saved-study build and no-key collection preview passed",
     "source_tests": 45,
     "source_baseline": "sanitized_browser_export",
     "unchanged_analytical_sections": [
@@ -22,16 +22,39 @@
       "contrasts",
       "citations",
       "competitor_matrix"
-    ]
+    ],
+    "hosted_validation": {
+      "source_commit": "bd44a0e896bc2c96fd0cbcf0b5274272f2d855cf",
+      "verified_at": "2026-10-16",
+      "build": {
+        "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877585800",
+        "status": "success",
+        "duration_seconds": 24
+      },
+      "collection_preview": {
+        "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708",
+        "status": "success",
+        "study": "birkenstock",
+        "duration_seconds": 16,
+        "live_requests": 0
+      },
+      "pages": {
+        "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877507206",
+        "status": "success",
+        "duration_seconds": 46
+      },
+      "local_tests": 45
+    }
   },
   "files": {
+    ".github/hosted_validation.json": "f568066b599460f2ec52ccf6fb278f4522d443e61ab4f606b1e95a46a4332c2e",
     ".github/workflows/build-brief.yml": "a222a94d12570d330c2171c00bff9fbfeadc6acb58c410d29a0a0a8e721bfe3d",
     ".github/workflows/collect-answers.yml": "bd73912a8c80c363957791ba7add8d364a8a419985e3727bd7af2d56226a557d",
     ".gitignore": "e417960971d6ae86aeb9b3842c28035012da29deb905df9ddf4521c8e5a9ee47",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "PUBLICATION.md": "30d2d1add40b3348f2ebde5c1e1e08cfb44e92c33b7d5d925b1444fb2e166b2f",
-    "README.md": "59d3d35b8aa7638e900c4cd3b00c5a8108e3d63c40bfe008519b087305e40ad8",
-    "VALIDATION.md": "9785af7fd992ee0a50a5bb96fbbf0653203c88ac986764e665fc35a9a27a78fc",
+    "README.md": "828f51b53e03a978de9b835052a10b6843e92b05af979638152c687fbfb6caee",
+    "VALIDATION.md": "6d8b906d4f3d3bc9453f733b24305eea9c02b53eae680f4b1591c4459cc8245e",
     "assets/monitoring.js": "9522ec5a308f2dc9ba9ba26c664f53ec51341f99111900831dad3d97c8134d71",
     "assets/navigation.js": "48b96f8aa26d05b71ce50cd4cbecd219cec52b11ea15e0a40e0e47fcb980ebc1",
     "assets/report.css": "5d9089ec099131c4075ec43c264384156de2f7b1fbac0895e05dfe891bfdba99",
@@ -385,12 +408,12 @@
     "evidence/feccf67772e7ab30.html": "3f53343552db1d32f3c155eaa6575df0b04439c5a9042c56282c9fa71860a14e",
     "evidence/ffc5ff68768d5794.html": "33594c14dde40e27b11410fe850bc3c836f3c97a3b87fe9b62241193a512d086",
     "evidence/index.html": "5e6bbb667b16350c0ae06e0e0b6b52763197afa166a450051ba917fb603763c4",
-    "index.html": "4d4b1614caee4e7dcd928421d515c7809aa825efaba9cb6525bfa8f3afb610d6",
+    "index.html": "17818f8b31eedaeed220540951a1176ea321fdc6bb43cdb15d7db7e959c08322",
     "methodology/assignment.html": "9b7f121c44cd50b51abee01a015e99c834e48fcf9fc7ff7bcce59063a7b6d1cd",
     "methodology/index.html": "7ecf3f23818521defd95b267ad59c5123055e6e6e3469bb4d79ab851e67bdba3",
     "methodology/monitoring.html": "25ebfd33e064c4cf42c2468c8d11cbc1abc4af50f7a912fdf7890597840e0a4b",
-    "methodology/verification.html": "a3916745f81a43bc3100f918c143706d20f2fcea6d764b1ff74cdd4332a5d3c2",
-    "print.html": "7c3c5ac9111a30eb40635bd7a4910adfa0e3a163fb262e9619ea3cb6e50d1e48",
+    "methodology/verification.html": "7a7ab51ac8b0e43716b6c836b4ebad7695924f4e45b9eff1a7351399488f6328",
+    "print.html": "d71b84acedfe7157347da4bda070b4047f1ee6f674e672efd8ec70d478271acb",
     "providers.json": "03beeb0beb84f7283264a0ea6461b27df7ace04685e682882c136c95c6c4b44e",
     "report/__init__.py": "bc5660f81fd51e911f0fccb39c0e93762b7f090c11cca22fe7335e37eae8a8c9",
     "report/assignment_review.md": "8fa241331b21871d011e5133b3b5289036159e9316c4d24324c4a621821ae1b1",
@@ -398,7 +421,7 @@
     "report/build.py": "659e0e2d8ed0985a1c4c11a709b7caa9765924468db13da1a7d7157b2dbe75a0",
     "report/competition.py": "282c3c4d83110466ec82971aa8835f81caf7680577301fa2420e38259db1c307",
     "report/decisions.py": "f5f639ea96bae8e43ee9d4c79f0ec8df26f3a4579eb86cfbe66f45482f0a11f2",
-    "report/editorial.py": "5093530350ef5a2bae3b83705df9dd34719df516eff7112c1706104afd5e33c6",
+    "report/editorial.py": "c8a8d88a3a0a53b3b1316fc54574002a957160a4d3f491f40e65c6915b24de7a",
     "report/export.py": "e0298e95cd7dcc82237fbd84d18759acddfea00a1e1a66eb06ddd0874fb34106",
     "report/monitoring.js": "9522ec5a308f2dc9ba9ba26c664f53ec51341f99111900831dad3d97c8134d71",
     "report/monitoring.py": "939a8697768e2817d5b1f753dab832baeb9df015e8cb581b4f5d431f6ecf27ad",
@@ -423,6 +446,28 @@
     "tests/test_report.py": "cc89a71e077e360d601b70c1a7dec4afdd7401f6001a5a497b534865162b0635",
     "tests/test_web_export.py": "dd13b9e3555d5e2bd78404e845b1e74139bad93a814ede427c465c74a94ba0fc",
     "tests/test_workflow.py": "bbd6e8929a93c996ecc10a6eae6e7d137b6751077f99b480cc9a436a65cdd669",
-    "web_checks.json": "e7b8a3787a6416c810bcb0a6028d605d7ca4658ae0c059844ade9f66a3834971"
+    "web_checks.json": "abed2c06a08f2f2f7982629ecb4d9a72dd251c9c3fcd4b9e96abfe0dead1989d"
+  },
+  "hosted_validation": {
+    "source_commit": "bd44a0e896bc2c96fd0cbcf0b5274272f2d855cf",
+    "verified_at": "2026-10-16",
+    "build": {
+      "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877585800",
+      "status": "success",
+      "duration_seconds": 24
+    },
+    "collection_preview": {
+      "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708",
+      "status": "success",
+      "study": "birkenstock",
+      "duration_seconds": 16,
+      "live_requests": 0
+    },
+    "pages": {
+      "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877507206",
+      "status": "success",
+      "duration_seconds": 46
+    },
+    "local_tests": 45
   }
 }

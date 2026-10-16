@@ -17,3 +17,13 @@ Live API collection has not been piloted. Full keyboard accessibility and printe
 - Public study inputs have a new fingerprint and review seal. Original source bytes and narrative fingerprint are not misrepresented as unchanged.
 
 No new engine requests or paid API collection were performed. The original private research repository was preserved.
+
+## Public hosted validation
+
+Validated source commit: `bd44a0e`.
+
+- [Good Culture build](https://github.com/yliclaire/good-culture-brief/actions/runs/38877585800): success, 24 seconds.
+- [Birkenstock collection preview](https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708): success, 16 seconds; no keys or live engine requests.
+- [Consolidated website deployment](https://github.com/yliclaire/good-culture-brief/actions/runs/38877507206): success, 46 seconds.
+
+The published website loaded in Chrome. Methodology & reuse links to both public workflow definitions and the public study registry. These results validate the consolidated source and sanitized baseline, not live provider compatibility.

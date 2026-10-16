@@ -4,8 +4,8 @@
   "private_marker_scan": "passed; pattern checks are not a guarantee of anonymity",
   "metric_parity": "exact views, numbers and counts unchanged",
   "actual_browser_review": "pending",
-  "publication": "not performed by exporter",
-  "consolidation": "local build and original/public metric parity passed; remote execution pending",
+  "publication": "Consolidated public repository; original archive remains private",
+  "consolidation": "Public source and website deployed; saved-study build and no-key collection preview passed",
   "source_tests": 45,
   "source_baseline": "sanitized_browser_export",
   "unchanged_analytical_sections": [
@@ -17,5 +17,27 @@
     "contrasts",
     "citations",
     "competitor_matrix"
-  ]
+  ],
+  "hosted_validation": {
+    "source_commit": "bd44a0e896bc2c96fd0cbcf0b5274272f2d855cf",
+    "verified_at": "2026-10-16",
+    "build": {
+      "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877585800",
+      "status": "success",
+      "duration_seconds": 24
+    },
+    "collection_preview": {
+      "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708",
+      "status": "success",
+      "study": "birkenstock",
+      "duration_seconds": 16,
+      "live_requests": 0
+    },
+    "pages": {
+      "url": "https://github.com/yliclaire/good-culture-brief/actions/runs/38877507206",
+      "status": "success",
+      "duration_seconds": 46
+    },
+    "local_tests": 45
+  }
 }
