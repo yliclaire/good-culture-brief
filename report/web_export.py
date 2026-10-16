@@ -60,8 +60,30 @@ def document(title, body, parent=False):
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<meta name="robots" content="noindex,nofollow"><title>' + esc(title) + '</title>'
             '<link rel="stylesheet" href="' + root + 'assets/report.css"></head>'
-            '<body><main><p><a href="' + root + 'index.html">Open the investment brief</a> · '
-            '<a href="' + root + 'reviewer-guide.html">Code & reusable workflows</a></p>' + body + '</main></body></html>')
+            '<body><main><p><a href="' + root + 'index.html">Investment brief</a> · '
+            '<a href="' + root + 'reviewer-guide.html">Pipeline &amp; reuse</a></p>' + body + '</main></body></html>')
+
+
+def implementation_guide(repo_url):
+    repo = esc(repo_url.rstrip('/'))
+    return (
+        '<h1>Pipeline &amp; reuse</h1>'
+        '<p>Study configuration → collection → reviewed coding and narrative → registered inputs → metrics → HTML brief.</p>'
+        '<p><a href="'+repo+'">Repository</a> · <a href="'+repo+'/blob/main/docs/REVIEWER_GUIDE.md">Research &amp; implementation</a> · <a href="'+repo+'/blob/main/docs/OPERATING_GUIDE.md">Run configuration</a></p>'
+        '<h2>Execution</h2>'
+        '<table><thead><tr><th>Workflow</th><th>Operation</th><th>Output</th></tr></thead><tbody>'
+        '<tr><td><a href="'+repo+'/actions/workflows/collect-answers.yml">Collect engine answers</a></td><td><code>preview</code> / <code>collect</code></td><td>Exact request plan, or API answers and draft coding templates</td></tr>'
+        '<tr><td><a href="'+repo+'/actions/workflows/build-brief.yml">Build investment brief</a></td><td><code>build-brief</code> / <code>build-browser</code></td><td>Validated brief and source kit, or measurement tables only</td></tr>'
+        '</tbody></table>'
+        '<p>Saved-study build: <code>reviewed_study = good_culture_browser_2026_q4</code>. No engine calls or API keys. Actions require write access or a fork with workflows enabled. Artifacts contain <code>run.zip</code>; <code>index.html</code> is the report entry point. Publication is a separate step.</p>'
+        '<h2>Review contract</h2>'
+        '<p>New collection requires approved coding, context/exclusion decisions and interpretation. Registered packages seal input hashes and bind the narrative to the evidence, configuration and calculation fingerprint. Build-time validation checks those bindings. Approved inputs must be committed before building.</p>'
+        '<h2>Configuration changes</h2>'
+        '<p>Quarterly runs retain comparable prompts, context, repeat plans and coding rules, with model/mode changes recorded. A category change replaces prompts, competitors, attributes and reviewed interpretation; collection, validation, calculations and rendering carry over.</p>'
+        '<p>The <a href="demonstrations/birkenstock/collection_plan.json">Birkenstock plan</a> is an uncollected category example. API and browser evidence remain separate series. Live API collection is unpiloted; adapters use offline fixture tests.</p>'
+        '<h2>Publication baseline</h2>'
+        '<p>Sanitized answer text, coding, chart tables and citation attachments preserve the reviewed numeric results. Original interface captures remain private. Citation mapping is selective; factual verification is deferred. Monitoring scenarios are synthetic. <a href="PUBLICATION.md">Publication record</a>.</p>'
+    )
 
 
 def render_public(data, repo_url, print_mode=False):
@@ -85,7 +107,7 @@ def render_public(data, repo_url, print_mode=False):
     page = page.replace('Create a private repository and put the contents of <code>code/</code> at its root.',
                         'Open the public implementation repository linked in this guide, or use its source kit to create your own copy.')
     page = page.replace('<head>', '<head><meta name="robots" content="noindex,nofollow">', 1)
-    page = page.replace('<footer>', '<footer><p><a href="reviewer-guide.html">Code & reusable workflows</a> · <a href="PUBLICATION.md">What this web edition contains</a></p>', 1)
+    page = page.replace('<footer>', '<footer><p><a href="reviewer-guide.html">Pipeline &amp; reuse</a> · <a href="PUBLICATION.md">What this web edition contains</a></p>', 1)
     return page
 
 
@@ -174,13 +196,7 @@ def build(release, output, site_url, repo_url):
         if obs['quality']=='include':
             rows.append([esc(engine_name(obs['engine'])),esc(obs['question_id']),esc(obs['repeat']),'<a href="'+Path(obs['evidence_path']).name+'">Read answer</a>'])
     (out/'evidence/index.html').write_text(document('Included answer evidence','<h1>Included answer evidence</h1><p>'+str(data['counts']['included'])+' included answers. '+str(data['counts']['excluded'])+' excluded from complete-answer measures; originals are retained privately. Personal name/location references are withheld in this web edition.</p>'+table(['Engine','Question','Pass','Answer'],rows),True))
-    guide='<h1>Code & reusable workflows</h1><p>The brief is the result of a reusable research workflow. The full implementation and both workflows are in this public repository. Original interface captures and screenshots remain in a separate private archive.</p>'
-    guide+='<p><a href="'+esc(repo_url)+'"><strong>Open the implementation repository ↗</strong></a></p><p class="notice">Inspecting or downloading the code needs no account. Running Actions requires write access, or a fork in your own account with Actions enabled. Reading this website needs no account.</p>'
-    guide+='<h2>Two workflows, with review between them</h2><ol><li><strong>Collect engine answers.</strong> Choose the category, brand, competitors and questions. Preview for free; live API requests require your own keys, model settings and paid-call confirmation.</li><li><strong>Review and register.</strong> Check answers, approve coding, record exclusions and write the investment interpretation. A new study does not inherit this brief’s conclusion.</li><li><strong>Build investment brief.</strong> Recalculate reviewed evidence and generate the interactive report, print companion, evidence, tables and source kit. Rebuilding Good Culture requires no new collection or API keys.</li></ol>'
-    guide+='<p><a href="'+esc(repo_url)+'/actions/workflows/collect-answers.yml">Collect engine answers</a> · <a href="'+esc(repo_url)+'/actions/workflows/build-brief.yml">Build investment brief</a></p>'
-    guide+='<h2>Next quarter or a different brand</h2><p>Keep the study protocol fixed for a comparable quarter. Review any model or collection changes before interpreting a trend. For another category, change the prompts, competitors, attributes and reviewed interpretation. Collection, validation, calculations and rendering carry over.</p><p>The <a href="demonstrations/birkenstock/collection_plan.json">Birkenstock preview</a> demonstrates the changed collection plan; it contains no footwear findings. API responses remain separate from the consumer-browser baseline.</p>'
-    guide+='<h2>What is on this website</h2><p>The interactive brief, reviewed answer text, chart tables, citation attachments and synthetic monitoring demonstration. Original screenshots, interface captures, account names, local paths and provider credentials are excluded. <a href="PUBLICATION.md">Publication contents</a>.</p>'
-    (out/'reviewer-guide.html').write_text(document('Code & reusable workflows',guide))
+    (out/'reviewer-guide.html').write_text(document('Pipeline & reuse', implementation_guide(repo_url)))
     (out/'methodology').mkdir()
     method='<h1>Study method</h1>'+''.join('<p>'+esc(p)+'</p>' for p in data['narrative']['methods'])
     method+='<p>Trace each view through denominator IDs, membership and contribution tables, then to the reviewed answer ID. Numeric views and memberships are unchanged from the reviewed source release. Names/location phrases are withheld; originals are retained privately.</p><p><a href="../data/report_data.json">Report data</a> · <a href="../data/chart_tables/brand_metrics.csv">Brand metrics</a> · <a href="../data/chart_tables/denominators.csv">Denominators</a> · <a href="../data/chart_tables/membership.csv">Membership</a> · <a href="../data/chart_tables/contributions.csv">Contributions</a></p>'
@@ -194,7 +210,7 @@ def build(release, output, site_url, repo_url):
     (out/'.nojekyll').write_text('')
     (out/'robots.txt').write_text('User-agent: *\nDisallow: /\n')
     (out/'PUBLICATION.md').write_text('# Web edition contents\n\nPrepared for public website review; this command has not published it.\n\nIncludes the investment brief, '+str(data['counts']['included'])+' reviewed answers, exclusion audit placeholders, unchanged numeric views and chart tables, recovered source URLs and synthetic demonstrations. Name/location phrases are withheld. Original interface captures, screenshots and account context remain in a private archive. The public submission repository contains the code, sanitized reproducible inputs and both executable workflows.\n\nAnyone with access to a public website can inspect all HTML, JavaScript and embedded data. The robots directive discourages indexing; it is not access control.\n')
-    (out/'README.md').write_text('# Good Culture | Investment brief\n\n**[Open the interactive brief ↗]('+site_url+')**\n\nPrepared website address; not live until GitHub Pages is enabled and deployment succeeds.\n\nAn outside-in read of Good Culture’s positioning, competitive substitutes and premium durability using AI answer engines.\n\n## Read the study\n\n- **Investment brief:** the findings, investment implications and priority diligence.\n- **Explore the benchmark:** compare shopper needs and engines; inspect the underlying reviewed answers.\n- **Methodology & reuse:** how the study runs again next quarter or for another brand.\n\n[Print-friendly brief]('+site_url+'print.html) · [Code & reusable workflows]('+site_url+'reviewer-guide.html)\n\n## Implementation\n\nThe complete Python code, study configurations and two GitHub workflows are retained in the **[public benchmarking repository]('+repo_url+')**. GitHub access is required to inspect or run them. Reading the website needs no account.\n\nThe current study contains 156 captures: 155 included and one excluded. New API collection is opt-in and requires the operator’s own provider keys and model settings; coding and investment interpretation require review.\n\n## This repository\n\nThis is the report-only website export. It excludes original interface captures, screenshots, personal name/location phrases and credentials. See [publication contents](PUBLICATION.md). Numerical views and denominator memberships match the reviewed source release.\n')
+    (out/'README.md').write_text('# Investment brief | Website export\n\n[Interactive brief]('+site_url+') · [Print version]('+site_url+'print.html) · [Pipeline reference]('+site_url+'reviewer-guide.html)\n\nStatic publication export. Deploy separately; this command does not publish. Source code, reviewed inputs and workflows: [implementation repository]('+repo_url+').\n\nThe baseline contains '+str(data['counts']['included'])+' included answers and '+str(data['counts']['excluded'])+' excluded capture. Numeric views and memberships match the reviewed release. Original interface captures and personal references are withheld; see [publication record](PUBLICATION.md).\n')
     write_json(out/'release_manifest.json',dict(status='checking_not_published'))
     checks=check_site(out)
     write_json(out/'web_checks.json',checks)

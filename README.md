@@ -1,20 +1,12 @@
 # Good Culture | Investment brief & reusable benchmark
 
-**[Open the interactive brief ↗](https://yliclaire.github.io/good-culture-brief/)** · **[Follow the research & code](docs/REVIEWER_GUIDE.md)** · **[Open the workflows](https://github.com/yliclaire/good-culture-brief/actions)**
+**[Open the interactive brief ↗](https://yliclaire.github.io/good-culture-brief/)** · **[Research & implementation](docs/REVIEWER_GUIDE.md)** · **[Workflows](https://github.com/yliclaire/good-culture-brief/actions)**
 
-An outside-in read of Good Culture’s positioning, substitutes and premium durability through AI answer engines. The website opens without downloading files or signing in. This repository also contains the Python implementation, reviewed publication baseline, tests and two manual GitHub workflows.
+An outside-in assessment of Good Culture’s positioning, substitutes and premium durability through AI answer engines. Includes the brief, Python pipeline, reviewed publication baseline, tests and two manual GitHub workflows.
 
-## Start with the brief
+[Print-friendly brief](https://yliclaire.github.io/good-culture-brief/print.html) · [Pipeline reference](https://yliclaire.github.io/good-culture-brief/reviewer-guide.html)
 
-- **Investment brief:** findings, investment implications and priority diligence.
-- **Explore the benchmark:** compare shopper needs and engines, then inspect the answers behind each result.
-- **Methodology & reuse:** the research choices and how to run another quarter or brand.
-
-[Print-friendly brief](https://yliclaire.github.io/good-culture-brief/print.html) · [Code & workflow walkthrough](https://yliclaire.github.io/good-culture-brief/reviewer-guide.html)
-
-The study contains **156 captures: 155 included, one excluded**. The main series is 12 prompts × four browser experiences × three passes. The search supplement remains separate. These results describe engine answers, not consumer demand, market share or willingness to pay.
-
-Read the [reviewer guide](docs/REVIEWER_GUIDE.md) to trace a headline number through the answers, coding and calculations. The [coding rules](docs/CODEBOOK.md) and [context/exclusion protocol](docs/CONTEXT_EXCLUSION_RULES_v2.1.0.md) are included.
+**156 captures: 155 included, one excluded.** Main series: 12 prompts × four browser experiences × three passes. The search supplement remains separate. Results measure engine answers, not consumer demand, market share or willingness to pay.
 
 ## Run the tool
 
@@ -23,13 +15,9 @@ Read the [reviewer guide](docs/REVIEWER_GUIDE.md) to trace a headline number thr
 | [Collect engine answers](https://github.com/yliclaire/good-culture-brief/actions/workflows/collect-answers.yml) | Preview the exact requests, or collect a new API wave | None for preview; your own keys for live collection |
 | [Build investment brief](https://github.com/yliclaire/good-culture-brief/actions/workflows/build-brief.yml) | Validate and rebuild a registered, reviewed study | Not needed |
 
-Anyone can inspect or download the code. To run Actions, fork the repository into your own GitHub account and enable Actions, or use an account with write access here. No installation is needed for Actions. Do not enter API keys in workflow inputs or commit them.
+Actions require write access or a fork with Actions enabled. `build-brief` with `reviewed_study = good_culture_browser_2026_q4` rebuilds the saved study without engine calls. The report artifact contains `run.zip`; its entry point is `index.html`.
 
-**Rebuild Good Culture:** open Build investment brief, choose `build-brief`, leave `reviewed_study = good_culture_browser_2026_q4`, then run it. Download the completed run’s report artifact, extract `run.zip`, and open `index.html`. This rebuild uses saved evidence and makes no new engine calls.
-
-**Try another brand:** open Collect engine answers and run `preview` first. Choose the category profile, brand, competitors and optional questions. The uncollected Birkenstock profile changes the category questions and demonstrates reuse; it contains no footwear findings. Live collection requires keys, explicit model IDs and confirmation that API charges may apply.
-
-**Review sits between collection and reporting.** Check answers, approve coding, resolve exclusions and review the investment interpretation. Add the approved inputs and their review manifest to the registry before building a new brief. A new quarter or brand does not automatically inherit Good Culture’s conclusion. Browser and API evidence remain separate series.
+`preview` generates exact requests from the selected profile and optional brand, competitor and question overrides. `collect` requires provider secrets, explicit model IDs and paid-call confirmation. New evidence requires reviewed coding, exclusions and interpretation, sealed inputs and a registry entry before building a brief. Browser and API evidence remain separate series. The Birkenstock profile contains no collected findings.
 
 **Hosted checks passed:** [Good Culture rebuild](https://github.com/yliclaire/good-culture-brief/actions/runs/38878639643) · [Birkenstock preview](https://github.com/yliclaire/good-culture-brief/actions/runs/38877636708). Both run from this public repository.
 
@@ -61,8 +49,6 @@ Use a new output folder for each run. Artifacts are retained for 30 days; downlo
 
 ## Evidence and publication
 
-This public baseline is a **labeled derivative**, not an archive of original browser interfaces. Personal references and interface material are withheld. Reviewed answer text and the coding/context excerpts required for validation are distinguished in each JSON record. Original screenshots and captures remain in a separate private archive. The original capture hash, publication transformation, derived input hashes and review manifest preserve the lineage.
+The public baseline contains sanitized answer text and separately labeled coding/context excerpts. Original captures remain private. Capture hashes, transformation records and sealed input hashes preserve lineage. Inclusion decisions, coding, denominator memberships and numeric results match the original all-brand metric table; the excluded partial answer has an audit placeholder.
 
-All inclusion decisions, context flags, brand coding, denominator memberships and numeric results are preserved. The excluded partial answer is represented by an audit placeholder. The public baseline is checked against the original all-brand metric table. Citation mapping remains selective, material factual verification is deferred, and coding review was performed by the same assistant rather than an independent human reviewer.
-
-The monitoring examples are synthetic and separate from the observations. Live provider collection remains unpiloted; provider adapters are checked with offline fixtures. No API credentials or paid requests are included in this submission.
+Citation mapping is selective, factual verification is deferred, and coding review used the same assistant without independent human agreement. Monitoring scenarios are synthetic. Live API collection remains unpiloted; provider adapters use offline fixture tests.
